@@ -1,0 +1,357 @@
+[0.037s] Invoking command in '/home/uwr/microROS_AUV/build/trajectory_msgs': AMENT_PREFIX_PATH=/home/uwr/microROS_AUV/install/geometry_msgs:/home/uwr/microROS_AUV/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/uwr/microROS_AUV/install/geometry_msgs:/home/uwr/microROS_AUV/install/std_msgs:/home/uwr/microROS_AUV/install/builtin_interfaces:/home/uwr/microROS_AUV/install/action_msgs:/home/uwr/microROS_AUV/install/unique_identifier_msgs:/home/uwr/microROS_AUV/install/std_srvs:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_test_msg:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/uwr/microROS_AUV/install/rmw_microxrcedds:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c_tests:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c:/home/uwr/microROS_AUV/install/rosgraph_msgs:/home/uwr/microROS_AUV/install/microxrcedds_client:/home/uwr/microROS_AUV/install/microcdr:/home/uwr/microROS_AUV/install/micro_ros_utilities:/home/uwr/microROS_AUV/install/micro_ros_msgs:/home/uwr/microROS_AUV/install/lifecycle_msgs:/home/uwr/microROS_AUV/install/complex_msgs:/home/uwr/microROS_AUV/install/micro_ros_setup:/home/uwr/microROS_AUV/install/custom_interfaces:/home/uwr/Desktop/2024_UWR/install/kalman_filter:/home/uwr/Desktop/2024_UWR/install/sonar_msgs:/home/uwr/Desktop/2024_UWR/install/ros2-driver:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces:/home/uwr/Desktop/2024_UWR/install/ntrip:/home/uwr/Desktop/2024_UWR/install/adnav-driver:/home/uwr/fls_ws/install/oculus_interfaces:/home/uwr/microROS_AUV/install/statistics_msgs:/home/uwr/microROS_AUV/install/control_pkg:/home/uwr/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble LD_LIBRARY_PATH=/home/uwr/microROS_AUV/install/geometry_msgs/lib:/home/uwr/microROS_AUV/install/std_msgs/lib:/home/uwr/microROS_AUV/install/builtin_interfaces/lib:/home/uwr/microROS_AUV/install/action_msgs/lib:/home/uwr/microROS_AUV/install/unique_identifier_msgs/lib:/home/uwr/microROS_AUV/install/std_srvs/lib:/home/uwr/microROS_AUV/install/statistics_msgs/lib:/home/uwr/microROS_AUV/install/rmw_microxrcedds/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c/lib:/home/uwr/microROS_AUV/install/rosgraph_msgs/lib:/home/uwr/microROS_AUV/install/microxrcedds_client/lib:/home/uwr/microROS_AUV/install/microcdr/lib:/home/uwr/microROS_AUV/install/micro_ros_utilities/lib:/home/uwr/microROS_AUV/install/micro_ros_msgs/lib:/home/uwr/microROS_AUV/install/lifecycle_msgs/lib:/home/uwr/microROS_AUV/install/complex_msgs/lib:/home/uwr/microROS_AUV/install/custom_interfaces/lib:/home/uwr/oculus_driver/install/lib:/home/uwr/Desktop/2024_UWR/install/sonar_msgs/lib:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces/lib:/home/uwr/fls_ws/install/oculus_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/uwr/microROS_AUV/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/uwr/microROS_AUV/install/std_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/uwr/microROS_AUV/src/ros2/common_interfaces/trajectory_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/uwr/microROS_AUV/install/trajectory_msgs
+[0.153s] -- The C compiler identification is GNU 11.4.0
+[0.281s] -- The CXX compiler identification is GNU 11.4.0
+[0.295s] -- Detecting C compiler ABI info
+[0.449s] -- Detecting C compiler ABI info - done
+[0.466s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.466s] -- Detecting C compile features
+[0.467s] -- Detecting C compile features - done
+[0.473s] -- Detecting CXX compiler ABI info
+[0.639s] -- Detecting CXX compiler ABI info - done
+[0.653s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.654s] -- Detecting CXX compile features
+[0.654s] -- Detecting CXX compile features - done
+[0.662s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.075s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.314s] -- Found builtin_interfaces: 1.2.2 (/home/uwr/microROS_AUV/install/builtin_interfaces/share/builtin_interfaces/cmake)
+[1.403s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.421s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.455s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.505s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.594s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.668s] -- Found geometry_msgs: 4.9.0 (/home/uwr/microROS_AUV/install/geometry_msgs/share/geometry_msgs/cmake)
+[1.766s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.687s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.073s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.741s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.798s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.809s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.875s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.876s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.876s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.876s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.951s] -- Found PythonExtra: .so  
+[5.273s] -- Configuring done
+[5.444s] -- Generating done
+[5.450s] -- Build files have been written to: /home/uwr/microROS_AUV/build/trajectory_msgs
+[5.487s] Invoked command in '/home/uwr/microROS_AUV/build/trajectory_msgs' returned '0': AMENT_PREFIX_PATH=/home/uwr/microROS_AUV/install/geometry_msgs:/home/uwr/microROS_AUV/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/uwr/microROS_AUV/install/geometry_msgs:/home/uwr/microROS_AUV/install/std_msgs:/home/uwr/microROS_AUV/install/builtin_interfaces:/home/uwr/microROS_AUV/install/action_msgs:/home/uwr/microROS_AUV/install/unique_identifier_msgs:/home/uwr/microROS_AUV/install/std_srvs:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_test_msg:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/uwr/microROS_AUV/install/rmw_microxrcedds:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c_tests:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c:/home/uwr/microROS_AUV/install/rosgraph_msgs:/home/uwr/microROS_AUV/install/microxrcedds_client:/home/uwr/microROS_AUV/install/microcdr:/home/uwr/microROS_AUV/install/micro_ros_utilities:/home/uwr/microROS_AUV/install/micro_ros_msgs:/home/uwr/microROS_AUV/install/lifecycle_msgs:/home/uwr/microROS_AUV/install/complex_msgs:/home/uwr/microROS_AUV/install/micro_ros_setup:/home/uwr/microROS_AUV/install/custom_interfaces:/home/uwr/Desktop/2024_UWR/install/kalman_filter:/home/uwr/Desktop/2024_UWR/install/sonar_msgs:/home/uwr/Desktop/2024_UWR/install/ros2-driver:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces:/home/uwr/Desktop/2024_UWR/install/ntrip:/home/uwr/Desktop/2024_UWR/install/adnav-driver:/home/uwr/fls_ws/install/oculus_interfaces:/home/uwr/microROS_AUV/install/statistics_msgs:/home/uwr/microROS_AUV/install/control_pkg:/home/uwr/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble LD_LIBRARY_PATH=/home/uwr/microROS_AUV/install/geometry_msgs/lib:/home/uwr/microROS_AUV/install/std_msgs/lib:/home/uwr/microROS_AUV/install/builtin_interfaces/lib:/home/uwr/microROS_AUV/install/action_msgs/lib:/home/uwr/microROS_AUV/install/unique_identifier_msgs/lib:/home/uwr/microROS_AUV/install/std_srvs/lib:/home/uwr/microROS_AUV/install/statistics_msgs/lib:/home/uwr/microROS_AUV/install/rmw_microxrcedds/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c/lib:/home/uwr/microROS_AUV/install/rosgraph_msgs/lib:/home/uwr/microROS_AUV/install/microxrcedds_client/lib:/home/uwr/microROS_AUV/install/microcdr/lib:/home/uwr/microROS_AUV/install/micro_ros_utilities/lib:/home/uwr/microROS_AUV/install/micro_ros_msgs/lib:/home/uwr/microROS_AUV/install/lifecycle_msgs/lib:/home/uwr/microROS_AUV/install/complex_msgs/lib:/home/uwr/microROS_AUV/install/custom_interfaces/lib:/home/uwr/oculus_driver/install/lib:/home/uwr/Desktop/2024_UWR/install/sonar_msgs/lib:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces/lib:/home/uwr/fls_ws/install/oculus_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/uwr/microROS_AUV/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/uwr/microROS_AUV/install/std_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/uwr/microROS_AUV/src/ros2/common_interfaces/trajectory_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/uwr/microROS_AUV/install/trajectory_msgs
+[5.488s] Invoking command in '/home/uwr/microROS_AUV/build/trajectory_msgs': AMENT_PREFIX_PATH=/home/uwr/microROS_AUV/install/geometry_msgs:/home/uwr/microROS_AUV/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/uwr/microROS_AUV/install/geometry_msgs:/home/uwr/microROS_AUV/install/std_msgs:/home/uwr/microROS_AUV/install/builtin_interfaces:/home/uwr/microROS_AUV/install/action_msgs:/home/uwr/microROS_AUV/install/unique_identifier_msgs:/home/uwr/microROS_AUV/install/std_srvs:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_test_msg:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/uwr/microROS_AUV/install/rmw_microxrcedds:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c_tests:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c:/home/uwr/microROS_AUV/install/rosgraph_msgs:/home/uwr/microROS_AUV/install/microxrcedds_client:/home/uwr/microROS_AUV/install/microcdr:/home/uwr/microROS_AUV/install/micro_ros_utilities:/home/uwr/microROS_AUV/install/micro_ros_msgs:/home/uwr/microROS_AUV/install/lifecycle_msgs:/home/uwr/microROS_AUV/install/complex_msgs:/home/uwr/microROS_AUV/install/micro_ros_setup:/home/uwr/microROS_AUV/install/custom_interfaces:/home/uwr/Desktop/2024_UWR/install/kalman_filter:/home/uwr/Desktop/2024_UWR/install/sonar_msgs:/home/uwr/Desktop/2024_UWR/install/ros2-driver:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces:/home/uwr/Desktop/2024_UWR/install/ntrip:/home/uwr/Desktop/2024_UWR/install/adnav-driver:/home/uwr/fls_ws/install/oculus_interfaces:/home/uwr/microROS_AUV/install/statistics_msgs:/home/uwr/microROS_AUV/install/control_pkg:/home/uwr/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble LD_LIBRARY_PATH=/home/uwr/microROS_AUV/install/geometry_msgs/lib:/home/uwr/microROS_AUV/install/std_msgs/lib:/home/uwr/microROS_AUV/install/builtin_interfaces/lib:/home/uwr/microROS_AUV/install/action_msgs/lib:/home/uwr/microROS_AUV/install/unique_identifier_msgs/lib:/home/uwr/microROS_AUV/install/std_srvs/lib:/home/uwr/microROS_AUV/install/statistics_msgs/lib:/home/uwr/microROS_AUV/install/rmw_microxrcedds/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c/lib:/home/uwr/microROS_AUV/install/rosgraph_msgs/lib:/home/uwr/microROS_AUV/install/microxrcedds_client/lib:/home/uwr/microROS_AUV/install/microcdr/lib:/home/uwr/microROS_AUV/install/micro_ros_utilities/lib:/home/uwr/microROS_AUV/install/micro_ros_msgs/lib:/home/uwr/microROS_AUV/install/lifecycle_msgs/lib:/home/uwr/microROS_AUV/install/complex_msgs/lib:/home/uwr/microROS_AUV/install/custom_interfaces/lib:/home/uwr/oculus_driver/install/lib:/home/uwr/Desktop/2024_UWR/install/sonar_msgs/lib:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces/lib:/home/uwr/fls_ws/install/oculus_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/uwr/microROS_AUV/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/uwr/microROS_AUV/install/std_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/uwr/microROS_AUV/build/trajectory_msgs -- -j8 -l8
+[5.653s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.734s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.791s] [  2%] Built target ament_cmake_python_copy_trajectory_msgs
+[7.825s] running egg_info
+[7.837s] creating trajectory_msgs.egg-info
+[7.837s] writing trajectory_msgs.egg-info/PKG-INFO
+[7.838s] writing dependency_links to trajectory_msgs.egg-info/dependency_links.txt
+[7.838s] writing top-level names to trajectory_msgs.egg-info/top_level.txt
+[7.845s] writing manifest file 'trajectory_msgs.egg-info/SOURCES.txt'
+[7.863s] reading manifest file 'trajectory_msgs.egg-info/SOURCES.txt'
+[7.867s] writing manifest file 'trajectory_msgs.egg-info/SOURCES.txt'
+[8.129s] [  2%] Built target ament_cmake_python_build_trajectory_msgs_egg
+[9.835s] [  4%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/joint_trajectory_point__functions.c.o[0m
+[9.838s] [  5%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__functions.c.o[0m
+[9.866s] [  7%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__functions.c.o[0m
+[9.867s] [  8%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/joint_trajectory__functions.c.o[0m
+[10.265s] [ 10%] [32m[1mLinking C shared library libtrajectory_msgs__rosidl_generator_c.so[0m
+[10.622s] [ 10%] Built target trajectory_msgs__rosidl_generator_c
+[10.699s] [ 11%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[10.776s] [ 13%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[10.780s] [ 14%] [34m[1mGenerating C type support for eProsima Micro XRCE-DDS[0m
+[10.801s] [ 15%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[10.893s] [ 15%] Built target trajectory_msgs__cpp
+[11.014s] [ 18%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[11.015s] [ 18%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[11.039s] [ 20%] [34m[1mGenerating C++ type support for eProsima Micro XRCE-DDS[0m
+[14.468s] [ 21%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trajectory_msgs/msg/joint_trajectory__type_support.cpp.o[0m
+[15.135s] [ 23%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/trajectory_msgs/msg/detail/joint_trajectory__type_support.c.o[0m
+[15.254s] [ 24%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.c.o[0m
+[15.468s] [ 26%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.c.o[0m
+[15.849s] [ 27%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.c.o[0m
+[15.940s] [ 28%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/trajectory_msgs/msg/joint_trajectory__type_support.cpp.o[0m
+[16.063s] [ 30%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/trajectory_msgs/msg/joint_trajectory_point__type_support.cpp.o[0m
+[16.167s] [ 31%] [32m[1mLinking C shared library libtrajectory_msgs__rosidl_typesupport_introspection_c.so[0m
+[16.274s] [ 33%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.cpp.o[0m
+[16.367s] [ 33%] Built target trajectory_msgs__rosidl_typesupport_introspection_c
+[16.486s] [ 34%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.cpp.o[0m
+[16.706s] [ 36%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_c.so[0m
+[16.947s] [ 36%] Built target trajectory_msgs__rosidl_typesupport_c
+[17.037s] [ 37%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.cpp.o[0m
+[17.357s] [ 39%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/trajectory_msgs/msg/detail/joint_trajectory__type_support_c.cpp.o[0m
+[17.815s] [ 40%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/trajectory_msgs/msg/detail/dds_fastrtps/joint_trajectory__type_support.cpp.o[0m
+[17.924s] [ 42%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/trajectory_msgs/msg/detail/microxrcedds/joint_trajectory__type_support_cpp.cpp.o[0m
+[18.163s] [ 43%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/trajectory_msgs/msg/detail/microxrcedds/joint_trajectory__type_support_c.c.o[0m
+[18.261s] [ 44%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.cpp.o[0m
+[18.617s] [ 46%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/trajectory_msgs/msg/detail/microxrcedds/joint_trajectory_point__type_support_c.c.o[0m
+[18.659s] [ 47%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/trajectory_msgs/msg/detail/joint_trajectory_point__type_support_c.cpp.o[0m
+[18.937s] [ 49%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/trajectory_msgs/msg/detail/microxrcedds/multi_dof_joint_trajectory__type_support_c.c.o[0m
+[19.191s] [ 50%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/trajectory_msgs/msg/detail/microxrcedds/multi_dof_joint_trajectory_point__type_support_c.c.o[0m
+[19.339s] [ 52%] [32m[1mLinking C shared library libtrajectory_msgs__rosidl_typesupport_microxrcedds_c.so[0m
+[19.570s] [ 52%] Built target trajectory_msgs__rosidl_typesupport_microxrcedds_c
+[20.489s] [ 53%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support_c.cpp.o[0m
+[20.610s] [ 55%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trajectory_msgs/msg/joint_trajectory_point__type_support.cpp.o[0m
+[20.708s] [ 56%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/trajectory_msgs/msg/detail/microxrcedds/joint_trajectory_point__type_support_cpp.cpp.o[0m
+[21.580s] [ 57%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support_c.cpp.o[0m
+[22.004s] [ 59%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/trajectory_msgs/msg/detail/dds_fastrtps/multi_dof_joint_trajectory_point__type_support.cpp.o[0m
+[22.520s] [ 60%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_cpp.so[0m
+[22.543s] [ 62%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/trajectory_msgs/msg/detail/microxrcedds/multi_dof_joint_trajectory__type_support_cpp.cpp.o[0m
+[22.679s] [ 63%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[22.808s] [ 63%] Built target trajectory_msgs__rosidl_typesupport_cpp
+[23.164s] [ 63%] Built target trajectory_msgs__rosidl_typesupport_fastrtps_c
+[23.960s] [ 65%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/trajectory_msgs/msg/detail/dds_fastrtps/multi_dof_joint_trajectory__type_support.cpp.o[0m
+[24.437s] [ 66%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/trajectory_msgs/msg/detail/microxrcedds/multi_dof_joint_trajectory_point__type_support_cpp.cpp.o[0m
+[25.806s] [ 68%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_microxrcedds_cpp.so[0m
+[26.070s] [ 68%] Built target trajectory_msgs__rosidl_typesupport_microxrcedds_cpp
+[26.106s] [ 69%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/trajectory_msgs/msg/detail/dds_fastrtps/joint_trajectory_point__type_support.cpp.o[0m
+[27.324s] [ 71%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[27.590s] [ 71%] Built target trajectory_msgs__rosidl_typesupport_fastrtps_cpp
+[27.622s] [ 72%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[29.506s] [ 73%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/detail/joint_trajectory__type_support.cpp.o[0m
+[30.915s] [ 75%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.cpp.o[0m
+[32.058s] [ 76%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.cpp.o[0m
+[33.539s] [ 78%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.cpp.o[0m
+[34.544s] [ 79%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[34.746s] [ 79%] Built target trajectory_msgs__rosidl_typesupport_introspection_cpp
+[34.801s] [ 79%] Built target trajectory_msgs
+[34.863s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[37.037s] [ 81%] Built target trajectory_msgs__py
+[37.077s] [ 82%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_py.dir/rosidl_generator_py/trajectory_msgs/msg/_joint_trajectory_s.c.o[0m
+[37.287s] [ 84%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_py.dir/rosidl_generator_py/trajectory_msgs/msg/_multi_dof_joint_trajectory_point_s.c.o[0m
+[37.525s] [ 85%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_py.dir/rosidl_generator_py/trajectory_msgs/msg/_multi_dof_joint_trajectory_s.c.o[0m
+[37.726s] [ 86%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_py.dir/rosidl_generator_py/trajectory_msgs/msg/_joint_trajectory_point_s.c.o[0m
+[37.958s] [ 88%] [32m[1mLinking C shared library rosidl_generator_py/trajectory_msgs/libtrajectory_msgs__rosidl_generator_py.so[0m
+[38.041s] [ 88%] Built target trajectory_msgs__rosidl_generator_py
+[38.082s] [ 89%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_microxrcedds_c__pyext.dir/rosidl_generator_py/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c.o[0m
+[38.290s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so[0m
+[38.372s] [ 91%] Built target trajectory_msgs__rosidl_typesupport_microxrcedds_c__pyext
+[38.413s] [ 92%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[38.612s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[38.690s] [ 94%] Built target trajectory_msgs__rosidl_typesupport_c__pyext
+[38.731s] [ 95%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[38.934s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[39.012s] [ 97%] Built target trajectory_msgs__rosidl_typesupport_introspection_c__pyext
+[39.056s] [ 98%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[39.265s] [100%] [32m[1mLinking C shared library rosidl_generator_py/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[39.342s] [100%] Built target trajectory_msgs__rosidl_typesupport_fastrtps_c__pyext
+[39.365s] Invoked command in '/home/uwr/microROS_AUV/build/trajectory_msgs' returned '0': AMENT_PREFIX_PATH=/home/uwr/microROS_AUV/install/geometry_msgs:/home/uwr/microROS_AUV/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/uwr/microROS_AUV/install/geometry_msgs:/home/uwr/microROS_AUV/install/std_msgs:/home/uwr/microROS_AUV/install/builtin_interfaces:/home/uwr/microROS_AUV/install/action_msgs:/home/uwr/microROS_AUV/install/unique_identifier_msgs:/home/uwr/microROS_AUV/install/std_srvs:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_test_msg:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/uwr/microROS_AUV/install/rmw_microxrcedds:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c_tests:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c:/home/uwr/microROS_AUV/install/rosgraph_msgs:/home/uwr/microROS_AUV/install/microxrcedds_client:/home/uwr/microROS_AUV/install/microcdr:/home/uwr/microROS_AUV/install/micro_ros_utilities:/home/uwr/microROS_AUV/install/micro_ros_msgs:/home/uwr/microROS_AUV/install/lifecycle_msgs:/home/uwr/microROS_AUV/install/complex_msgs:/home/uwr/microROS_AUV/install/micro_ros_setup:/home/uwr/microROS_AUV/install/custom_interfaces:/home/uwr/Desktop/2024_UWR/install/kalman_filter:/home/uwr/Desktop/2024_UWR/install/sonar_msgs:/home/uwr/Desktop/2024_UWR/install/ros2-driver:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces:/home/uwr/Desktop/2024_UWR/install/ntrip:/home/uwr/Desktop/2024_UWR/install/adnav-driver:/home/uwr/fls_ws/install/oculus_interfaces:/home/uwr/microROS_AUV/install/statistics_msgs:/home/uwr/microROS_AUV/install/control_pkg:/home/uwr/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble LD_LIBRARY_PATH=/home/uwr/microROS_AUV/install/geometry_msgs/lib:/home/uwr/microROS_AUV/install/std_msgs/lib:/home/uwr/microROS_AUV/install/builtin_interfaces/lib:/home/uwr/microROS_AUV/install/action_msgs/lib:/home/uwr/microROS_AUV/install/unique_identifier_msgs/lib:/home/uwr/microROS_AUV/install/std_srvs/lib:/home/uwr/microROS_AUV/install/statistics_msgs/lib:/home/uwr/microROS_AUV/install/rmw_microxrcedds/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c/lib:/home/uwr/microROS_AUV/install/rosgraph_msgs/lib:/home/uwr/microROS_AUV/install/microxrcedds_client/lib:/home/uwr/microROS_AUV/install/microcdr/lib:/home/uwr/microROS_AUV/install/micro_ros_utilities/lib:/home/uwr/microROS_AUV/install/micro_ros_msgs/lib:/home/uwr/microROS_AUV/install/lifecycle_msgs/lib:/home/uwr/microROS_AUV/install/complex_msgs/lib:/home/uwr/microROS_AUV/install/custom_interfaces/lib:/home/uwr/oculus_driver/install/lib:/home/uwr/Desktop/2024_UWR/install/sonar_msgs/lib:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces/lib:/home/uwr/fls_ws/install/oculus_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/uwr/microROS_AUV/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/uwr/microROS_AUV/install/std_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/uwr/microROS_AUV/build/trajectory_msgs -- -j8 -l8
+[39.668s] Invoking command in '/home/uwr/microROS_AUV/build/trajectory_msgs': AMENT_PREFIX_PATH=/home/uwr/microROS_AUV/install/geometry_msgs:/home/uwr/microROS_AUV/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/uwr/microROS_AUV/install/geometry_msgs:/home/uwr/microROS_AUV/install/std_msgs:/home/uwr/microROS_AUV/install/builtin_interfaces:/home/uwr/microROS_AUV/install/action_msgs:/home/uwr/microROS_AUV/install/unique_identifier_msgs:/home/uwr/microROS_AUV/install/std_srvs:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_test_msg:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/uwr/microROS_AUV/install/rmw_microxrcedds:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c_tests:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c:/home/uwr/microROS_AUV/install/rosgraph_msgs:/home/uwr/microROS_AUV/install/microxrcedds_client:/home/uwr/microROS_AUV/install/microcdr:/home/uwr/microROS_AUV/install/micro_ros_utilities:/home/uwr/microROS_AUV/install/micro_ros_msgs:/home/uwr/microROS_AUV/install/lifecycle_msgs:/home/uwr/microROS_AUV/install/complex_msgs:/home/uwr/microROS_AUV/install/micro_ros_setup:/home/uwr/microROS_AUV/install/custom_interfaces:/home/uwr/Desktop/2024_UWR/install/kalman_filter:/home/uwr/Desktop/2024_UWR/install/sonar_msgs:/home/uwr/Desktop/2024_UWR/install/ros2-driver:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces:/home/uwr/Desktop/2024_UWR/install/ntrip:/home/uwr/Desktop/2024_UWR/install/adnav-driver:/home/uwr/fls_ws/install/oculus_interfaces:/home/uwr/microROS_AUV/install/statistics_msgs:/home/uwr/microROS_AUV/install/control_pkg:/home/uwr/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble LD_LIBRARY_PATH=/home/uwr/microROS_AUV/install/geometry_msgs/lib:/home/uwr/microROS_AUV/install/std_msgs/lib:/home/uwr/microROS_AUV/install/builtin_interfaces/lib:/home/uwr/microROS_AUV/install/action_msgs/lib:/home/uwr/microROS_AUV/install/unique_identifier_msgs/lib:/home/uwr/microROS_AUV/install/std_srvs/lib:/home/uwr/microROS_AUV/install/statistics_msgs/lib:/home/uwr/microROS_AUV/install/rmw_microxrcedds/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c/lib:/home/uwr/microROS_AUV/install/rosgraph_msgs/lib:/home/uwr/microROS_AUV/install/microxrcedds_client/lib:/home/uwr/microROS_AUV/install/microcdr/lib:/home/uwr/microROS_AUV/install/micro_ros_utilities/lib:/home/uwr/microROS_AUV/install/micro_ros_msgs/lib:/home/uwr/microROS_AUV/install/lifecycle_msgs/lib:/home/uwr/microROS_AUV/install/complex_msgs/lib:/home/uwr/microROS_AUV/install/custom_interfaces/lib:/home/uwr/oculus_driver/install/lib:/home/uwr/Desktop/2024_UWR/install/sonar_msgs/lib:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces/lib:/home/uwr/fls_ws/install/oculus_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/uwr/microROS_AUV/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/uwr/microROS_AUV/install/std_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/uwr/microROS_AUV/build/trajectory_msgs
+[39.683s] -- Install configuration: ""
+[39.683s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/ament_index/resource_index/rosidl_interfaces/trajectory_msgs
+[39.684s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[39.684s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[39.684s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/multi_dof_joint_trajectory.h
+[39.684s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/rosidl_generator_c__visibility_control.h
+[39.685s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory_point.h
+[39.685s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[39.685s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__functions.h
+[39.685s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__functions.c
+[39.686s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__struct.h
+[39.686s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.h
+[39.686s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__functions.h
+[39.686s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__functions.h
+[39.686s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.h
+[39.687s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__functions.c
+[39.687s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__struct.h
+[39.687s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__struct.h
+[39.687s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__functions.c
+[39.688s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.h
+[39.688s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__functions.c
+[39.688s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__functions.h
+[39.688s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__struct.h
+[39.688s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.h
+[39.689s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory.h
+[39.689s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/multi_dof_joint_trajectory_point.h
+[39.689s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/environment/library_path.sh
+[39.689s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/environment/library_path.dsv
+[39.689s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_generator_c.so
+[39.690s] -- Set runtime path of "/home/uwr/microROS_AUV/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_generator_c.so" to ""
+[39.690s] -- Up-to-date: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[39.690s] -- Up-to-date: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[39.690s] -- Up-to-date: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[39.690s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_fastrtps_c.h
+[39.691s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_fastrtps_c.h
+[39.691s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_fastrtps_c.h
+[39.691s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_fastrtps_c.h
+[39.692s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[39.692s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_c.so
+[39.692s] -- Set runtime path of "/home/uwr/microROS_AUV/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[39.692s] -- Up-to-date: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[39.692s] -- Up-to-date: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[39.693s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory.hpp
+[39.693s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/multi_dof_joint_trajectory.hpp
+[39.693s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/multi_dof_joint_trajectory_point.hpp
+[39.693s] -- Up-to-date: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[39.693s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__struct.hpp
+[39.694s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__builder.hpp
+[39.694s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__struct.hpp
+[39.694s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__struct.hpp
+[39.694s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__traits.hpp
+[39.694s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__traits.hpp
+[39.695s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__struct.hpp
+[39.695s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__builder.hpp
+[39.695s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__traits.hpp
+[39.695s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__builder.hpp
+[39.695s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__traits.hpp
+[39.696s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__builder.hpp
+[39.696s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory_point.hpp
+[39.696s] -- Up-to-date: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[39.696s] -- Up-to-date: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[39.696s] -- Up-to-date: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[39.697s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_fastrtps_cpp.hpp
+[39.697s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[39.697s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_fastrtps_cpp.hpp
+[39.697s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[39.698s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/dds_fastrtps
+[39.698s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[39.698s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_cpp.so
+[39.698s] -- Set runtime path of "/home/uwr/microROS_AUV/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[39.699s] -- Up-to-date: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs
+[39.699s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/msg
+[39.699s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[39.699s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/msg/detail
+[39.699s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_microxrcedds_c.h
+[39.700s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_microxrcedds_c.h
+[39.700s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_microxrcedds_c.h
+[39.700s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_microxrcedds_c.h
+[39.700s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/msg/detail/microxrcedds
+[39.700s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_microxrcedds_c.so
+[39.701s] -- Set runtime path of "/home/uwr/microROS_AUV/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_microxrcedds_c.so" to ""
+[39.701s] -- Up-to-date: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[39.701s] -- Up-to-date: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[39.701s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[39.701s] -- Up-to-date: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[39.702s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.c
+[39.702s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_introspection_c.h
+[39.702s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_introspection_c.h
+[39.702s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_introspection_c.h
+[39.702s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.c
+[39.703s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.c
+[39.703s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_introspection_c.h
+[39.703s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.c
+[39.703s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_introspection_c.so
+[39.704s] -- Set runtime path of "/home/uwr/microROS_AUV/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_introspection_c.so" to ""
+[39.704s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_c.so
+[39.704s] -- Set runtime path of "/home/uwr/microROS_AUV/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_c.so" to ""
+[39.704s] -- Up-to-date: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs
+[39.704s] -- Up-to-date: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/msg
+[39.705s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[39.705s] -- Up-to-date: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/msg/detail
+[39.705s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_microxrcedds_cpp.hpp
+[39.705s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_microxrcedds_cpp.hpp
+[39.705s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_microxrcedds_cpp.hpp
+[39.705s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_microxrcedds_cpp.hpp
+[39.706s] -- Up-to-date: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/msg/detail/microxrcedds
+[39.706s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/msg/detail/microxrcedds/joint_trajectory__type_support_cpp.cpp
+[39.706s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/msg/detail/microxrcedds/multi_dof_joint_trajectory__type_support_cpp.cpp
+[39.706s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/msg/detail/microxrcedds/joint_trajectory_point__type_support_cpp.cpp
+[39.706s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/msg/detail/microxrcedds/multi_dof_joint_trajectory_point__type_support_cpp.cpp
+[39.707s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_microxrcedds_cpp.so
+[39.707s] -- Set runtime path of "/home/uwr/microROS_AUV/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_microxrcedds_cpp.so" to ""
+[39.707s] -- Up-to-date: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[39.707s] -- Up-to-date: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[39.707s] -- Up-to-date: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[39.708s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_introspection_cpp.hpp
+[39.708s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.cpp
+[39.708s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_introspection_cpp.hpp
+[39.708s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.cpp
+[39.708s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.cpp
+[39.708s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[39.709s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[39.709s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.cpp
+[39.709s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_introspection_cpp.so
+[39.709s] -- Set runtime path of "/home/uwr/microROS_AUV/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[39.709s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_cpp.so
+[39.710s] -- Set runtime path of "/home/uwr/microROS_AUV/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_cpp.so" to ""
+[39.710s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/environment/pythonpath.sh
+[39.710s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/environment/pythonpath.dsv
+[39.710s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs-4.9.0-py3.10.egg-info
+[39.711s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs-4.9.0-py3.10.egg-info/top_level.txt
+[39.711s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs-4.9.0-py3.10.egg-info/dependency_links.txt
+[39.711s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs-4.9.0-py3.10.egg-info/PKG-INFO
+[39.711s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs-4.9.0-py3.10.egg-info/SOURCES.txt
+[39.712s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs
+[39.712s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_c.c
+[39.712s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[39.713s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[39.713s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/libtrajectory_msgs__rosidl_generator_py.so
+[39.713s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so
+[39.713s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg
+[39.714s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_joint_trajectory.py
+[39.714s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory.py
+[39.714s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_joint_trajectory_s.c
+[39.714s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory_point_s.c
+[39.715s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/__init__.py
+[39.715s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory_s.c
+[39.715s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_joint_trajectory_point.py
+[39.715s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory_point.py
+[39.715s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_joint_trajectory_point_s.c
+[39.716s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[39.716s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/__init__.py
+[39.716s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[39.716s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[39.716s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[39.806s] Listing '/home/uwr/microROS_AUV/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs'...
+[39.806s] Compiling '/home/uwr/microROS_AUV/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/__init__.py'...
+[39.806s] Listing '/home/uwr/microROS_AUV/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg'...
+[39.806s] Compiling '/home/uwr/microROS_AUV/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/__init__.py'...
+[39.806s] Compiling '/home/uwr/microROS_AUV/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_joint_trajectory.py'...
+[39.807s] Compiling '/home/uwr/microROS_AUV/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_joint_trajectory_point.py'...
+[39.807s] Compiling '/home/uwr/microROS_AUV/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory.py'...
+[39.807s] Compiling '/home/uwr/microROS_AUV/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory_point.py'...
+[39.814s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so
+[39.815s] -- Set runtime path of "/home/uwr/microROS_AUV/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so" to ""
+[39.815s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[39.816s] -- Set runtime path of "/home/uwr/microROS_AUV/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[39.816s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[39.817s] -- Set runtime path of "/home/uwr/microROS_AUV/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[39.817s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[39.817s] -- Set runtime path of "/home/uwr/microROS_AUV/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[39.818s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_generator_py.so
+[39.818s] -- Set runtime path of "/home/uwr/microROS_AUV/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_generator_py.so" to ""
+[39.819s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectory.idl
+[39.819s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectoryPoint.idl
+[39.819s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectory.idl
+[39.819s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.idl
+[39.820s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectory.msg
+[39.820s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectoryPoint.msg
+[39.820s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectory.msg
+[39.820s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg
+[39.821s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/ament_index/resource_index/package_run_dependencies/trajectory_msgs
+[39.821s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/ament_index/resource_index/parent_prefix_path/trajectory_msgs
+[39.821s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/environment/ament_prefix_path.sh
+[39.821s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/environment/ament_prefix_path.dsv
+[39.822s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/environment/path.sh
+[39.822s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/environment/path.dsv
+[39.822s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/local_setup.bash
+[39.822s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/local_setup.sh
+[39.823s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/local_setup.zsh
+[39.823s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/local_setup.dsv
+[39.823s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/package.dsv
+[39.823s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/ament_index/resource_index/packages/trajectory_msgs
+[39.823s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_cExport.cmake
+[39.824s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_cExport-noconfig.cmake
+[39.824s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[39.824s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[39.824s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_cppExport.cmake
+[39.825s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[39.825s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[39.825s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cExport.cmake
+[39.825s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[39.825s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cExport.cmake
+[39.826s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[39.826s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[39.826s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[39.826s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cppExport.cmake
+[39.827s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[39.827s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_pyExport.cmake
+[39.827s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_pyExport-noconfig.cmake
+[39.827s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/cmake/rosidl_cmake-extras.cmake
+[39.828s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[39.828s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[39.828s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[39.828s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[39.829s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[39.829s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[39.829s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgsConfig.cmake
+[39.829s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgsConfig-version.cmake
+[39.830s] -- Installing: /home/uwr/microROS_AUV/install/trajectory_msgs/share/trajectory_msgs/package.xml
+[39.833s] Invoked command in '/home/uwr/microROS_AUV/build/trajectory_msgs' returned '0': AMENT_PREFIX_PATH=/home/uwr/microROS_AUV/install/geometry_msgs:/home/uwr/microROS_AUV/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/uwr/microROS_AUV/install/geometry_msgs:/home/uwr/microROS_AUV/install/std_msgs:/home/uwr/microROS_AUV/install/builtin_interfaces:/home/uwr/microROS_AUV/install/action_msgs:/home/uwr/microROS_AUV/install/unique_identifier_msgs:/home/uwr/microROS_AUV/install/std_srvs:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_test_msg:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/uwr/microROS_AUV/install/rmw_microxrcedds:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c_tests:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c:/home/uwr/microROS_AUV/install/rosgraph_msgs:/home/uwr/microROS_AUV/install/microxrcedds_client:/home/uwr/microROS_AUV/install/microcdr:/home/uwr/microROS_AUV/install/micro_ros_utilities:/home/uwr/microROS_AUV/install/micro_ros_msgs:/home/uwr/microROS_AUV/install/lifecycle_msgs:/home/uwr/microROS_AUV/install/complex_msgs:/home/uwr/microROS_AUV/install/micro_ros_setup:/home/uwr/microROS_AUV/install/custom_interfaces:/home/uwr/Desktop/2024_UWR/install/kalman_filter:/home/uwr/Desktop/2024_UWR/install/sonar_msgs:/home/uwr/Desktop/2024_UWR/install/ros2-driver:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces:/home/uwr/Desktop/2024_UWR/install/ntrip:/home/uwr/Desktop/2024_UWR/install/adnav-driver:/home/uwr/fls_ws/install/oculus_interfaces:/home/uwr/microROS_AUV/install/statistics_msgs:/home/uwr/microROS_AUV/install/control_pkg:/home/uwr/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble LD_LIBRARY_PATH=/home/uwr/microROS_AUV/install/geometry_msgs/lib:/home/uwr/microROS_AUV/install/std_msgs/lib:/home/uwr/microROS_AUV/install/builtin_interfaces/lib:/home/uwr/microROS_AUV/install/action_msgs/lib:/home/uwr/microROS_AUV/install/unique_identifier_msgs/lib:/home/uwr/microROS_AUV/install/std_srvs/lib:/home/uwr/microROS_AUV/install/statistics_msgs/lib:/home/uwr/microROS_AUV/install/rmw_microxrcedds/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c/lib:/home/uwr/microROS_AUV/install/rosgraph_msgs/lib:/home/uwr/microROS_AUV/install/microxrcedds_client/lib:/home/uwr/microROS_AUV/install/microcdr/lib:/home/uwr/microROS_AUV/install/micro_ros_utilities/lib:/home/uwr/microROS_AUV/install/micro_ros_msgs/lib:/home/uwr/microROS_AUV/install/lifecycle_msgs/lib:/home/uwr/microROS_AUV/install/complex_msgs/lib:/home/uwr/microROS_AUV/install/custom_interfaces/lib:/home/uwr/oculus_driver/install/lib:/home/uwr/Desktop/2024_UWR/install/sonar_msgs/lib:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces/lib:/home/uwr/fls_ws/install/oculus_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/uwr/microROS_AUV/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/uwr/microROS_AUV/install/std_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/uwr/microROS_AUV/build/trajectory_msgs

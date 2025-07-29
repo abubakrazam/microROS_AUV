@@ -1,0 +1,140 @@
+[0.065s] Invoking command in '/home/uwr/microROS_AUV/build/microxrcedds_client': CMAKE_PREFIX_PATH=/home/uwr/microROS_AUV/install/microcdr:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c:/home/uwr/microROS_AUV/install/micro_ros_setup:/home/uwr/microROS_AUV/install/custom_interfaces:/home/uwr/Desktop/2024_UWR/install/kalman_filter:/home/uwr/Desktop/2024_UWR/install/sonar_msgs:/home/uwr/Desktop/2024_UWR/install/ros2-driver:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces:/home/uwr/Desktop/2024_UWR/install/ntrip:/home/uwr/Desktop/2024_UWR/install/adnav-driver:/home/uwr/fls_ws/install/oculus_interfaces LD_LIBRARY_PATH=/home/uwr/microROS_AUV/install/microcdr/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c/lib:/home/uwr/microROS_AUV/install/custom_interfaces/lib:/home/uwr/oculus_driver/install/lib:/home/uwr/Desktop/2024_UWR/install/sonar_msgs/lib:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces/lib:/home/uwr/fls_ws/install/oculus_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/uwr/microROS_AUV/src/eProsima/Micro-XRCE-DDS-Client -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DUCLIENT_ISOLATED_INSTALL=OFF -DUCLIENT_SUPERBUILD=OFF -DBUILD_SHARED_LIBS=ON -DUCLIENT_PROFILE_MULTITHREAD=ON -DCMAKE_INSTALL_PREFIX=/home/uwr/microROS_AUV/install/microxrcedds_client
+[0.718s] -- The C compiler identification is GNU 11.4.0
+[0.718s] -- Detecting C compiler ABI info
+[0.946s] -- Detecting C compiler ABI info - done
+[1.023s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.024s] -- Detecting C compile features
+[1.030s] -- Detecting C compile features - done
+[1.030s] -- Setting build type to 'Release' as none was specified.
+[1.074s] -- Looking for pthread.h
+[1.718s] -- Looking for pthread.h - found
+[1.718s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.167s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.171s] -- Found Threads: TRUE  
+[2.191s] -- Configuring done
+[2.260s] -- Generating done
+[2.261s] [33mCMake Warning:
+[2.261s]   Manually-specified variables were not used by the project:
+[2.261s] 
+[2.268s]     BUILD_TESTING
+[2.268s] 
+[2.268s] [0m
+[2.269s] -- Build files have been written to: /home/uwr/microROS_AUV/build/microxrcedds_client
+[2.291s] Invoked command in '/home/uwr/microROS_AUV/build/microxrcedds_client' returned '0': CMAKE_PREFIX_PATH=/home/uwr/microROS_AUV/install/microcdr:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c:/home/uwr/microROS_AUV/install/micro_ros_setup:/home/uwr/microROS_AUV/install/custom_interfaces:/home/uwr/Desktop/2024_UWR/install/kalman_filter:/home/uwr/Desktop/2024_UWR/install/sonar_msgs:/home/uwr/Desktop/2024_UWR/install/ros2-driver:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces:/home/uwr/Desktop/2024_UWR/install/ntrip:/home/uwr/Desktop/2024_UWR/install/adnav-driver:/home/uwr/fls_ws/install/oculus_interfaces LD_LIBRARY_PATH=/home/uwr/microROS_AUV/install/microcdr/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c/lib:/home/uwr/microROS_AUV/install/custom_interfaces/lib:/home/uwr/oculus_driver/install/lib:/home/uwr/Desktop/2024_UWR/install/sonar_msgs/lib:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces/lib:/home/uwr/fls_ws/install/oculus_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/uwr/microROS_AUV/src/eProsima/Micro-XRCE-DDS-Client -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DUCLIENT_ISOLATED_INSTALL=OFF -DUCLIENT_SUPERBUILD=OFF -DBUILD_SHARED_LIBS=ON -DUCLIENT_PROFILE_MULTITHREAD=ON -DCMAKE_INSTALL_PREFIX=/home/uwr/microROS_AUV/install/microxrcedds_client
+[2.292s] Invoking command in '/home/uwr/microROS_AUV/build/microxrcedds_client': CMAKE_PREFIX_PATH=/home/uwr/microROS_AUV/install/microcdr:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c:/home/uwr/microROS_AUV/install/micro_ros_setup:/home/uwr/microROS_AUV/install/custom_interfaces:/home/uwr/Desktop/2024_UWR/install/kalman_filter:/home/uwr/Desktop/2024_UWR/install/sonar_msgs:/home/uwr/Desktop/2024_UWR/install/ros2-driver:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces:/home/uwr/Desktop/2024_UWR/install/ntrip:/home/uwr/Desktop/2024_UWR/install/adnav-driver:/home/uwr/fls_ws/install/oculus_interfaces LD_LIBRARY_PATH=/home/uwr/microROS_AUV/install/microcdr/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c/lib:/home/uwr/microROS_AUV/install/custom_interfaces/lib:/home/uwr/oculus_driver/install/lib:/home/uwr/Desktop/2024_UWR/install/sonar_msgs/lib:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces/lib:/home/uwr/fls_ws/install/oculus_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/uwr/microROS_AUV/build/microxrcedds_client -- -j8 -l8
+[15.438s] [  2%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/output_best_effort_stream.c.o[0m
+[15.438s] [  5%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/input_best_effort_stream.c.o[0m
+[15.438s] [  8%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/output_reliable_stream.c.o[0m
+[15.439s] [ 11%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/stream_storage.c.o[0m
+[15.439s] [ 14%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/input_reliable_stream.c.o[0m
+[15.439s] [ 20%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/seq_num.c.o[0m
+[15.439s] [ 20%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/session.c.o[0m
+[15.439s] [ 22%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/stream_id.c.o[0m
+[15.440s] [ 25%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/session_info.c.o[0m
+[15.440s] [ 28%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/submessage.c.o[0m
+[15.461s] [ 31%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/object_id.c.o[0m
+[15.461s] [ 34%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_types.c.o[0m
+[15.462s] [ 37%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_header.c.o[0m
+[15.462s] [ 40%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_subheader.c.o[0m
+[15.462s] [ 42%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/util/time.c.o[0m
+[15.462s] [ 45%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/util/ping.c.o[0m
+[15.463s] [ 51%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_ref.c.o[0m
+[15.463s] [ 51%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/common_create_entities.c.o[0m
+[15.463s] [ 54%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_xml.c.o[0m
+[15.463s] [ 57%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_bin.c.o[0m
+[15.463s] [ 60%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/write_access.c.o[0m
+[15.464s] [ 62%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/read_access.c.o[0m
+[15.464s] [ 65%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/multithread/multithread.c.o[0m
+[15.464s] [ 68%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/stream_framing/stream_framing_protocol.c.o[0m
+[15.464s] [ 71%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/udp/udp_transport.c.o[0m
+[15.464s] [ 74%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/udp/udp_transport_posix.c.o[0m
+[15.465s] [ 77%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/tcp/tcp_transport_posix.c.o[0m
+[15.473s] [ 80%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/tcp/tcp_transport.c.o[0m
+[15.474s] [ 82%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/serial/serial_transport.c.o[0m
+[15.474s] [ 85%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/serial/serial_transport_posix.c.o[0m
+[15.474s] [ 88%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/ip_posix.c.o[0m
+[15.474s] [ 91%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/discovery/discovery.c.o[0m
+[15.475s] [ 94%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/discovery/transport/udp_transport_datagram_posix.c.o[0m
+[15.475s] [ 97%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/custom/custom_transport.c.o[0m
+[15.475s] [100%] [32m[1mLinking C shared library libmicroxrcedds_client.so[0m
+[15.475s] [100%] Built target microxrcedds_client
+[15.532s] Invoked command in '/home/uwr/microROS_AUV/build/microxrcedds_client' returned '0': CMAKE_PREFIX_PATH=/home/uwr/microROS_AUV/install/microcdr:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c:/home/uwr/microROS_AUV/install/micro_ros_setup:/home/uwr/microROS_AUV/install/custom_interfaces:/home/uwr/Desktop/2024_UWR/install/kalman_filter:/home/uwr/Desktop/2024_UWR/install/sonar_msgs:/home/uwr/Desktop/2024_UWR/install/ros2-driver:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces:/home/uwr/Desktop/2024_UWR/install/ntrip:/home/uwr/Desktop/2024_UWR/install/adnav-driver:/home/uwr/fls_ws/install/oculus_interfaces LD_LIBRARY_PATH=/home/uwr/microROS_AUV/install/microcdr/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c/lib:/home/uwr/microROS_AUV/install/custom_interfaces/lib:/home/uwr/oculus_driver/install/lib:/home/uwr/Desktop/2024_UWR/install/sonar_msgs/lib:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces/lib:/home/uwr/fls_ws/install/oculus_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/uwr/microROS_AUV/build/microxrcedds_client -- -j8 -l8
+[16.222s] Invoking command in '/home/uwr/microROS_AUV/build/microxrcedds_client': CMAKE_PREFIX_PATH=/home/uwr/microROS_AUV/install/microcdr:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c:/home/uwr/microROS_AUV/install/micro_ros_setup:/home/uwr/microROS_AUV/install/custom_interfaces:/home/uwr/Desktop/2024_UWR/install/kalman_filter:/home/uwr/Desktop/2024_UWR/install/sonar_msgs:/home/uwr/Desktop/2024_UWR/install/ros2-driver:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces:/home/uwr/Desktop/2024_UWR/install/ntrip:/home/uwr/Desktop/2024_UWR/install/adnav-driver:/home/uwr/fls_ws/install/oculus_interfaces LD_LIBRARY_PATH=/home/uwr/microROS_AUV/install/microcdr/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c/lib:/home/uwr/microROS_AUV/install/custom_interfaces/lib:/home/uwr/oculus_driver/install/lib:/home/uwr/Desktop/2024_UWR/install/sonar_msgs/lib:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces/lib:/home/uwr/fls_ws/install/oculus_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/uwr/microROS_AUV/build/microxrcedds_client
+[18.097s] -- Install configuration: "Release"
+[18.097s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/lib/libmicroxrcedds_client.so.2.4.2
+[18.097s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/lib/libmicroxrcedds_client.so.2.4
+[18.097s] -- Set runtime path of "/home/uwr/microROS_AUV/install/microxrcedds_client/lib/libmicroxrcedds_client.so.2.4.2" to ""
+[18.098s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/lib/libmicroxrcedds_client.so
+[18.098s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client
+[18.098s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/visibility.h
+[18.098s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/defines.h
+[18.098s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/client.h
+[18.099s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/util
+[18.099s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/util/time.h
+[18.099s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/util/ping.h
+[18.099s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/core
+[18.099s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/core/communication
+[18.100s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/core/communication/communication.h
+[18.100s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/core/type
+[18.100s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/core/type/xrce_types.h
+[18.100s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/core/session
+[18.100s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/core/session/common_create_entities.h
+[18.101s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/core/session/create_entities_bin.h
+[18.120s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/core/session/write_access.h
+[18.120s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/core/session/time_sync.h
+[18.121s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/core/session/stream
+[18.121s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/core/session/stream/seq_num.h
+[18.121s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/core/session/stream/input_best_effort_stream.h
+[18.121s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/core/session/stream/stream_id.h
+[18.121s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/core/session/stream/stream_storage.h
+[18.121s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/core/session/stream/output_reliable_stream.h
+[18.122s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/core/session/stream/reliable_stream.h
+[18.122s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/core/session/stream/input_reliable_stream.h
+[18.122s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/core/session/stream/output_best_effort_stream.h
+[18.122s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/core/session/create_entities_ref.h
+[18.123s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/core/session/create_entities_xml.h
+[18.123s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/core/session/session.h
+[18.123s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/core/session/read_access.h
+[18.123s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/core/session/object_id.h
+[18.123s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/core/session/session_info.h
+[18.124s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/transport.h
+[18.136s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/profile
+[18.136s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/profile/multithread
+[18.136s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/profile/multithread/multithread.h
+[18.137s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/profile/discovery
+[18.137s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/profile/discovery/discovery.h
+[18.137s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/profile/transport
+[18.137s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/profile/transport/stream_framing
+[18.137s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/profile/transport/stream_framing/stream_framing_protocol.h
+[18.138s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/profile/transport/serial
+[18.138s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/profile/transport/serial/serial_transport.h
+[18.138s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/profile/transport/serial/serial_transport_rtems_bsd_net.h
+[18.138s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/profile/transport/serial/serial_transport_posix.h
+[18.138s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/profile/transport/serial/serial_transport_platform.h
+[18.138s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/profile/transport/ip
+[18.139s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp
+[18.139s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp/udp_transport_posix.h
+[18.139s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp/udp_transport_windows.h
+[18.139s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp/udp_transport_posix_nopoll.h
+[18.139s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp/udp_transport_freertos_plus_tcp.h
+[18.140s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp/udp_transport_rtems_bsd_net.h
+[18.148s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp/udp_transport.h
+[18.148s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/profile/transport/ip/ip.h
+[18.149s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp
+[18.149s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp/tcp_transport_posix_nopoll.h
+[18.149s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp/tcp_transport.h
+[18.149s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp/tcp_transport_rtems_bsd_net.h
+[18.149s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp/tcp_transport_posix.h
+[18.150s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp/tcp_transport_freertos_plus_tcp.h
+[18.150s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp/tcp_transport_windows.h
+[18.150s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/profile/transport/can
+[18.151s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/profile/transport/can/can_transport_posix.h
+[18.155s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/profile/transport/can/can_transport.h
+[18.155s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/profile/transport/custom
+[18.156s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/profile/transport/custom/custom_transport.h
+[18.156s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/include/uxr/client/config.h
+[18.156s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/share/microxrcedds_client/cmake/microxrcedds_clientTargets.cmake
+[18.156s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/share/microxrcedds_client/cmake/microxrcedds_clientTargets-release.cmake
+[18.156s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/share/microxrcedds_client/cmake/microxrcedds_clientConfig.cmake
+[18.157s] -- Installing: /home/uwr/microROS_AUV/install/microxrcedds_client/share/microxrcedds_client/cmake/microxrcedds_clientConfigVersion.cmake
+[18.272s] Invoked command in '/home/uwr/microROS_AUV/build/microxrcedds_client' returned '0': CMAKE_PREFIX_PATH=/home/uwr/microROS_AUV/install/microcdr:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c:/home/uwr/microROS_AUV/install/micro_ros_setup:/home/uwr/microROS_AUV/install/custom_interfaces:/home/uwr/Desktop/2024_UWR/install/kalman_filter:/home/uwr/Desktop/2024_UWR/install/sonar_msgs:/home/uwr/Desktop/2024_UWR/install/ros2-driver:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces:/home/uwr/Desktop/2024_UWR/install/ntrip:/home/uwr/Desktop/2024_UWR/install/adnav-driver:/home/uwr/fls_ws/install/oculus_interfaces LD_LIBRARY_PATH=/home/uwr/microROS_AUV/install/microcdr/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c/lib:/home/uwr/microROS_AUV/install/custom_interfaces/lib:/home/uwr/oculus_driver/install/lib:/home/uwr/Desktop/2024_UWR/install/sonar_msgs/lib:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces/lib:/home/uwr/fls_ws/install/oculus_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/uwr/microROS_AUV/build/microxrcedds_client

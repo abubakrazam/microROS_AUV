@@ -1,0 +1,177 @@
+[0.206s] Invoking command in '/home/uwr/microROS_AUV/build/rosgraph_msgs': CMAKE_PREFIX_PATH=/home/uwr/microROS_AUV/install/builtin_interfaces:/home/uwr/microROS_AUV/install/action_msgs:/home/uwr/microROS_AUV/install/unique_identifier_msgs:/home/uwr/microROS_AUV/install/std_srvs:/home/uwr/microROS_AUV/install/statistics_msgs:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_test_msg:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/uwr/microROS_AUV/install/rmw_microxrcedds:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c_tests:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c:/home/uwr/microROS_AUV/install/rosgraph_msgs:/home/uwr/microROS_AUV/install/microxrcedds_client:/home/uwr/microROS_AUV/install/microcdr:/home/uwr/microROS_AUV/install/micro_ros_utilities:/home/uwr/microROS_AUV/install/micro_ros_msgs:/home/uwr/microROS_AUV/install/complex_msgs:/home/uwr/microROS_AUV/install/micro_ros_setup:/home/uwr/microROS_AUV/install/custom_interfaces:/home/uwr/Desktop/2024_UWR/install/kalman_filter:/home/uwr/Desktop/2024_UWR/install/sonar_msgs:/home/uwr/Desktop/2024_UWR/install/ros2-driver:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces:/home/uwr/Desktop/2024_UWR/install/ntrip:/home/uwr/Desktop/2024_UWR/install/adnav-driver:/home/uwr/fls_ws/install/oculus_interfaces:/home/uwr/microROS_AUV/install/control_pkg:/home/uwr/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble LD_LIBRARY_PATH=/home/uwr/microROS_AUV/install/builtin_interfaces/lib:/home/uwr/microROS_AUV/install/action_msgs/lib:/home/uwr/microROS_AUV/install/unique_identifier_msgs/lib:/home/uwr/microROS_AUV/install/std_srvs/lib:/home/uwr/microROS_AUV/install/statistics_msgs/lib:/home/uwr/microROS_AUV/install/rmw_microxrcedds/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c/lib:/home/uwr/microROS_AUV/install/rosgraph_msgs/lib:/home/uwr/microROS_AUV/install/microxrcedds_client/lib:/home/uwr/microROS_AUV/install/microcdr/lib:/home/uwr/microROS_AUV/install/micro_ros_utilities/lib:/home/uwr/microROS_AUV/install/micro_ros_msgs/lib:/home/uwr/microROS_AUV/install/complex_msgs/lib:/home/uwr/microROS_AUV/install/custom_interfaces/lib:/home/uwr/oculus_driver/install/lib:/home/uwr/Desktop/2024_UWR/install/sonar_msgs/lib:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces/lib:/home/uwr/fls_ws/install/oculus_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/uwr/microROS_AUV/build/rosgraph_msgs -- -j8 -l8
+[0.452s] [35m[1mConsolidate compiler generated dependencies of target rosgraph_msgs__rosidl_generator_c[0m
+[0.611s] [  2%] Built target rosgraph_msgs__cpp
+[0.613s] [ 10%] Built target rosgraph_msgs__rosidl_generator_c
+[0.723s] [ 10%] Built target ament_cmake_python_copy_rosgraph_msgs
+[0.750s] [35m[1mConsolidate compiler generated dependencies of target rosgraph_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.764s] [35m[1mConsolidate compiler generated dependencies of target rosgraph_msgs__rosidl_typesupport_microxrcedds_c[0m
+[0.765s] [35m[1mConsolidate compiler generated dependencies of target rosgraph_msgs__rosidl_typesupport_cpp[0m
+[0.805s] [35m[1mConsolidate compiler generated dependencies of target rosgraph_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.814s] [35m[1mConsolidate compiler generated dependencies of target rosgraph_msgs__rosidl_typesupport_microxrcedds_cpp[0m
+[0.819s] [35m[1mConsolidate compiler generated dependencies of target rosgraph_msgs__rosidl_typesupport_c[0m
+[0.819s] [35m[1mConsolidate compiler generated dependencies of target rosgraph_msgs__rosidl_typesupport_introspection_c[0m
+[0.880s] [35m[1mConsolidate compiler generated dependencies of target rosgraph_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.895s] [ 17%] Built target rosgraph_msgs__rosidl_typesupport_microxrcedds_c
+[0.899s] [ 25%] Built target rosgraph_msgs__rosidl_typesupport_fastrtps_cpp
+[0.913s] [ 33%] Built target rosgraph_msgs__rosidl_typesupport_introspection_c
+[0.920s] [ 41%] Built target rosgraph_msgs__rosidl_typesupport_introspection_cpp
+[0.940s] [ 48%] Built target rosgraph_msgs__rosidl_typesupport_microxrcedds_cpp
+[0.951s] [ 56%] Built target rosgraph_msgs__rosidl_typesupport_cpp
+[0.960s] [ 64%] Built target rosgraph_msgs__rosidl_typesupport_c
+[0.975s] [ 71%] Built target rosgraph_msgs__rosidl_typesupport_fastrtps_c
+[1.069s] [ 71%] Built target rosgraph_msgs
+[1.261s] [ 74%] Built target rosgraph_msgs__py
+[1.387s] [35m[1mConsolidate compiler generated dependencies of target rosgraph_msgs__rosidl_generator_py[0m
+[1.486s] [ 79%] Built target rosgraph_msgs__rosidl_generator_py
+[1.601s] [35m[1mConsolidate compiler generated dependencies of target rosgraph_msgs__rosidl_typesupport_c__pyext[0m
+[1.630s] [35m[1mConsolidate compiler generated dependencies of target rosgraph_msgs__rosidl_typesupport_microxrcedds_c__pyext[0m
+[1.656s] [35m[1mConsolidate compiler generated dependencies of target rosgraph_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[1.685s] [35m[1mConsolidate compiler generated dependencies of target rosgraph_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.685s] [ 84%] Built target rosgraph_msgs__rosidl_typesupport_c__pyext
+[1.749s] [ 89%] Built target rosgraph_msgs__rosidl_typesupport_microxrcedds_c__pyext
+[1.795s] [ 94%] Built target rosgraph_msgs__rosidl_typesupport_introspection_c__pyext
+[1.828s] [100%] Built target rosgraph_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.198s] running egg_info
+[2.213s] writing rosgraph_msgs.egg-info/PKG-INFO
+[2.213s] writing dependency_links to rosgraph_msgs.egg-info/dependency_links.txt
+[2.213s] writing top-level names to rosgraph_msgs.egg-info/top_level.txt
+[2.250s] reading manifest file 'rosgraph_msgs.egg-info/SOURCES.txt'
+[2.250s] writing manifest file 'rosgraph_msgs.egg-info/SOURCES.txt'
+[2.311s] [100%] Built target ament_cmake_python_build_rosgraph_msgs_egg
+[2.345s] Invoked command in '/home/uwr/microROS_AUV/build/rosgraph_msgs' returned '0': CMAKE_PREFIX_PATH=/home/uwr/microROS_AUV/install/builtin_interfaces:/home/uwr/microROS_AUV/install/action_msgs:/home/uwr/microROS_AUV/install/unique_identifier_msgs:/home/uwr/microROS_AUV/install/std_srvs:/home/uwr/microROS_AUV/install/statistics_msgs:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_test_msg:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/uwr/microROS_AUV/install/rmw_microxrcedds:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c_tests:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c:/home/uwr/microROS_AUV/install/rosgraph_msgs:/home/uwr/microROS_AUV/install/microxrcedds_client:/home/uwr/microROS_AUV/install/microcdr:/home/uwr/microROS_AUV/install/micro_ros_utilities:/home/uwr/microROS_AUV/install/micro_ros_msgs:/home/uwr/microROS_AUV/install/complex_msgs:/home/uwr/microROS_AUV/install/micro_ros_setup:/home/uwr/microROS_AUV/install/custom_interfaces:/home/uwr/Desktop/2024_UWR/install/kalman_filter:/home/uwr/Desktop/2024_UWR/install/sonar_msgs:/home/uwr/Desktop/2024_UWR/install/ros2-driver:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces:/home/uwr/Desktop/2024_UWR/install/ntrip:/home/uwr/Desktop/2024_UWR/install/adnav-driver:/home/uwr/fls_ws/install/oculus_interfaces:/home/uwr/microROS_AUV/install/control_pkg:/home/uwr/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble LD_LIBRARY_PATH=/home/uwr/microROS_AUV/install/builtin_interfaces/lib:/home/uwr/microROS_AUV/install/action_msgs/lib:/home/uwr/microROS_AUV/install/unique_identifier_msgs/lib:/home/uwr/microROS_AUV/install/std_srvs/lib:/home/uwr/microROS_AUV/install/statistics_msgs/lib:/home/uwr/microROS_AUV/install/rmw_microxrcedds/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c/lib:/home/uwr/microROS_AUV/install/rosgraph_msgs/lib:/home/uwr/microROS_AUV/install/microxrcedds_client/lib:/home/uwr/microROS_AUV/install/microcdr/lib:/home/uwr/microROS_AUV/install/micro_ros_utilities/lib:/home/uwr/microROS_AUV/install/micro_ros_msgs/lib:/home/uwr/microROS_AUV/install/complex_msgs/lib:/home/uwr/microROS_AUV/install/custom_interfaces/lib:/home/uwr/oculus_driver/install/lib:/home/uwr/Desktop/2024_UWR/install/sonar_msgs/lib:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces/lib:/home/uwr/fls_ws/install/oculus_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/uwr/microROS_AUV/build/rosgraph_msgs -- -j8 -l8
+[2.791s] Invoking command in '/home/uwr/microROS_AUV/build/rosgraph_msgs': CMAKE_PREFIX_PATH=/home/uwr/microROS_AUV/install/builtin_interfaces:/home/uwr/microROS_AUV/install/action_msgs:/home/uwr/microROS_AUV/install/unique_identifier_msgs:/home/uwr/microROS_AUV/install/std_srvs:/home/uwr/microROS_AUV/install/statistics_msgs:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_test_msg:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/uwr/microROS_AUV/install/rmw_microxrcedds:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c_tests:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c:/home/uwr/microROS_AUV/install/rosgraph_msgs:/home/uwr/microROS_AUV/install/microxrcedds_client:/home/uwr/microROS_AUV/install/microcdr:/home/uwr/microROS_AUV/install/micro_ros_utilities:/home/uwr/microROS_AUV/install/micro_ros_msgs:/home/uwr/microROS_AUV/install/complex_msgs:/home/uwr/microROS_AUV/install/micro_ros_setup:/home/uwr/microROS_AUV/install/custom_interfaces:/home/uwr/Desktop/2024_UWR/install/kalman_filter:/home/uwr/Desktop/2024_UWR/install/sonar_msgs:/home/uwr/Desktop/2024_UWR/install/ros2-driver:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces:/home/uwr/Desktop/2024_UWR/install/ntrip:/home/uwr/Desktop/2024_UWR/install/adnav-driver:/home/uwr/fls_ws/install/oculus_interfaces:/home/uwr/microROS_AUV/install/control_pkg:/home/uwr/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble LD_LIBRARY_PATH=/home/uwr/microROS_AUV/install/builtin_interfaces/lib:/home/uwr/microROS_AUV/install/action_msgs/lib:/home/uwr/microROS_AUV/install/unique_identifier_msgs/lib:/home/uwr/microROS_AUV/install/std_srvs/lib:/home/uwr/microROS_AUV/install/statistics_msgs/lib:/home/uwr/microROS_AUV/install/rmw_microxrcedds/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c/lib:/home/uwr/microROS_AUV/install/rosgraph_msgs/lib:/home/uwr/microROS_AUV/install/microxrcedds_client/lib:/home/uwr/microROS_AUV/install/microcdr/lib:/home/uwr/microROS_AUV/install/micro_ros_utilities/lib:/home/uwr/microROS_AUV/install/micro_ros_msgs/lib:/home/uwr/microROS_AUV/install/complex_msgs/lib:/home/uwr/microROS_AUV/install/custom_interfaces/lib:/home/uwr/oculus_driver/install/lib:/home/uwr/Desktop/2024_UWR/install/sonar_msgs/lib:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces/lib:/home/uwr/fls_ws/install/oculus_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/uwr/microROS_AUV/build/rosgraph_msgs
+[2.811s] -- Install configuration: ""
+[2.813s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/share/ament_index/resource_index/rosidl_interfaces/rosgraph_msgs
+[2.813s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs
+[2.813s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg
+[2.814s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.814s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail
+[2.814s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__struct.h
+[2.814s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__functions.h
+[2.814s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__functions.c
+[2.815s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__type_support.h
+[2.815s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/clock.h
+[2.815s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/share/rosgraph_msgs/environment/library_path.sh
+[2.815s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/share/rosgraph_msgs/environment/library_path.dsv
+[2.815s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_generator_c.so
+[2.816s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs
+[2.816s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg
+[2.821s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail
+[2.821s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__rosidl_typesupport_fastrtps_c.h
+[2.822s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.822s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so
+[2.824s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs
+[2.825s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg
+[2.825s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/clock.hpp
+[2.825s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail
+[2.825s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__traits.hpp
+[2.826s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__builder.hpp
+[2.826s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__struct.hpp
+[2.826s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs
+[2.827s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg
+[2.828s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail
+[2.828s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__rosidl_typesupport_fastrtps_cpp.hpp
+[2.828s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/dds_fastrtps
+[2.828s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.828s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.831s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs
+[2.833s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/msg
+[2.833s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[2.834s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/msg/detail
+[2.834s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/msg/detail/clock__rosidl_typesupport_microxrcedds_c.h
+[2.834s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/msg/detail/microxrcedds
+[2.834s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_microxrcedds_c.so
+[2.834s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs
+[2.835s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg
+[2.835s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.835s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail
+[2.835s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__rosidl_typesupport_introspection_c.h
+[2.835s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__type_support.c
+[2.836s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so
+[2.836s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_c.so
+[2.836s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs
+[2.836s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/msg
+[2.841s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[2.841s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/msg/detail
+[2.841s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/msg/detail/microxrcedds
+[2.843s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/msg/detail/microxrcedds/clock__type_support_cpp.cpp
+[2.843s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/msg/detail/clock__rosidl_typesupport_microxrcedds_cpp.hpp
+[2.843s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_microxrcedds_cpp.so
+[2.843s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs
+[2.843s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg
+[2.846s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail
+[2.846s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__type_support.cpp
+[2.847s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__rosidl_typesupport_introspection_cpp.hpp
+[2.847s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so
+[2.847s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_cpp.so
+[2.847s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/share/rosgraph_msgs/environment/pythonpath.sh
+[2.847s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/share/rosgraph_msgs/environment/pythonpath.dsv
+[2.848s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs-1.2.2-py3.10.egg-info
+[2.848s] -- Installing: /home/uwr/microROS_AUV/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs-1.2.2-py3.10.egg-info/top_level.txt
+[2.848s] -- Installing: /home/uwr/microROS_AUV/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs-1.2.2-py3.10.egg-info/dependency_links.txt
+[2.852s] -- Installing: /home/uwr/microROS_AUV/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs-1.2.2-py3.10.egg-info/PKG-INFO
+[2.852s] -- Installing: /home/uwr/microROS_AUV/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs-1.2.2-py3.10.egg-info/SOURCES.txt
+[2.852s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs
+[2.852s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/_rosgraph_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.853s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/rosgraph_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.853s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/rosgraph_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so
+[2.853s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/_rosgraph_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.853s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/_rosgraph_msgs_s.ep.rosidl_typesupport_c.c
+[2.856s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/librosgraph_msgs__rosidl_generator_py.so
+[2.856s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/_rosgraph_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[2.856s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/msg
+[2.856s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/msg/_clock.py
+[2.856s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/msg/__init__.py
+[2.856s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/msg/_clock_s.c
+[2.857s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/rosgraph_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.857s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/__init__.py
+[2.857s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/rosgraph_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.970s] Listing '/home/uwr/microROS_AUV/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs'...
+[2.970s] Listing '/home/uwr/microROS_AUV/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/msg'...
+[2.983s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/rosgraph_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so
+[2.983s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/rosgraph_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.984s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/rosgraph_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.985s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/rosgraph_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.987s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_generator_py.so
+[2.992s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/share/rosgraph_msgs/msg/Clock.idl
+[2.996s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/share/rosgraph_msgs/msg/Clock.msg
+[2.996s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/share/ament_index/resource_index/package_run_dependencies/rosgraph_msgs
+[2.997s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/share/ament_index/resource_index/parent_prefix_path/rosgraph_msgs
+[2.997s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/share/rosgraph_msgs/environment/ament_prefix_path.sh
+[2.998s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/share/rosgraph_msgs/environment/ament_prefix_path.dsv
+[2.998s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/share/rosgraph_msgs/environment/path.sh
+[2.999s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/share/rosgraph_msgs/environment/path.dsv
+[2.999s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/share/rosgraph_msgs/local_setup.bash
+[2.999s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/share/rosgraph_msgs/local_setup.sh
+[2.999s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/share/rosgraph_msgs/local_setup.zsh
+[2.999s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/share/rosgraph_msgs/local_setup.dsv
+[3.000s] -- Installing: /home/uwr/microROS_AUV/install/rosgraph_msgs/share/rosgraph_msgs/package.dsv
+[3.000s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/share/ament_index/resource_index/packages/rosgraph_msgs
+[3.000s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/share/rosgraph_msgs/cmake/export_rosgraph_msgs__rosidl_generator_cExport.cmake
+[3.000s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/share/rosgraph_msgs/cmake/export_rosgraph_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.001s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/share/rosgraph_msgs/cmake/export_rosgraph_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[3.002s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/share/rosgraph_msgs/cmake/export_rosgraph_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.002s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/share/rosgraph_msgs/cmake/export_rosgraph_msgs__rosidl_generator_cppExport.cmake
+[3.011s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/share/rosgraph_msgs/cmake/export_rosgraph_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.011s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/share/rosgraph_msgs/cmake/export_rosgraph_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.012s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.012s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.012s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgs__rosidl_typesupport_cExport.cmake
+[3.012s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.012s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.013s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.013s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgs__rosidl_typesupport_cppExport.cmake
+[3.015s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.015s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/share/rosgraph_msgs/cmake/export_rosgraph_msgs__rosidl_generator_pyExport.cmake
+[3.016s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/share/rosgraph_msgs/cmake/export_rosgraph_msgs__rosidl_generator_pyExport-noconfig.cmake
+[3.016s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosidl_cmake-extras.cmake
+[3.016s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/share/rosgraph_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.016s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/share/rosgraph_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.017s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/share/rosgraph_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.017s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/share/rosgraph_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.017s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.028s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.028s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgsConfig.cmake
+[3.029s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgsConfig-version.cmake
+[3.029s] -- Up-to-date: /home/uwr/microROS_AUV/install/rosgraph_msgs/share/rosgraph_msgs/package.xml
+[3.062s] Invoked command in '/home/uwr/microROS_AUV/build/rosgraph_msgs' returned '0': CMAKE_PREFIX_PATH=/home/uwr/microROS_AUV/install/builtin_interfaces:/home/uwr/microROS_AUV/install/action_msgs:/home/uwr/microROS_AUV/install/unique_identifier_msgs:/home/uwr/microROS_AUV/install/std_srvs:/home/uwr/microROS_AUV/install/statistics_msgs:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_test_msg:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/uwr/microROS_AUV/install/rmw_microxrcedds:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c_tests:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c:/home/uwr/microROS_AUV/install/rosgraph_msgs:/home/uwr/microROS_AUV/install/microxrcedds_client:/home/uwr/microROS_AUV/install/microcdr:/home/uwr/microROS_AUV/install/micro_ros_utilities:/home/uwr/microROS_AUV/install/micro_ros_msgs:/home/uwr/microROS_AUV/install/complex_msgs:/home/uwr/microROS_AUV/install/micro_ros_setup:/home/uwr/microROS_AUV/install/custom_interfaces:/home/uwr/Desktop/2024_UWR/install/kalman_filter:/home/uwr/Desktop/2024_UWR/install/sonar_msgs:/home/uwr/Desktop/2024_UWR/install/ros2-driver:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces:/home/uwr/Desktop/2024_UWR/install/ntrip:/home/uwr/Desktop/2024_UWR/install/adnav-driver:/home/uwr/fls_ws/install/oculus_interfaces:/home/uwr/microROS_AUV/install/control_pkg:/home/uwr/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble LD_LIBRARY_PATH=/home/uwr/microROS_AUV/install/builtin_interfaces/lib:/home/uwr/microROS_AUV/install/action_msgs/lib:/home/uwr/microROS_AUV/install/unique_identifier_msgs/lib:/home/uwr/microROS_AUV/install/std_srvs/lib:/home/uwr/microROS_AUV/install/statistics_msgs/lib:/home/uwr/microROS_AUV/install/rmw_microxrcedds/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c/lib:/home/uwr/microROS_AUV/install/rosgraph_msgs/lib:/home/uwr/microROS_AUV/install/microxrcedds_client/lib:/home/uwr/microROS_AUV/install/microcdr/lib:/home/uwr/microROS_AUV/install/micro_ros_utilities/lib:/home/uwr/microROS_AUV/install/micro_ros_msgs/lib:/home/uwr/microROS_AUV/install/complex_msgs/lib:/home/uwr/microROS_AUV/install/custom_interfaces/lib:/home/uwr/oculus_driver/install/lib:/home/uwr/Desktop/2024_UWR/install/sonar_msgs/lib:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces/lib:/home/uwr/fls_ws/install/oculus_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/uwr/microROS_AUV/build/rosgraph_msgs

@@ -1,0 +1,233 @@
+[0.074s] Invoking command in '/home/uwr/microROS_AUV/build/std_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uwr/microROS_AUV/install/control_pkg:/home/uwr/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble /usr/bin/cmake --build /home/uwr/microROS_AUV/build/std_srvs -- -j8 -l8
+[0.308s] [35m[1mConsolidate compiler generated dependencies of target std_srvs__rosidl_generator_c[0m
+[0.421s] [  8%] Built target std_srvs__rosidl_generator_c
+[0.438s] [ 10%] Built target std_srvs__cpp
+[0.554s] [35m[1mConsolidate compiler generated dependencies of target std_srvs__rosidl_typesupport_introspection_c[0m
+[0.583s] [35m[1mConsolidate compiler generated dependencies of target std_srvs__rosidl_typesupport_microxrcedds_c[0m
+[0.654s] [35m[1mConsolidate compiler generated dependencies of target std_srvs__rosidl_typesupport_fastrtps_c[0m
+[0.688s] [35m[1mConsolidate compiler generated dependencies of target std_srvs__rosidl_typesupport_microxrcedds_cpp[0m
+[0.703s] [ 18%] Built target std_srvs__rosidl_typesupport_introspection_c
+[0.705s] [35m[1mConsolidate compiler generated dependencies of target std_srvs__rosidl_typesupport_c[0m
+[0.746s] [ 27%] Built target std_srvs__rosidl_typesupport_microxrcedds_c
+[0.749s] [ 27%] Built target ament_cmake_python_copy_std_srvs
+[0.759s] [35m[1mConsolidate compiler generated dependencies of target std_srvs__rosidl_typesupport_fastrtps_cpp[0m
+[0.827s] [35m[1mConsolidate compiler generated dependencies of target std_srvs__rosidl_typesupport_introspection_cpp[0m
+[0.889s] [ 35%] Built target std_srvs__rosidl_typesupport_fastrtps_c
+[0.889s] [ 44%] Built target std_srvs__rosidl_typesupport_microxrcedds_cpp
+[0.897s] [35m[1mConsolidate compiler generated dependencies of target std_srvs__rosidl_typesupport_cpp[0m
+[0.913s] [ 52%] Built target std_srvs__rosidl_typesupport_c
+[0.929s] [ 61%] Built target std_srvs__rosidl_typesupport_fastrtps_cpp
+[0.956s] [ 69%] Built target std_srvs__rosidl_typesupport_introspection_cpp
+[1.001s] [ 77%] Built target std_srvs__rosidl_typesupport_cpp
+[1.175s] [ 77%] Built target std_srvs
+[1.291s] [ 79%] Built target std_srvs__py
+[1.362s] [35m[1mConsolidate compiler generated dependencies of target std_srvs__rosidl_generator_py[0m
+[1.493s] [ 86%] Built target std_srvs__rosidl_generator_py
+[1.581s] [35m[1mConsolidate compiler generated dependencies of target std_srvs__rosidl_typesupport_microxrcedds_c__pyext[0m
+[1.602s] [35m[1mConsolidate compiler generated dependencies of target std_srvs__rosidl_typesupport_c__pyext[0m
+[1.637s] [35m[1mConsolidate compiler generated dependencies of target std_srvs__rosidl_typesupport_introspection_c__pyext[0m
+[1.646s] [35m[1mConsolidate compiler generated dependencies of target std_srvs__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.705s] [ 89%] Built target std_srvs__rosidl_typesupport_microxrcedds_c__pyext
+[1.745s] [ 93%] Built target std_srvs__rosidl_typesupport_c__pyext
+[1.760s] [ 96%] Built target std_srvs__rosidl_typesupport_introspection_c__pyext
+[1.770s] [100%] Built target std_srvs__rosidl_typesupport_fastrtps_c__pyext
+[2.242s] running egg_info
+[2.242s] writing std_srvs.egg-info/PKG-INFO
+[2.242s] writing dependency_links to std_srvs.egg-info/dependency_links.txt
+[2.243s] writing top-level names to std_srvs.egg-info/top_level.txt
+[2.256s] reading manifest file 'std_srvs.egg-info/SOURCES.txt'
+[2.256s] writing manifest file 'std_srvs.egg-info/SOURCES.txt'
+[2.350s] [100%] Built target ament_cmake_python_build_std_srvs_egg
+[2.397s] Invoked command in '/home/uwr/microROS_AUV/build/std_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uwr/microROS_AUV/install/control_pkg:/home/uwr/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble /usr/bin/cmake --build /home/uwr/microROS_AUV/build/std_srvs -- -j8 -l8
+[2.913s] Invoking command in '/home/uwr/microROS_AUV/build/std_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uwr/microROS_AUV/install/control_pkg:/home/uwr/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble /usr/bin/cmake --install /home/uwr/microROS_AUV/build/std_srvs
+[2.970s] -- Install configuration: ""
+[2.970s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/ament_index/resource_index/rosidl_interfaces/std_srvs
+[2.970s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs
+[2.977s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/msg
+[2.977s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/msg/rosidl_generator_c__visibility_control.h
+[2.978s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv
+[2.979s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/empty.h
+[2.979s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/detail
+[2.980s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__struct.h
+[2.980s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__type_support.h
+[2.981s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__functions.h
+[2.981s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__functions.h
+[2.981s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__functions.h
+[2.981s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__struct.h
+[2.981s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__struct.h
+[2.982s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__functions.c
+[2.982s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__functions.c
+[2.982s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__functions.c
+[2.982s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__type_support.h
+[2.983s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__type_support.h
+[2.983s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/trigger.h
+[2.983s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/set_bool.h
+[2.983s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/environment/library_path.sh
+[2.983s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/environment/library_path.dsv
+[2.984s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/lib/libstd_srvs__rosidl_generator_c.so
+[2.984s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs
+[2.984s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/msg
+[2.984s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[2.984s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/srv
+[2.984s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/srv/detail
+[2.985s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/srv/detail/set_bool__rosidl_typesupport_microxrcedds_c.h
+[2.985s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/srv/detail/empty__rosidl_typesupport_microxrcedds_c.h
+[2.986s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/srv/detail/trigger__rosidl_typesupport_microxrcedds_c.h
+[2.986s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/srv/detail/microxrcedds
+[2.986s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_microxrcedds_c.so
+[2.987s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs
+[2.987s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/msg
+[2.987s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.988s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv
+[2.988s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/detail
+[2.988s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__rosidl_typesupport_fastrtps_c.h
+[2.988s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__rosidl_typesupport_fastrtps_c.h
+[2.989s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__rosidl_typesupport_fastrtps_c.h
+[2.989s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_fastrtps_c.so
+[2.989s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs
+[2.989s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/msg
+[2.989s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.989s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv
+[2.990s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/detail
+[2.990s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__rosidl_typesupport_introspection_c.h
+[2.990s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__type_support.c
+[2.991s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__type_support.c
+[2.991s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__rosidl_typesupport_introspection_c.h
+[2.991s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__type_support.c
+[2.991s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__rosidl_typesupport_introspection_c.h
+[2.992s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_introspection_c.so
+[2.992s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_c.so
+[2.992s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs
+[2.992s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv
+[2.992s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/set_bool.hpp
+[2.993s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/detail
+[2.993s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__builder.hpp
+[2.993s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__builder.hpp
+[2.994s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__traits.hpp
+[2.994s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__struct.hpp
+[2.994s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__struct.hpp
+[2.994s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__builder.hpp
+[2.994s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__traits.hpp
+[2.994s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__struct.hpp
+[2.995s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__traits.hpp
+[2.995s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/empty.hpp
+[2.995s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/trigger.hpp
+[2.995s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs
+[2.995s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/msg
+[2.996s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[2.996s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/srv
+[2.997s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/srv/detail
+[2.997s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/srv/detail/trigger__rosidl_typesupport_microxrcedds_cpp.hpp
+[2.998s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/srv/detail/set_bool__rosidl_typesupport_microxrcedds_cpp.hpp
+[2.998s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/srv/detail/empty__rosidl_typesupport_microxrcedds_cpp.hpp
+[2.998s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/srv/detail/microxrcedds
+[2.998s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/srv/detail/microxrcedds/empty__type_support_cpp.cpp
+[2.998s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/srv/detail/microxrcedds/trigger__type_support_cpp.cpp
+[2.999s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/srv/detail/microxrcedds/set_bool__type_support_cpp.cpp
+[2.999s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_microxrcedds_cpp.so
+[2.999s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs
+[2.999s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/msg
+[2.999s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.000s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv
+[3.000s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/detail
+[3.000s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__rosidl_typesupport_fastrtps_cpp.hpp
+[3.000s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__rosidl_typesupport_fastrtps_cpp.hpp
+[3.000s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__rosidl_typesupport_fastrtps_cpp.hpp
+[3.000s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/detail/dds_fastrtps
+[3.001s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_fastrtps_cpp.so
+[3.001s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs
+[3.002s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv
+[3.002s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/detail
+[3.002s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__rosidl_typesupport_introspection_cpp.hpp
+[3.002s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__rosidl_typesupport_introspection_cpp.hpp
+[3.003s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__rosidl_typesupport_introspection_cpp.hpp
+[3.003s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__type_support.cpp
+[3.003s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__type_support.cpp
+[3.003s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__type_support.cpp
+[3.003s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_introspection_cpp.so
+[3.004s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_cpp.so
+[3.004s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/environment/pythonpath.sh
+[3.004s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/environment/pythonpath.dsv
+[3.005s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs-4.9.0-py3.10.egg-info
+[3.005s] -- Installing: /home/uwr/microROS_AUV/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs-4.9.0-py3.10.egg-info/top_level.txt
+[3.005s] -- Installing: /home/uwr/microROS_AUV/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs-4.9.0-py3.10.egg-info/dependency_links.txt
+[3.005s] -- Installing: /home/uwr/microROS_AUV/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs-4.9.0-py3.10.egg-info/PKG-INFO
+[3.005s] -- Installing: /home/uwr/microROS_AUV/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs-4.9.0-py3.10.egg-info/SOURCES.txt
+[3.006s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs
+[3.006s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/_std_srvs_s.ep.rosidl_typesupport_c.c
+[3.006s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/std_srvs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so
+[3.006s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/std_srvs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.006s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/std_srvs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.007s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/_std_srvs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[3.007s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/_std_srvs_s.ep.rosidl_typesupport_introspection_c.c
+[3.007s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/_std_srvs_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.008s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/__init__.py
+[3.008s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/libstd_srvs__rosidl_generator_py.so
+[3.008s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/std_srvs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.008s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv
+[3.009s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv/_set_bool_s.c
+[3.009s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv/_trigger_s.c
+[3.009s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv/_empty_s.c
+[3.009s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv/_empty.py
+[3.009s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv/_set_bool.py
+[3.010s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv/__init__.py
+[3.010s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv/_trigger.py
+[3.158s] Listing '/home/uwr/microROS_AUV/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs'...
+[3.159s] Listing '/home/uwr/microROS_AUV/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv'...
+[3.159s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/std_srvs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so
+[3.159s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/std_srvs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.160s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/std_srvs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.160s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/std_srvs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.160s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/lib/libstd_srvs__rosidl_generator_py.so
+[3.160s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/srv/Empty.idl
+[3.160s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/srv/SetBool.idl
+[3.161s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/srv/Trigger.idl
+[3.161s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/srv/Empty.srv
+[3.161s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/srv/Empty_Request.msg
+[3.161s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/srv/Empty_Response.msg
+[3.161s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/srv/SetBool.srv
+[3.161s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/srv/SetBool_Request.msg
+[3.162s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/srv/SetBool_Response.msg
+[3.162s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/srv/Trigger.srv
+[3.162s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/srv/Trigger_Request.msg
+[3.162s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/srv/Trigger_Response.msg
+[3.162s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/ament_index/resource_index/package_run_dependencies/std_srvs
+[3.163s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/ament_index/resource_index/parent_prefix_path/std_srvs
+[3.163s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/environment/ament_prefix_path.sh
+[3.163s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/environment/ament_prefix_path.dsv
+[3.163s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/environment/path.sh
+[3.163s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/environment/path.dsv
+[3.163s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/local_setup.bash
+[3.164s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/local_setup.sh
+[3.164s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/local_setup.zsh
+[3.164s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/local_setup.dsv
+[3.164s] -- Installing: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/package.dsv
+[3.165s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/ament_index/resource_index/packages/std_srvs
+[3.165s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_generator_cExport.cmake
+[3.165s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_generator_cExport-noconfig.cmake
+[3.165s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_typesupport_fastrtps_cExport.cmake
+[3.165s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.166s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_introspection_cExport.cmake
+[3.166s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.166s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_cExport.cmake
+[3.166s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_cExport-noconfig.cmake
+[3.167s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_generator_cppExport.cmake
+[3.167s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.167s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.167s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_introspection_cppExport.cmake
+[3.167s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.168s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_cppExport.cmake
+[3.168s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.168s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_generator_pyExport.cmake
+[3.168s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_generator_pyExport-noconfig.cmake
+[3.168s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/cmake/rosidl_cmake-extras.cmake
+[3.169s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.169s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.169s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/cmake/ament_cmake_export_targets-extras.cmake
+[3.169s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.169s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.170s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.170s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/cmake/std_srvsConfig.cmake
+[3.170s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/cmake/std_srvsConfig-version.cmake
+[3.170s] -- Up-to-date: /home/uwr/microROS_AUV/install/std_srvs/share/std_srvs/package.xml
+[3.260s] Invoked command in '/home/uwr/microROS_AUV/build/std_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uwr/microROS_AUV/install/control_pkg:/home/uwr/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble /usr/bin/cmake --install /home/uwr/microROS_AUV/build/std_srvs

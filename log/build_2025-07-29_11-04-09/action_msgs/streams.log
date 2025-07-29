@@ -1,0 +1,382 @@
+[0.073s] Invoking command in '/home/uwr/microROS_AUV/build/action_msgs': AMENT_PREFIX_PATH=/home/uwr/microROS_AUV/install/unique_identifier_msgs:/home/uwr/microROS_AUV/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/uwr/microROS_AUV/install/unique_identifier_msgs:/home/uwr/microROS_AUV/install/builtin_interfaces:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c:/home/uwr/microROS_AUV/install/microcdr:/home/uwr/microROS_AUV/install/micro_ros_setup:/home/uwr/microROS_AUV/install/custom_interfaces:/home/uwr/Desktop/2024_UWR/install/kalman_filter:/home/uwr/Desktop/2024_UWR/install/sonar_msgs:/home/uwr/Desktop/2024_UWR/install/ros2-driver:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces:/home/uwr/Desktop/2024_UWR/install/ntrip:/home/uwr/Desktop/2024_UWR/install/adnav-driver:/home/uwr/fls_ws/install/oculus_interfaces:/home/uwr/microROS_AUV/install/control_pkg:/home/uwr/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble LD_LIBRARY_PATH=/home/uwr/microROS_AUV/install/unique_identifier_msgs/lib:/home/uwr/microROS_AUV/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/uwr/microROS_AUV/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/uwr/microROS_AUV/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/uwr/microROS_AUV/src/ros2/rcl_interfaces/action_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/uwr/microROS_AUV/install/action_msgs
+[0.239s] -- The C compiler identification is GNU 11.4.0
+[0.415s] -- The CXX compiler identification is GNU 11.4.0
+[0.435s] -- Detecting C compiler ABI info
+[0.617s] -- Detecting C compiler ABI info - done
+[0.646s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.646s] -- Detecting C compile features
+[0.647s] -- Detecting C compile features - done
+[0.658s] -- Detecting CXX compiler ABI info
+[0.865s] -- Detecting CXX compiler ABI info - done
+[0.894s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.896s] -- Detecting CXX compile features
+[0.901s] -- Detecting CXX compile features - done
+[0.907s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.420s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.738s] -- Found builtin_interfaces: 1.2.2 (/home/uwr/microROS_AUV/install/builtin_interfaces/share/builtin_interfaces/cmake)
+[1.862s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.883s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.916s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.961s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.043s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.117s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.157s] -- Found unique_identifier_msgs: 2.2.1 (/home/uwr/microROS_AUV/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake)
+[3.070s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.158s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.594s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.668s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.676s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.759s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.759s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.760s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.760s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.825s] -- Found PythonExtra: .so  
+[4.985s] -- Configuring done
+[5.184s] -- Generating done
+[5.184s] -- Build files have been written to: /home/uwr/microROS_AUV/build/action_msgs
+[5.196s] Invoked command in '/home/uwr/microROS_AUV/build/action_msgs' returned '0': AMENT_PREFIX_PATH=/home/uwr/microROS_AUV/install/unique_identifier_msgs:/home/uwr/microROS_AUV/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/uwr/microROS_AUV/install/unique_identifier_msgs:/home/uwr/microROS_AUV/install/builtin_interfaces:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c:/home/uwr/microROS_AUV/install/microcdr:/home/uwr/microROS_AUV/install/micro_ros_setup:/home/uwr/microROS_AUV/install/custom_interfaces:/home/uwr/Desktop/2024_UWR/install/kalman_filter:/home/uwr/Desktop/2024_UWR/install/sonar_msgs:/home/uwr/Desktop/2024_UWR/install/ros2-driver:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces:/home/uwr/Desktop/2024_UWR/install/ntrip:/home/uwr/Desktop/2024_UWR/install/adnav-driver:/home/uwr/fls_ws/install/oculus_interfaces:/home/uwr/microROS_AUV/install/control_pkg:/home/uwr/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble LD_LIBRARY_PATH=/home/uwr/microROS_AUV/install/unique_identifier_msgs/lib:/home/uwr/microROS_AUV/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/uwr/microROS_AUV/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/uwr/microROS_AUV/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/uwr/microROS_AUV/src/ros2/rcl_interfaces/action_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/uwr/microROS_AUV/install/action_msgs
+[5.197s] Invoking command in '/home/uwr/microROS_AUV/build/action_msgs': AMENT_PREFIX_PATH=/home/uwr/microROS_AUV/install/unique_identifier_msgs:/home/uwr/microROS_AUV/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/uwr/microROS_AUV/install/unique_identifier_msgs:/home/uwr/microROS_AUV/install/builtin_interfaces:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c:/home/uwr/microROS_AUV/install/microcdr:/home/uwr/microROS_AUV/install/micro_ros_setup:/home/uwr/microROS_AUV/install/custom_interfaces:/home/uwr/Desktop/2024_UWR/install/kalman_filter:/home/uwr/Desktop/2024_UWR/install/sonar_msgs:/home/uwr/Desktop/2024_UWR/install/ros2-driver:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces:/home/uwr/Desktop/2024_UWR/install/ntrip:/home/uwr/Desktop/2024_UWR/install/adnav-driver:/home/uwr/fls_ws/install/oculus_interfaces:/home/uwr/microROS_AUV/install/control_pkg:/home/uwr/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble LD_LIBRARY_PATH=/home/uwr/microROS_AUV/install/unique_identifier_msgs/lib:/home/uwr/microROS_AUV/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/uwr/microROS_AUV/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/uwr/microROS_AUV/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/uwr/microROS_AUV/build/action_msgs -- -j8 -l8
+[5.315s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[8.141s] [  2%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_c.dir/rosidl_generator_c/action_msgs/msg/detail/goal_info__functions.c.o[0m
+[8.273s] [  4%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_c.dir/rosidl_generator_c/action_msgs/srv/detail/cancel_goal__functions.c.o[0m
+[8.439s] [  5%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_c.dir/rosidl_generator_c/action_msgs/msg/detail/goal_status_array__functions.c.o[0m
+[8.572s] [  7%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_c.dir/rosidl_generator_c/action_msgs/msg/detail/goal_status__functions.c.o[0m
+[8.707s] [  8%] [32m[1mLinking C shared library libaction_msgs__rosidl_generator_c.so[0m
+[8.797s] [  8%] Built target action_msgs__rosidl_generator_c
+[8.870s] [  8%] Built target ament_cmake_python_copy_action_msgs
+[8.896s] [ 10%] [34m[1mGenerating C type support for eProsima Micro XRCE-DDS[0m
+[11.211s] [ 11%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/action_msgs/msg/detail/microxrcedds/goal_info__type_support_c.c.o[0m
+[11.341s] [ 13%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/action_msgs/msg/detail/microxrcedds/goal_status_array__type_support_c.c.o[0m
+[11.467s] [ 14%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/action_msgs/srv/detail/microxrcedds/cancel_goal__type_support_c.c.o[0m
+[11.612s] [ 15%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/action_msgs/msg/detail/microxrcedds/goal_status__type_support_c.c.o[0m
+[11.737s] [ 17%] [32m[1mLinking C shared library libaction_msgs__rosidl_typesupport_microxrcedds_c.so[0m
+[11.846s] [ 17%] Built target action_msgs__rosidl_typesupport_microxrcedds_c
+[12.733s] running egg_info
+[12.737s] creating action_msgs.egg-info
+[12.737s] writing action_msgs.egg-info/PKG-INFO
+[12.738s] writing dependency_links to action_msgs.egg-info/dependency_links.txt
+[12.738s] writing top-level names to action_msgs.egg-info/top_level.txt
+[12.739s] writing manifest file 'action_msgs.egg-info/SOURCES.txt'
+[12.746s] reading manifest file 'action_msgs.egg-info/SOURCES.txt'
+[12.746s] writing manifest file 'action_msgs.egg-info/SOURCES.txt'
+[12.813s] [ 17%] Built target ament_cmake_python_build_action_msgs_egg
+[12.839s] [ 18%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[15.185s] [ 20%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_msgs/msg/detail/goal_info__type_support_c.cpp.o[0m
+[15.999s] [ 21%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_msgs/srv/detail/cancel_goal__type_support_c.cpp.o[0m
+[16.915s] [ 23%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_msgs/msg/detail/goal_status_array__type_support_c.cpp.o[0m
+[17.832s] [ 24%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_msgs/msg/detail/goal_status__type_support_c.cpp.o[0m
+[18.786s] [ 26%] [32m[1mLinking CXX shared library libaction_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[18.992s] [ 26%] Built target action_msgs__rosidl_typesupport_fastrtps_c
+[19.018s] [ 27%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[20.845s] [ 28%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_msgs/msg/goal_info__type_support.cpp.o[0m
+[20.921s] [ 30%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_msgs/srv/cancel_goal__type_support.cpp.o[0m
+[20.988s] [ 31%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_msgs/msg/goal_status_array__type_support.cpp.o[0m
+[21.070s] [ 33%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_msgs/msg/goal_status__type_support.cpp.o[0m
+[21.152s] [ 34%] [32m[1mLinking CXX shared library libaction_msgs__rosidl_typesupport_c.so[0m
+[21.270s] [ 34%] Built target action_msgs__rosidl_typesupport_c
+[21.299s] [ 36%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[23.491s] [ 37%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_msgs/msg/detail/goal_info__type_support.c.o[0m
+[23.590s] [ 39%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_msgs/srv/detail/cancel_goal__type_support.c.o[0m
+[23.700s] [ 40%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_msgs/msg/detail/goal_status_array__type_support.c.o[0m
+[23.807s] [ 42%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_msgs/msg/detail/goal_status__type_support.c.o[0m
+[23.885s] [ 43%] [32m[1mLinking C shared library libaction_msgs__rosidl_typesupport_introspection_c.so[0m
+[23.958s] [ 43%] Built target action_msgs__rosidl_typesupport_introspection_c
+[24.012s] [ 44%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[26.013s] [ 44%] Built target action_msgs__cpp
+[26.036s] [ 46%] [34m[1mGenerating C++ type support for eProsima Micro XRCE-DDS[0m
+[28.072s] [ 47%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/action_msgs/msg/detail/microxrcedds/goal_status__type_support_cpp.cpp.o[0m
+[28.072s] [ 49%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/action_msgs/msg/detail/microxrcedds/goal_info__type_support_cpp.cpp.o[0m
+[29.514s] [ 50%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/action_msgs/srv/detail/microxrcedds/cancel_goal__type_support_cpp.cpp.o[0m
+[29.711s] [ 52%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/action_msgs/msg/detail/microxrcedds/goal_status_array__type_support_cpp.cpp.o[0m
+[31.896s] [ 53%] [32m[1mLinking CXX shared library libaction_msgs__rosidl_typesupport_microxrcedds_cpp.so[0m
+[32.123s] [ 53%] Built target action_msgs__rosidl_typesupport_microxrcedds_cpp
+[32.140s] [ 55%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[34.390s] [ 56%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_msgs/msg/detail/dds_fastrtps/goal_info__type_support.cpp.o[0m
+[35.216s] [ 57%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_msgs/srv/detail/dds_fastrtps/cancel_goal__type_support.cpp.o[0m
+[36.498s] [ 59%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_msgs/msg/detail/dds_fastrtps/goal_status_array__type_support.cpp.o[0m
+[37.775s] [ 60%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_msgs/msg/detail/dds_fastrtps/goal_status__type_support.cpp.o[0m
+[38.889s] [ 62%] [32m[1mLinking CXX shared library libaction_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[39.095s] [ 62%] Built target action_msgs__rosidl_typesupport_fastrtps_cpp
+[39.122s] [ 63%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[40.453s] [ 65%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_msgs/msg/goal_info__type_support.cpp.o[0m
+[40.936s] [ 66%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_msgs/srv/cancel_goal__type_support.cpp.o[0m
+[41.425s] [ 68%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_msgs/msg/goal_status_array__type_support.cpp.o[0m
+[41.919s] [ 69%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_msgs/msg/goal_status__type_support.cpp.o[0m
+[42.405s] [ 71%] [32m[1mLinking CXX shared library libaction_msgs__rosidl_typesupport_cpp.so[0m
+[42.478s] [ 71%] Built target action_msgs__rosidl_typesupport_cpp
+[42.501s] [ 72%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[43.812s] [ 73%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_msgs/msg/detail/goal_info__type_support.cpp.o[0m
+[44.553s] [ 75%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_msgs/srv/detail/cancel_goal__type_support.cpp.o[0m
+[45.740s] [ 76%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_msgs/msg/detail/goal_status_array__type_support.cpp.o[0m
+[46.610s] [ 78%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_msgs/msg/detail/goal_status__type_support.cpp.o[0m
+[47.369s] [ 79%] [32m[1mLinking CXX shared library libaction_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[47.507s] [ 79%] Built target action_msgs__rosidl_typesupport_introspection_cpp
+[47.542s] [ 79%] Built target action_msgs
+[47.595s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[50.433s] [ 81%] Built target action_msgs__py
+[50.468s] [ 82%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_py.dir/rosidl_generator_py/action_msgs/msg/_goal_info_s.c.o[0m
+[50.648s] [ 84%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_py.dir/rosidl_generator_py/action_msgs/srv/_cancel_goal_s.c.o[0m
+[50.845s] [ 85%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_py.dir/rosidl_generator_py/action_msgs/msg/_goal_status_array_s.c.o[0m
+[51.031s] [ 86%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_py.dir/rosidl_generator_py/action_msgs/msg/_goal_status_s.c.o[0m
+[51.237s] [ 88%] [32m[1mLinking C shared library rosidl_generator_py/action_msgs/libaction_msgs__rosidl_generator_py.so[0m
+[51.340s] [ 88%] Built target action_msgs__rosidl_generator_py
+[51.392s] [ 89%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/action_msgs/_action_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[51.392s] [ 91%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_typesupport_microxrcedds_c__pyext.dir/rosidl_generator_py/action_msgs/_action_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c.o[0m
+[51.734s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/action_msgs/action_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[51.734s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/action_msgs/action_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so[0m
+[51.840s] [ 94%] Built target action_msgs__rosidl_typesupport_microxrcedds_c__pyext
+[51.842s] [ 94%] Built target action_msgs__rosidl_typesupport_fastrtps_c__pyext
+[51.895s] [ 95%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/action_msgs/_action_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[51.899s] [ 97%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/action_msgs/_action_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[52.265s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/action_msgs/action_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[52.309s] [100%] [32m[1mLinking C shared library rosidl_generator_py/action_msgs/action_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[52.430s] [100%] Built target action_msgs__rosidl_typesupport_introspection_c__pyext
+[52.447s] [100%] Built target action_msgs__rosidl_typesupport_c__pyext
+[52.481s] Invoked command in '/home/uwr/microROS_AUV/build/action_msgs' returned '0': AMENT_PREFIX_PATH=/home/uwr/microROS_AUV/install/unique_identifier_msgs:/home/uwr/microROS_AUV/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/uwr/microROS_AUV/install/unique_identifier_msgs:/home/uwr/microROS_AUV/install/builtin_interfaces:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c:/home/uwr/microROS_AUV/install/microcdr:/home/uwr/microROS_AUV/install/micro_ros_setup:/home/uwr/microROS_AUV/install/custom_interfaces:/home/uwr/Desktop/2024_UWR/install/kalman_filter:/home/uwr/Desktop/2024_UWR/install/sonar_msgs:/home/uwr/Desktop/2024_UWR/install/ros2-driver:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces:/home/uwr/Desktop/2024_UWR/install/ntrip:/home/uwr/Desktop/2024_UWR/install/adnav-driver:/home/uwr/fls_ws/install/oculus_interfaces:/home/uwr/microROS_AUV/install/control_pkg:/home/uwr/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble LD_LIBRARY_PATH=/home/uwr/microROS_AUV/install/unique_identifier_msgs/lib:/home/uwr/microROS_AUV/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/uwr/microROS_AUV/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/uwr/microROS_AUV/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/uwr/microROS_AUV/build/action_msgs -- -j8 -l8
+[52.862s] Invoking command in '/home/uwr/microROS_AUV/build/action_msgs': AMENT_PREFIX_PATH=/home/uwr/microROS_AUV/install/unique_identifier_msgs:/home/uwr/microROS_AUV/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/uwr/microROS_AUV/install/unique_identifier_msgs:/home/uwr/microROS_AUV/install/builtin_interfaces:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c:/home/uwr/microROS_AUV/install/microcdr:/home/uwr/microROS_AUV/install/micro_ros_setup:/home/uwr/microROS_AUV/install/custom_interfaces:/home/uwr/Desktop/2024_UWR/install/kalman_filter:/home/uwr/Desktop/2024_UWR/install/sonar_msgs:/home/uwr/Desktop/2024_UWR/install/ros2-driver:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces:/home/uwr/Desktop/2024_UWR/install/ntrip:/home/uwr/Desktop/2024_UWR/install/adnav-driver:/home/uwr/fls_ws/install/oculus_interfaces:/home/uwr/microROS_AUV/install/control_pkg:/home/uwr/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble LD_LIBRARY_PATH=/home/uwr/microROS_AUV/install/unique_identifier_msgs/lib:/home/uwr/microROS_AUV/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/uwr/microROS_AUV/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/uwr/microROS_AUV/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/uwr/microROS_AUV/build/action_msgs
+[52.886s] -- Install configuration: ""
+[52.886s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/ament_index/resource_index/rosidl_interfaces/action_msgs
+[52.886s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs
+[52.886s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg
+[52.886s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/goal_info.h
+[52.887s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/goal_status.h
+[52.887s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/rosidl_generator_c__visibility_control.h
+[52.887s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/detail
+[52.887s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__functions.h
+[52.890s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__functions.h
+[52.891s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__type_support.h
+[52.891s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__functions.c
+[52.891s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__functions.c
+[52.891s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__type_support.h
+[52.891s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__struct.h
+[52.892s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__functions.c
+[52.892s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h
+[52.892s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.h
+[52.895s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__type_support.h
+[52.895s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__functions.h
+[52.897s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/goal_status_array.h
+[52.897s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/srv
+[52.897s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/srv/detail
+[52.897s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__functions.h
+[52.898s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__functions.c
+[52.898s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.h
+[52.898s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.h
+[52.898s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/srv/cancel_goal.h
+[52.898s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/environment/library_path.sh
+[52.901s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/environment/library_path.dsv
+[52.901s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/lib/libaction_msgs__rosidl_generator_c.so
+[52.902s] -- Set runtime path of "/home/uwr/microROS_AUV/install/action_msgs/lib/libaction_msgs__rosidl_generator_c.so" to ""
+[52.902s] -- Up-to-date: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs
+[52.902s] -- Up-to-date: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg
+[52.902s] -- Up-to-date: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/detail
+[52.902s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__rosidl_typesupport_fastrtps_c.h
+[52.906s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__rosidl_typesupport_fastrtps_c.h
+[52.906s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__rosidl_typesupport_fastrtps_c.h
+[52.906s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[52.906s] -- Up-to-date: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/srv
+[52.907s] -- Up-to-date: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/srv/detail
+[52.907s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__rosidl_typesupport_fastrtps_c.h
+[52.907s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_fastrtps_c.so
+[52.907s] -- Set runtime path of "/home/uwr/microROS_AUV/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[52.910s] -- Up-to-date: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs
+[52.910s] -- Up-to-date: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg
+[52.910s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/goal_status_array.hpp
+[52.911s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/goal_info.hpp
+[52.911s] -- Up-to-date: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/detail
+[52.911s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__traits.hpp
+[52.911s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__builder.hpp
+[52.912s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__builder.hpp
+[52.912s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.hpp
+[52.912s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__struct.hpp
+[52.914s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp
+[52.916s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__struct.hpp
+[52.916s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__traits.hpp
+[52.916s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__traits.hpp
+[52.917s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/goal_status.hpp
+[52.917s] -- Up-to-date: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/srv
+[52.917s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/srv/cancel_goal.hpp
+[52.917s] -- Up-to-date: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/srv/detail
+[52.921s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__builder.hpp
+[52.921s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__traits.hpp
+[52.921s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.hpp
+[52.922s] -- Up-to-date: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs
+[52.922s] -- Up-to-date: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg
+[52.922s] -- Up-to-date: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/detail
+[52.922s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__rosidl_typesupport_fastrtps_cpp.hpp
+[52.922s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__rosidl_typesupport_fastrtps_cpp.hpp
+[52.923s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__rosidl_typesupport_fastrtps_cpp.hpp
+[52.923s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/detail/dds_fastrtps
+[52.923s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[52.923s] -- Up-to-date: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/srv
+[52.924s] -- Up-to-date: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/srv/detail
+[52.924s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__rosidl_typesupport_fastrtps_cpp.hpp
+[52.926s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/srv/detail/dds_fastrtps
+[52.926s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_fastrtps_cpp.so
+[52.926s] -- Set runtime path of "/home/uwr/microROS_AUV/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[52.927s] -- Up-to-date: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs
+[52.928s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/msg
+[52.928s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[52.928s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/msg/detail
+[52.931s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/msg/detail/goal_status__rosidl_typesupport_microxrcedds_c.h
+[52.931s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/msg/detail/goal_info__rosidl_typesupport_microxrcedds_c.h
+[52.932s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/msg/detail/goal_status_array__rosidl_typesupport_microxrcedds_c.h
+[52.932s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/msg/detail/microxrcedds
+[52.936s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/srv
+[52.937s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/srv/detail
+[52.938s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/srv/detail/cancel_goal__rosidl_typesupport_microxrcedds_c.h
+[52.938s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/srv/detail/microxrcedds
+[52.938s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_microxrcedds_c.so
+[52.938s] -- Set runtime path of "/home/uwr/microROS_AUV/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_microxrcedds_c.so" to ""
+[52.938s] -- Up-to-date: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs
+[52.939s] -- Up-to-date: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg
+[52.939s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[52.939s] -- Up-to-date: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/detail
+[52.939s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__rosidl_typesupport_introspection_c.h
+[52.939s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__type_support.c
+[52.940s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__rosidl_typesupport_introspection_c.h
+[52.940s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__type_support.c
+[52.944s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__type_support.c
+[52.944s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__rosidl_typesupport_introspection_c.h
+[52.944s] -- Up-to-date: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/srv
+[52.945s] -- Up-to-date: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/srv/detail
+[52.945s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__rosidl_typesupport_introspection_c.h
+[52.945s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.c
+[52.945s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_introspection_c.so
+[52.945s] -- Set runtime path of "/home/uwr/microROS_AUV/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_introspection_c.so" to ""
+[52.946s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_c.so
+[52.946s] -- Set runtime path of "/home/uwr/microROS_AUV/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_c.so" to ""
+[52.946s] -- Up-to-date: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs
+[52.946s] -- Up-to-date: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/msg
+[52.946s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[52.947s] -- Up-to-date: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/msg/detail
+[52.951s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/msg/detail/goal_status__rosidl_typesupport_microxrcedds_cpp.hpp
+[52.951s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/msg/detail/goal_info__rosidl_typesupport_microxrcedds_cpp.hpp
+[52.951s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/msg/detail/goal_status_array__rosidl_typesupport_microxrcedds_cpp.hpp
+[52.952s] -- Up-to-date: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/msg/detail/microxrcedds
+[52.952s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/msg/detail/microxrcedds/goal_info__type_support_cpp.cpp
+[52.952s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/msg/detail/microxrcedds/goal_status_array__type_support_cpp.cpp
+[52.952s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/msg/detail/microxrcedds/goal_status__type_support_cpp.cpp
+[52.952s] -- Up-to-date: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/srv
+[52.953s] -- Up-to-date: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/srv/detail
+[52.953s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/srv/detail/cancel_goal__rosidl_typesupport_microxrcedds_cpp.hpp
+[52.953s] -- Up-to-date: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/srv/detail/microxrcedds
+[52.953s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/srv/detail/microxrcedds/cancel_goal__type_support_cpp.cpp
+[52.953s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_microxrcedds_cpp.so
+[52.954s] -- Set runtime path of "/home/uwr/microROS_AUV/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_microxrcedds_cpp.so" to ""
+[52.954s] -- Up-to-date: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs
+[52.955s] -- Up-to-date: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg
+[52.955s] -- Up-to-date: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/detail
+[52.955s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__type_support.cpp
+[52.955s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__rosidl_typesupport_introspection_cpp.hpp
+[52.956s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__rosidl_typesupport_introspection_cpp.hpp
+[52.956s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__type_support.cpp
+[52.956s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__type_support.cpp
+[52.956s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__rosidl_typesupport_introspection_cpp.hpp
+[52.956s] -- Up-to-date: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/srv
+[52.957s] -- Up-to-date: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/srv/detail
+[52.957s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__rosidl_typesupport_introspection_cpp.hpp
+[52.957s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.cpp
+[52.957s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so
+[52.957s] -- Set runtime path of "/home/uwr/microROS_AUV/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[52.958s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_cpp.so
+[52.958s] -- Set runtime path of "/home/uwr/microROS_AUV/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_cpp.so" to ""
+[52.958s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/environment/pythonpath.sh
+[52.958s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/environment/pythonpath.dsv
+[52.958s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs-1.2.2-py3.10.egg-info
+[52.959s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs-1.2.2-py3.10.egg-info/top_level.txt
+[52.959s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs-1.2.2-py3.10.egg-info/dependency_links.txt
+[52.959s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs-1.2.2-py3.10.egg-info/PKG-INFO
+[52.959s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs-1.2.2-py3.10.egg-info/SOURCES.txt
+[52.959s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs
+[52.960s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/action_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so
+[52.960s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/_action_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[52.960s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/action_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[52.960s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/action_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[52.960s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/action_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[52.961s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/msg
+[52.961s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/msg/_goal_status_array_s.c
+[52.961s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/msg/_goal_info.py
+[52.961s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/msg/_goal_status_array.py
+[52.961s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/msg/_goal_info_s.c
+[52.962s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/msg/_goal_status.py
+[52.962s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/msg/__init__.py
+[52.962s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/msg/_goal_status_s.c
+[52.962s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/_action_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[52.962s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/__init__.py
+[52.963s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/_action_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[52.963s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/_action_msgs_s.ep.rosidl_typesupport_c.c
+[52.963s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/libaction_msgs__rosidl_generator_py.so
+[52.963s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/srv
+[52.963s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/srv/_cancel_goal.py
+[52.964s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/srv/_cancel_goal_s.c
+[52.964s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/srv/__init__.py
+[53.098s] Listing '/home/uwr/microROS_AUV/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs'...
+[53.098s] Compiling '/home/uwr/microROS_AUV/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/__init__.py'...
+[53.098s] Listing '/home/uwr/microROS_AUV/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/msg'...
+[53.098s] Compiling '/home/uwr/microROS_AUV/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/msg/__init__.py'...
+[53.098s] Compiling '/home/uwr/microROS_AUV/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/msg/_goal_info.py'...
+[53.099s] Compiling '/home/uwr/microROS_AUV/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/msg/_goal_status.py'...
+[53.099s] Compiling '/home/uwr/microROS_AUV/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/msg/_goal_status_array.py'...
+[53.099s] Listing '/home/uwr/microROS_AUV/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/srv'...
+[53.099s] Compiling '/home/uwr/microROS_AUV/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/srv/__init__.py'...
+[53.099s] Compiling '/home/uwr/microROS_AUV/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/srv/_cancel_goal.py'...
+[53.110s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/action_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so
+[53.112s] -- Set runtime path of "/home/uwr/microROS_AUV/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/action_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so" to ""
+[53.113s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/action_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[53.115s] -- Set runtime path of "/home/uwr/microROS_AUV/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/action_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[53.116s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/action_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[53.118s] -- Set runtime path of "/home/uwr/microROS_AUV/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/action_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[53.119s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/action_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[53.120s] -- Set runtime path of "/home/uwr/microROS_AUV/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/action_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[53.121s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/lib/libaction_msgs__rosidl_generator_py.so
+[53.122s] -- Set runtime path of "/home/uwr/microROS_AUV/install/action_msgs/lib/libaction_msgs__rosidl_generator_py.so" to ""
+[53.123s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/msg/GoalInfo.idl
+[53.123s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/msg/GoalStatus.idl
+[53.124s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/msg/GoalStatusArray.idl
+[53.125s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/srv/CancelGoal.idl
+[53.126s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/msg/GoalInfo.msg
+[53.126s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/msg/GoalStatus.msg
+[53.127s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/msg/GoalStatusArray.msg
+[53.127s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/srv/CancelGoal.srv
+[53.129s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/srv/CancelGoal_Request.msg
+[53.129s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/srv/CancelGoal_Response.msg
+[53.132s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/ament_index/resource_index/package_run_dependencies/action_msgs
+[53.133s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/ament_index/resource_index/parent_prefix_path/action_msgs
+[53.134s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/environment/ament_prefix_path.sh
+[53.134s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/environment/ament_prefix_path.dsv
+[53.136s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/environment/path.sh
+[53.136s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/environment/path.dsv
+[53.137s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/local_setup.bash
+[53.137s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/local_setup.sh
+[53.138s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/local_setup.zsh
+[53.140s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/local_setup.dsv
+[53.140s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/package.dsv
+[53.141s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/ament_index/resource_index/packages/action_msgs
+[53.141s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/cmake/export_action_msgs__rosidl_generator_cExport.cmake
+[53.142s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/cmake/export_action_msgs__rosidl_generator_cExport-noconfig.cmake
+[53.143s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/cmake/export_action_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[53.144s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/cmake/export_action_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[53.144s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/cmake/export_action_msgs__rosidl_generator_cppExport.cmake
+[53.145s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/cmake/export_action_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[53.146s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/cmake/export_action_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[53.147s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/cmake/action_msgs__rosidl_typesupport_introspection_cExport.cmake
+[53.148s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/cmake/action_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[53.148s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/cmake/action_msgs__rosidl_typesupport_cExport.cmake
+[53.149s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/cmake/action_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[53.150s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/cmake/action_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[53.151s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/cmake/action_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[53.152s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/cmake/action_msgs__rosidl_typesupport_cppExport.cmake
+[53.153s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/cmake/action_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[53.154s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/cmake/export_action_msgs__rosidl_generator_pyExport.cmake
+[53.154s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/cmake/export_action_msgs__rosidl_generator_pyExport-noconfig.cmake
+[53.155s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/cmake/rosidl_cmake-extras.cmake
+[53.156s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[53.157s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[53.158s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[53.159s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[53.159s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[53.160s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[53.161s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/cmake/action_msgsConfig.cmake
+[53.162s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/cmake/action_msgsConfig-version.cmake
+[53.162s] -- Installing: /home/uwr/microROS_AUV/install/action_msgs/share/action_msgs/package.xml
+[53.171s] Invoked command in '/home/uwr/microROS_AUV/build/action_msgs' returned '0': AMENT_PREFIX_PATH=/home/uwr/microROS_AUV/install/unique_identifier_msgs:/home/uwr/microROS_AUV/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/uwr/microROS_AUV/install/unique_identifier_msgs:/home/uwr/microROS_AUV/install/builtin_interfaces:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c:/home/uwr/microROS_AUV/install/microcdr:/home/uwr/microROS_AUV/install/micro_ros_setup:/home/uwr/microROS_AUV/install/custom_interfaces:/home/uwr/Desktop/2024_UWR/install/kalman_filter:/home/uwr/Desktop/2024_UWR/install/sonar_msgs:/home/uwr/Desktop/2024_UWR/install/ros2-driver:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces:/home/uwr/Desktop/2024_UWR/install/ntrip:/home/uwr/Desktop/2024_UWR/install/adnav-driver:/home/uwr/fls_ws/install/oculus_interfaces:/home/uwr/microROS_AUV/install/control_pkg:/home/uwr/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble LD_LIBRARY_PATH=/home/uwr/microROS_AUV/install/unique_identifier_msgs/lib:/home/uwr/microROS_AUV/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/uwr/microROS_AUV/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/uwr/microROS_AUV/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/uwr/microROS_AUV/build/action_msgs

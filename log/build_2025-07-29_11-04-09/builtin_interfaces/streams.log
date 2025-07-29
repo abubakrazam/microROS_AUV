@@ -1,0 +1,287 @@
+[0.064s] Invoking command in '/home/uwr/microROS_AUV/build/builtin_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uwr/microROS_AUV/install/control_pkg:/home/uwr/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble /usr/bin/cmake /home/uwr/microROS_AUV/src/ros2/rcl_interfaces/builtin_interfaces -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/uwr/microROS_AUV/install/builtin_interfaces
+[0.203s] -- The C compiler identification is GNU 11.4.0
+[0.369s] -- The CXX compiler identification is GNU 11.4.0
+[0.389s] -- Detecting C compiler ABI info
+[0.560s] -- Detecting C compiler ABI info - done
+[0.583s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.584s] -- Detecting C compile features
+[0.584s] -- Detecting C compile features - done
+[0.595s] -- Detecting CXX compiler ABI info
+[0.777s] -- Detecting CXX compiler ABI info - done
+[0.805s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.806s] -- Detecting CXX compile features
+[0.807s] -- Detecting CXX compile features - done
+[0.816s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.254s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.508s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.525s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.551s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.726s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.578s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.241s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.445s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.557s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.564s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.647s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.648s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.648s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.648s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.744s] -- Found PythonExtra: .so  
+[4.889s] -- Configuring done
+[5.033s] -- Generating done
+[5.049s] -- Build files have been written to: /home/uwr/microROS_AUV/build/builtin_interfaces
+[5.117s] Invoked command in '/home/uwr/microROS_AUV/build/builtin_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uwr/microROS_AUV/install/control_pkg:/home/uwr/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble /usr/bin/cmake /home/uwr/microROS_AUV/src/ros2/rcl_interfaces/builtin_interfaces -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/uwr/microROS_AUV/install/builtin_interfaces
+[5.118s] Invoking command in '/home/uwr/microROS_AUV/build/builtin_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uwr/microROS_AUV/install/control_pkg:/home/uwr/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble /usr/bin/cmake --build /home/uwr/microROS_AUV/build/builtin_interfaces -- -j8 -l8
+[5.306s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.368s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.392s] [  4%] Built target ament_cmake_python_copy_builtin_interfaces
+[6.935s] running egg_info
+[6.947s] creating builtin_interfaces.egg-info
+[6.947s] writing builtin_interfaces.egg-info/PKG-INFO
+[6.948s] writing dependency_links to builtin_interfaces.egg-info/dependency_links.txt
+[6.949s] writing top-level names to builtin_interfaces.egg-info/top_level.txt
+[6.952s] writing manifest file 'builtin_interfaces.egg-info/SOURCES.txt'
+[6.967s] reading manifest file 'builtin_interfaces.egg-info/SOURCES.txt'
+[6.969s] writing manifest file 'builtin_interfaces.egg-info/SOURCES.txt'
+[7.091s] [  4%] Built target ament_cmake_python_build_builtin_interfaces_egg
+[7.799s] [  6%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_generator_c.dir/rosidl_generator_c/builtin_interfaces/msg/detail/duration__functions.c.o[0m
+[7.812s] [  8%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_generator_c.dir/rosidl_generator_c/builtin_interfaces/msg/detail/time__functions.c.o[0m
+[8.313s] [ 10%] [32m[1mLinking C shared library libbuiltin_interfaces__rosidl_generator_c.so[0m
+[8.387s] [ 10%] Built target builtin_interfaces__cpp
+[8.449s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[8.475s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[8.492s] [ 16%] [34m[1mGenerating C++ type support for eProsima Micro XRCE-DDS[0m
+[8.542s] [ 18%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.727s] [ 18%] Built target builtin_interfaces__rosidl_generator_c
+[8.848s] [ 20%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[8.868s] [ 22%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.874s] [ 24%] [34m[1mGenerating C type support for eProsima Micro XRCE-DDS[0m
+[8.875s] [ 26%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[10.588s] [ 28%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/builtin_interfaces/msg/detail/duration__type_support.cpp.o[0m
+[11.651s] [ 30%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/builtin_interfaces/msg/duration__type_support.cpp.o[0m
+[11.874s] [ 32%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/builtin_interfaces/msg/time__type_support.cpp.o[0m
+[12.013s] [ 34%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/builtin_interfaces/msg/duration__type_support.cpp.o[0m
+[12.017s] [ 36%] [32m[1mLinking CXX shared library libbuiltin_interfaces__rosidl_typesupport_c.so[0m
+[12.483s] [ 36%] Built target builtin_interfaces__rosidl_typesupport_c
+[12.555s] [ 38%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/builtin_interfaces/msg/detail/time__type_support.cpp.o[0m
+[12.979s] [ 40%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/builtin_interfaces/msg/detail/duration__type_support.c.o[0m
+[13.283s] [ 42%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/builtin_interfaces/msg/detail/time__type_support.c.o[0m
+[13.355s] [ 44%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/builtin_interfaces/msg/time__type_support.cpp.o[0m
+[13.424s] [ 46%] [32m[1mLinking C shared library libbuiltin_interfaces__rosidl_typesupport_introspection_c.so[0m
+[13.535s] [ 46%] Built target builtin_interfaces__rosidl_typesupport_introspection_c
+[13.824s] [ 48%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/builtin_interfaces/msg/detail/dds_fastrtps/duration__type_support.cpp.o[0m
+[13.883s] [ 51%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/builtin_interfaces/msg/detail/dds_fastrtps/time__type_support.cpp.o[0m
+[14.351s] [ 53%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/builtin_interfaces/msg/detail/microxrcedds/duration__type_support_cpp.cpp.o[0m
+[14.403s] [ 55%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/builtin_interfaces/msg/detail/microxrcedds/duration__type_support_c.c.o[0m
+[14.648s] [ 57%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/builtin_interfaces/msg/detail/microxrcedds/time__type_support_c.c.o[0m
+[14.753s] [ 59%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/builtin_interfaces/msg/detail/microxrcedds/time__type_support_cpp.cpp.o[0m
+[15.003s] [ 61%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/builtin_interfaces/msg/detail/duration__type_support_c.cpp.o[0m
+[15.125s] [ 63%] [32m[1mLinking CXX shared library libbuiltin_interfaces__rosidl_typesupport_cpp.so[0m
+[15.209s] [ 65%] [32m[1mLinking C shared library libbuiltin_interfaces__rosidl_typesupport_microxrcedds_c.so[0m
+[15.694s] [ 65%] Built target builtin_interfaces__rosidl_typesupport_cpp
+[15.755s] [ 67%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/builtin_interfaces/msg/detail/time__type_support_c.cpp.o[0m
+[15.799s] [ 67%] Built target builtin_interfaces__rosidl_typesupport_microxrcedds_c
+[16.519s] [ 69%] [32m[1mLinking CXX shared library libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[16.823s] [ 69%] Built target builtin_interfaces__rosidl_typesupport_introspection_cpp
+[17.048s] [ 71%] [32m[1mLinking CXX shared library libbuiltin_interfaces__rosidl_typesupport_microxrcedds_cpp.so[0m
+[17.540s] [ 71%] Built target builtin_interfaces__rosidl_typesupport_microxrcedds_cpp
+[17.952s] [ 73%] [32m[1mLinking CXX shared library libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[18.680s] [ 73%] Built target builtin_interfaces__rosidl_typesupport_fastrtps_cpp
+[18.994s] [ 75%] [32m[1mLinking CXX shared library libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[19.871s] [ 75%] Built target builtin_interfaces__rosidl_typesupport_fastrtps_c
+[20.088s] [ 75%] Built target builtin_interfaces
+[20.203s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[24.631s] [ 77%] Built target builtin_interfaces__py
+[24.665s] [ 79%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_generator_py.dir/rosidl_generator_py/builtin_interfaces/msg/_duration_s.c.o[0m
+[24.844s] [ 81%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_generator_py.dir/rosidl_generator_py/builtin_interfaces/msg/_time_s.c.o[0m
+[25.021s] [ 83%] [32m[1mLinking C shared library rosidl_generator_py/builtin_interfaces/libbuiltin_interfaces__rosidl_generator_py.so[0m
+[25.093s] [ 83%] Built target builtin_interfaces__rosidl_generator_py
+[25.129s] [ 85%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_typesupport_microxrcedds_c__pyext.dir/rosidl_generator_py/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_microxrcedds_c.c.o[0m
+[25.324s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so[0m
+[25.387s] [ 87%] Built target builtin_interfaces__rosidl_typesupport_microxrcedds_c__pyext
+[25.424s] [ 89%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[25.595s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[25.652s] [ 91%] Built target builtin_interfaces__rosidl_typesupport_c__pyext
+[25.687s] [ 93%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[25.853s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[25.907s] [ 95%] Built target builtin_interfaces__rosidl_typesupport_introspection_c__pyext
+[25.941s] [ 97%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[26.110s] [100%] [32m[1mLinking C shared library rosidl_generator_py/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[26.165s] [100%] Built target builtin_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[26.185s] Invoked command in '/home/uwr/microROS_AUV/build/builtin_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uwr/microROS_AUV/install/control_pkg:/home/uwr/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble /usr/bin/cmake --build /home/uwr/microROS_AUV/build/builtin_interfaces -- -j8 -l8
+[26.343s] Invoking command in '/home/uwr/microROS_AUV/build/builtin_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uwr/microROS_AUV/install/control_pkg:/home/uwr/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble /usr/bin/cmake --install /home/uwr/microROS_AUV/build/builtin_interfaces
+[26.355s] -- Install configuration: ""
+[26.356s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/ament_index/resource_index/rosidl_interfaces/builtin_interfaces
+[26.356s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces
+[26.356s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg
+[26.356s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_c__visibility_control.h
+[26.357s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail
+[26.357s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__functions.h
+[26.357s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h
+[26.357s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.h
+[26.358s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.h
+[26.358s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__functions.c
+[26.358s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__functions.h
+[26.358s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.h
+[26.359s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__functions.c
+[26.359s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/time.h
+[26.359s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/duration.h
+[26.359s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/builtin_interfaces/environment/library_path.sh
+[26.360s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/builtin_interfaces/environment/library_path.dsv
+[26.360s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_generator_c.so
+[26.360s] -- Set runtime path of "/home/uwr/microROS_AUV/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_generator_c.so" to ""
+[26.360s] -- Up-to-date: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces
+[26.361s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/msg
+[26.361s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[26.361s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/msg/detail
+[26.361s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__rosidl_typesupport_microxrcedds_c.h
+[26.361s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__rosidl_typesupport_microxrcedds_c.h
+[26.362s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/msg/detail/microxrcedds
+[26.362s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_microxrcedds_c.so
+[26.362s] -- Set runtime path of "/home/uwr/microROS_AUV/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_microxrcedds_c.so" to ""
+[26.362s] -- Up-to-date: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces
+[26.363s] -- Up-to-date: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg
+[26.363s] -- Up-to-date: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail
+[26.363s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__rosidl_typesupport_fastrtps_c.h
+[26.363s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__rosidl_typesupport_fastrtps_c.h
+[26.364s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[26.364s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
+[26.364s] -- Set runtime path of "/home/uwr/microROS_AUV/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[26.364s] -- Up-to-date: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces
+[26.364s] -- Up-to-date: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg
+[26.365s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[26.365s] -- Up-to-date: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail
+[26.365s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.c
+[26.365s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__rosidl_typesupport_introspection_c.h
+[26.366s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__rosidl_typesupport_introspection_c.h
+[26.366s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.c
+[26.366s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
+[26.366s] -- Set runtime path of "/home/uwr/microROS_AUV/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[26.366s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
+[26.367s] -- Set runtime path of "/home/uwr/microROS_AUV/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_c.so" to ""
+[26.367s] -- Up-to-date: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces
+[26.367s] -- Up-to-date: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg
+[26.367s] -- Up-to-date: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail
+[26.368s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp
+[26.368s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp
+[26.368s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp
+[26.368s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp
+[26.368s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp
+[26.369s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp
+[26.369s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp
+[26.369s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/time.hpp
+[26.369s] -- Up-to-date: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces
+[26.369s] -- Up-to-date: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/msg
+[26.370s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[26.370s] -- Up-to-date: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/msg/detail
+[26.370s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__rosidl_typesupport_microxrcedds_cpp.hpp
+[26.370s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__rosidl_typesupport_microxrcedds_cpp.hpp
+[26.370s] -- Up-to-date: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/msg/detail/microxrcedds
+[26.370s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/msg/detail/microxrcedds/duration__type_support_cpp.cpp
+[26.371s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/msg/detail/microxrcedds/time__type_support_cpp.cpp
+[26.371s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_microxrcedds_cpp.so
+[26.371s] -- Set runtime path of "/home/uwr/microROS_AUV/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_microxrcedds_cpp.so" to ""
+[26.371s] -- Up-to-date: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces
+[26.372s] -- Up-to-date: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg
+[26.372s] -- Up-to-date: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail
+[26.372s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__rosidl_typesupport_fastrtps_cpp.hpp
+[26.372s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__rosidl_typesupport_fastrtps_cpp.hpp
+[26.373s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/dds_fastrtps
+[26.373s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[26.373s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[26.373s] -- Set runtime path of "/home/uwr/microROS_AUV/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[26.373s] -- Up-to-date: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces
+[26.374s] -- Up-to-date: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg
+[26.374s] -- Up-to-date: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail
+[26.374s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.cpp
+[26.374s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.cpp
+[26.374s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__rosidl_typesupport_introspection_cpp.hpp
+[26.375s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__rosidl_typesupport_introspection_cpp.hpp
+[26.375s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
+[26.375s] -- Set runtime path of "/home/uwr/microROS_AUV/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[26.375s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
+[26.376s] -- Set runtime path of "/home/uwr/microROS_AUV/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so" to ""
+[26.376s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/builtin_interfaces/environment/pythonpath.sh
+[26.376s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/builtin_interfaces/environment/pythonpath.dsv
+[26.376s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces-1.2.2-py3.10.egg-info
+[26.377s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces-1.2.2-py3.10.egg-info/top_level.txt
+[26.377s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces-1.2.2-py3.10.egg-info/dependency_links.txt
+[26.377s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces-1.2.2-py3.10.egg-info/PKG-INFO
+[26.377s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces-1.2.2-py3.10.egg-info/SOURCES.txt
+[26.378s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces
+[26.378s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/libbuiltin_interfaces__rosidl_generator_py.so
+[26.378s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_microxrcedds_c.c
+[26.378s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[26.379s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[26.379s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/msg
+[26.379s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/msg/_duration.py
+[26.379s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/msg/_time.py
+[26.379s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/msg/_time_s.c
+[26.380s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/msg/__init__.py
+[26.380s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/msg/_duration_s.c
+[26.380s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[26.380s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[26.380s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/__init__.py
+[26.380s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_c.c
+[26.381s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[26.381s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so
+[26.456s] Listing '/home/uwr/microROS_AUV/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces'...
+[26.457s] Compiling '/home/uwr/microROS_AUV/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/__init__.py'...
+[26.457s] Listing '/home/uwr/microROS_AUV/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/msg'...
+[26.457s] Compiling '/home/uwr/microROS_AUV/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/msg/__init__.py'...
+[26.457s] Compiling '/home/uwr/microROS_AUV/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/msg/_duration.py'...
+[26.457s] Compiling '/home/uwr/microROS_AUV/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/msg/_time.py'...
+[26.466s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so
+[26.467s] -- Set runtime path of "/home/uwr/microROS_AUV/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so" to ""
+[26.467s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[26.468s] -- Set runtime path of "/home/uwr/microROS_AUV/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[26.469s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[26.469s] -- Set runtime path of "/home/uwr/microROS_AUV/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[26.470s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[26.471s] -- Set runtime path of "/home/uwr/microROS_AUV/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[26.471s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_generator_py.so
+[26.472s] -- Set runtime path of "/home/uwr/microROS_AUV/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_generator_py.so" to ""
+[26.472s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.idl
+[26.472s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl
+[26.473s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.msg
+[26.473s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/builtin_interfaces/msg/Time.msg
+[26.473s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/ament_index/resource_index/package_run_dependencies/builtin_interfaces
+[26.474s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/ament_index/resource_index/parent_prefix_path/builtin_interfaces
+[26.474s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/builtin_interfaces/environment/ament_prefix_path.sh
+[26.474s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/builtin_interfaces/environment/ament_prefix_path.dsv
+[26.475s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/builtin_interfaces/environment/path.sh
+[26.475s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/builtin_interfaces/environment/path.dsv
+[26.475s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/builtin_interfaces/local_setup.bash
+[26.476s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/builtin_interfaces/local_setup.sh
+[26.476s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/builtin_interfaces/local_setup.zsh
+[26.476s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/builtin_interfaces/local_setup.dsv
+[26.477s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/builtin_interfaces/package.dsv
+[26.477s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/ament_index/resource_index/packages/builtin_interfaces
+[26.478s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_generator_cExport.cmake
+[26.478s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_generator_cExport-noconfig.cmake
+[26.479s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[26.479s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[26.479s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[26.480s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[26.480s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cExport.cmake
+[26.480s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[26.481s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_generator_cppExport.cmake
+[26.481s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[26.481s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[26.482s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[26.482s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[26.483s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cppExport.cmake
+[26.483s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[26.483s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_generator_pyExport.cmake
+[26.484s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[26.484s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/builtin_interfaces/cmake/rosidl_cmake-extras.cmake
+[26.484s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[26.485s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[26.485s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[26.485s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/builtin_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[26.486s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[26.486s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/builtin_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[26.486s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake
+[26.487s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfacesConfig-version.cmake
+[26.487s] -- Installing: /home/uwr/microROS_AUV/install/builtin_interfaces/share/builtin_interfaces/package.xml
+[26.492s] Invoked command in '/home/uwr/microROS_AUV/build/builtin_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uwr/microROS_AUV/install/control_pkg:/home/uwr/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble /usr/bin/cmake --install /home/uwr/microROS_AUV/build/builtin_interfaces

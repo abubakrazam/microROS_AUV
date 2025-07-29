@@ -1,0 +1,207 @@
+[0.036s] Invoking command in '/home/uwr/microROS_AUV/build/statistics_msgs': CMAKE_PREFIX_PATH=/home/uwr/microROS_AUV/install/builtin_interfaces:/home/uwr/microROS_AUV/install/action_msgs:/home/uwr/microROS_AUV/install/unique_identifier_msgs:/home/uwr/microROS_AUV/install/std_srvs:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_test_msg:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/uwr/microROS_AUV/install/rmw_microxrcedds:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c_tests:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c:/home/uwr/microROS_AUV/install/rosgraph_msgs:/home/uwr/microROS_AUV/install/microxrcedds_client:/home/uwr/microROS_AUV/install/microcdr:/home/uwr/microROS_AUV/install/micro_ros_utilities:/home/uwr/microROS_AUV/install/micro_ros_msgs:/home/uwr/microROS_AUV/install/lifecycle_msgs:/home/uwr/microROS_AUV/install/complex_msgs:/home/uwr/microROS_AUV/install/micro_ros_setup:/home/uwr/microROS_AUV/install/custom_interfaces:/home/uwr/Desktop/2024_UWR/install/kalman_filter:/home/uwr/Desktop/2024_UWR/install/sonar_msgs:/home/uwr/Desktop/2024_UWR/install/ros2-driver:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces:/home/uwr/Desktop/2024_UWR/install/ntrip:/home/uwr/Desktop/2024_UWR/install/adnav-driver:/home/uwr/fls_ws/install/oculus_interfaces:/home/uwr/microROS_AUV/install/statistics_msgs:/home/uwr/microROS_AUV/install/control_pkg:/home/uwr/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble LD_LIBRARY_PATH=/home/uwr/microROS_AUV/install/builtin_interfaces/lib:/home/uwr/microROS_AUV/install/action_msgs/lib:/home/uwr/microROS_AUV/install/unique_identifier_msgs/lib:/home/uwr/microROS_AUV/install/std_srvs/lib:/home/uwr/microROS_AUV/install/statistics_msgs/lib:/home/uwr/microROS_AUV/install/rmw_microxrcedds/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c/lib:/home/uwr/microROS_AUV/install/rosgraph_msgs/lib:/home/uwr/microROS_AUV/install/microxrcedds_client/lib:/home/uwr/microROS_AUV/install/microcdr/lib:/home/uwr/microROS_AUV/install/micro_ros_utilities/lib:/home/uwr/microROS_AUV/install/micro_ros_msgs/lib:/home/uwr/microROS_AUV/install/lifecycle_msgs/lib:/home/uwr/microROS_AUV/install/complex_msgs/lib:/home/uwr/microROS_AUV/install/custom_interfaces/lib:/home/uwr/oculus_driver/install/lib:/home/uwr/Desktop/2024_UWR/install/sonar_msgs/lib:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces/lib:/home/uwr/fls_ws/install/oculus_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/uwr/microROS_AUV/build/statistics_msgs -- -j8 -l8
+[0.217s] [  8%] Built target statistics_msgs__rosidl_generator_c
+[0.229s] [ 10%] Built target statistics_msgs__cpp
+[0.286s] [ 10%] Built target ament_cmake_python_copy_statistics_msgs
+[0.327s] [ 18%] Built target statistics_msgs__rosidl_typesupport_microxrcedds_c
+[0.351s] [ 27%] Built target statistics_msgs__rosidl_typesupport_introspection_c
+[0.352s] [ 35%] Built target statistics_msgs__rosidl_typesupport_c
+[0.354s] [ 44%] Built target statistics_msgs__rosidl_typesupport_fastrtps_cpp
+[0.371s] [ 52%] Built target statistics_msgs__rosidl_typesupport_cpp
+[0.377s] [ 61%] Built target statistics_msgs__rosidl_typesupport_fastrtps_c
+[0.387s] [ 69%] Built target statistics_msgs__rosidl_typesupport_microxrcedds_cpp
+[0.391s] [ 77%] Built target statistics_msgs__rosidl_typesupport_introspection_cpp
+[0.452s] [ 77%] Built target statistics_msgs
+[0.517s] [ 79%] Built target statistics_msgs__py
+[0.632s] [ 86%] Built target statistics_msgs__rosidl_generator_py
+[0.690s] [ 89%] Built target statistics_msgs__rosidl_typesupport_microxrcedds_c__pyext
+[0.714s] [ 93%] Built target statistics_msgs__rosidl_typesupport_introspection_c__pyext
+[0.715s] [ 96%] Built target statistics_msgs__rosidl_typesupport_c__pyext
+[0.718s] [100%] Built target statistics_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.230s] running egg_info
+[1.232s] writing statistics_msgs.egg-info/PKG-INFO
+[1.233s] writing dependency_links to statistics_msgs.egg-info/dependency_links.txt
+[1.234s] writing top-level names to statistics_msgs.egg-info/top_level.txt
+[1.238s] reading manifest file 'statistics_msgs.egg-info/SOURCES.txt'
+[1.242s] writing manifest file 'statistics_msgs.egg-info/SOURCES.txt'
+[1.307s] [100%] Built target ament_cmake_python_build_statistics_msgs_egg
+[1.338s] Invoked command in '/home/uwr/microROS_AUV/build/statistics_msgs' returned '0': CMAKE_PREFIX_PATH=/home/uwr/microROS_AUV/install/builtin_interfaces:/home/uwr/microROS_AUV/install/action_msgs:/home/uwr/microROS_AUV/install/unique_identifier_msgs:/home/uwr/microROS_AUV/install/std_srvs:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_test_msg:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/uwr/microROS_AUV/install/rmw_microxrcedds:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c_tests:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c:/home/uwr/microROS_AUV/install/rosgraph_msgs:/home/uwr/microROS_AUV/install/microxrcedds_client:/home/uwr/microROS_AUV/install/microcdr:/home/uwr/microROS_AUV/install/micro_ros_utilities:/home/uwr/microROS_AUV/install/micro_ros_msgs:/home/uwr/microROS_AUV/install/lifecycle_msgs:/home/uwr/microROS_AUV/install/complex_msgs:/home/uwr/microROS_AUV/install/micro_ros_setup:/home/uwr/microROS_AUV/install/custom_interfaces:/home/uwr/Desktop/2024_UWR/install/kalman_filter:/home/uwr/Desktop/2024_UWR/install/sonar_msgs:/home/uwr/Desktop/2024_UWR/install/ros2-driver:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces:/home/uwr/Desktop/2024_UWR/install/ntrip:/home/uwr/Desktop/2024_UWR/install/adnav-driver:/home/uwr/fls_ws/install/oculus_interfaces:/home/uwr/microROS_AUV/install/statistics_msgs:/home/uwr/microROS_AUV/install/control_pkg:/home/uwr/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble LD_LIBRARY_PATH=/home/uwr/microROS_AUV/install/builtin_interfaces/lib:/home/uwr/microROS_AUV/install/action_msgs/lib:/home/uwr/microROS_AUV/install/unique_identifier_msgs/lib:/home/uwr/microROS_AUV/install/std_srvs/lib:/home/uwr/microROS_AUV/install/statistics_msgs/lib:/home/uwr/microROS_AUV/install/rmw_microxrcedds/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c/lib:/home/uwr/microROS_AUV/install/rosgraph_msgs/lib:/home/uwr/microROS_AUV/install/microxrcedds_client/lib:/home/uwr/microROS_AUV/install/microcdr/lib:/home/uwr/microROS_AUV/install/micro_ros_utilities/lib:/home/uwr/microROS_AUV/install/micro_ros_msgs/lib:/home/uwr/microROS_AUV/install/lifecycle_msgs/lib:/home/uwr/microROS_AUV/install/complex_msgs/lib:/home/uwr/microROS_AUV/install/custom_interfaces/lib:/home/uwr/oculus_driver/install/lib:/home/uwr/Desktop/2024_UWR/install/sonar_msgs/lib:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces/lib:/home/uwr/fls_ws/install/oculus_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/uwr/microROS_AUV/build/statistics_msgs -- -j8 -l8
+[1.815s] Invoking command in '/home/uwr/microROS_AUV/build/statistics_msgs': CMAKE_PREFIX_PATH=/home/uwr/microROS_AUV/install/builtin_interfaces:/home/uwr/microROS_AUV/install/action_msgs:/home/uwr/microROS_AUV/install/unique_identifier_msgs:/home/uwr/microROS_AUV/install/std_srvs:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_test_msg:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/uwr/microROS_AUV/install/rmw_microxrcedds:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c_tests:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c:/home/uwr/microROS_AUV/install/rosgraph_msgs:/home/uwr/microROS_AUV/install/microxrcedds_client:/home/uwr/microROS_AUV/install/microcdr:/home/uwr/microROS_AUV/install/micro_ros_utilities:/home/uwr/microROS_AUV/install/micro_ros_msgs:/home/uwr/microROS_AUV/install/lifecycle_msgs:/home/uwr/microROS_AUV/install/complex_msgs:/home/uwr/microROS_AUV/install/micro_ros_setup:/home/uwr/microROS_AUV/install/custom_interfaces:/home/uwr/Desktop/2024_UWR/install/kalman_filter:/home/uwr/Desktop/2024_UWR/install/sonar_msgs:/home/uwr/Desktop/2024_UWR/install/ros2-driver:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces:/home/uwr/Desktop/2024_UWR/install/ntrip:/home/uwr/Desktop/2024_UWR/install/adnav-driver:/home/uwr/fls_ws/install/oculus_interfaces:/home/uwr/microROS_AUV/install/statistics_msgs:/home/uwr/microROS_AUV/install/control_pkg:/home/uwr/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble LD_LIBRARY_PATH=/home/uwr/microROS_AUV/install/builtin_interfaces/lib:/home/uwr/microROS_AUV/install/action_msgs/lib:/home/uwr/microROS_AUV/install/unique_identifier_msgs/lib:/home/uwr/microROS_AUV/install/std_srvs/lib:/home/uwr/microROS_AUV/install/statistics_msgs/lib:/home/uwr/microROS_AUV/install/rmw_microxrcedds/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c/lib:/home/uwr/microROS_AUV/install/rosgraph_msgs/lib:/home/uwr/microROS_AUV/install/microxrcedds_client/lib:/home/uwr/microROS_AUV/install/microcdr/lib:/home/uwr/microROS_AUV/install/micro_ros_utilities/lib:/home/uwr/microROS_AUV/install/micro_ros_msgs/lib:/home/uwr/microROS_AUV/install/lifecycle_msgs/lib:/home/uwr/microROS_AUV/install/complex_msgs/lib:/home/uwr/microROS_AUV/install/custom_interfaces/lib:/home/uwr/oculus_driver/install/lib:/home/uwr/Desktop/2024_UWR/install/sonar_msgs/lib:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces/lib:/home/uwr/fls_ws/install/oculus_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/uwr/microROS_AUV/build/statistics_msgs
+[1.838s] -- Install configuration: ""
+[1.839s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/ament_index/resource_index/rosidl_interfaces/statistics_msgs
+[1.841s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs
+[1.845s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg
+[1.845s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/statistic_data_point.h
+[1.848s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.848s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail
+[1.848s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.h
+[1.849s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__functions.c
+[1.849s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__functions.h
+[1.849s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__functions.h
+[1.849s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__functions.c
+[1.849s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.h
+[1.849s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.h
+[1.850s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__functions.h
+[1.850s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__functions.c
+[1.851s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__struct.h
+[1.851s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__type_support.h
+[1.851s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__type_support.h
+[1.852s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/metrics_message.h
+[1.852s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/statistic_data_type.h
+[1.852s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/statistics_msgs/environment/library_path.sh
+[1.852s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/statistics_msgs/environment/library_path.dsv
+[1.853s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/lib/libstatistics_msgs__rosidl_generator_c.so
+[1.853s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs
+[1.853s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg
+[1.854s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail
+[1.854s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__rosidl_typesupport_fastrtps_c.h
+[1.854s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__rosidl_typesupport_fastrtps_c.h
+[1.854s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__rosidl_typesupport_fastrtps_c.h
+[1.854s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.855s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_c.so
+[1.855s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs
+[1.855s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg
+[1.855s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp
+[1.856s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail
+[1.856s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp
+[1.856s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__builder.hpp
+[1.857s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__struct.hpp
+[1.857s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp
+[1.857s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp
+[1.858s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp
+[1.858s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__builder.hpp
+[1.859s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp
+[1.859s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__traits.hpp
+[1.861s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/statistic_data_type.hpp
+[1.862s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/statistic_data_point.hpp
+[1.863s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs
+[1.863s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg
+[1.863s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail
+[1.863s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__rosidl_typesupport_fastrtps_cpp.hpp
+[1.864s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__rosidl_typesupport_fastrtps_cpp.hpp
+[1.864s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__rosidl_typesupport_fastrtps_cpp.hpp
+[1.864s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/dds_fastrtps
+[1.864s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.864s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.864s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs
+[1.865s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/msg
+[1.865s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[1.865s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/msg/detail
+[1.865s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/msg/detail/statistic_data_point__rosidl_typesupport_microxrcedds_c.h
+[1.865s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/msg/detail/metrics_message__rosidl_typesupport_microxrcedds_c.h
+[1.865s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/msg/detail/statistic_data_type__rosidl_typesupport_microxrcedds_c.h
+[1.866s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/msg/detail/microxrcedds
+[1.866s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_microxrcedds_c.so
+[1.866s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs
+[1.866s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg
+[1.867s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.867s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail
+[1.867s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__rosidl_typesupport_introspection_c.h
+[1.868s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.c
+[1.868s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__type_support.c
+[1.868s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__rosidl_typesupport_introspection_c.h
+[1.868s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__rosidl_typesupport_introspection_c.h
+[1.868s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__type_support.c
+[1.869s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so
+[1.869s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_c.so
+[1.869s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs
+[1.869s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/msg
+[1.870s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[1.870s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/msg/detail
+[1.870s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/msg/detail/statistic_data_point__rosidl_typesupport_microxrcedds_cpp.hpp
+[1.872s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/msg/detail/metrics_message__rosidl_typesupport_microxrcedds_cpp.hpp
+[1.872s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/msg/detail/statistic_data_type__rosidl_typesupport_microxrcedds_cpp.hpp
+[1.872s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/msg/detail/microxrcedds
+[1.872s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/msg/detail/microxrcedds/metrics_message__type_support_cpp.cpp
+[1.873s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/msg/detail/microxrcedds/statistic_data_type__type_support_cpp.cpp
+[1.873s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/msg/detail/microxrcedds/statistic_data_point__type_support_cpp.cpp
+[1.873s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_microxrcedds_cpp.so
+[1.873s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs
+[1.873s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg
+[1.873s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail
+[1.874s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__type_support.cpp
+[1.875s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__rosidl_typesupport_introspection_cpp.hpp
+[1.875s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__type_support.cpp
+[1.875s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__rosidl_typesupport_introspection_cpp.hpp
+[1.877s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__rosidl_typesupport_introspection_cpp.hpp
+[1.878s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.cpp
+[1.878s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so
+[1.878s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
+[1.878s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/statistics_msgs/environment/pythonpath.sh
+[1.878s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/statistics_msgs/environment/pythonpath.dsv
+[1.879s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs-1.2.2-py3.10.egg-info
+[1.879s] -- Installing: /home/uwr/microROS_AUV/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs-1.2.2-py3.10.egg-info/top_level.txt
+[1.879s] -- Installing: /home/uwr/microROS_AUV/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs-1.2.2-py3.10.egg-info/dependency_links.txt
+[1.879s] -- Installing: /home/uwr/microROS_AUV/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs-1.2.2-py3.10.egg-info/PKG-INFO
+[1.880s] -- Installing: /home/uwr/microROS_AUV/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs-1.2.2-py3.10.egg-info/SOURCES.txt
+[1.880s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs
+[1.880s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so
+[1.880s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/_statistics_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.880s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/_statistics_msgs_s.ep.rosidl_typesupport_c.c
+[1.881s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg
+[1.881s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg/_metrics_message_s.c
+[1.881s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg/_statistic_data_type.py
+[1.881s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg/_statistic_data_point_s.c
+[1.881s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg/_metrics_message.py
+[1.882s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg/_statistic_data_type_s.c
+[1.882s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg/__init__.py
+[1.882s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg/_statistic_data_point.py
+[1.882s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/_statistics_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[1.882s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.883s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/_statistics_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.883s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/__init__.py
+[1.883s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/libstatistics_msgs__rosidl_generator_py.so
+[1.883s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.883s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.986s] Listing '/home/uwr/microROS_AUV/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs'...
+[1.986s] Listing '/home/uwr/microROS_AUV/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg'...
+[1.994s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so
+[1.995s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.001s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.001s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.001s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/lib/libstatistics_msgs__rosidl_generator_py.so
+[2.001s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/statistics_msgs/msg/MetricsMessage.idl
+[2.002s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/statistics_msgs/msg/StatisticDataPoint.idl
+[2.002s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/statistics_msgs/msg/StatisticDataType.idl
+[2.002s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/statistics_msgs/msg/MetricsMessage.msg
+[2.002s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/statistics_msgs/msg/StatisticDataPoint.msg
+[2.002s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/statistics_msgs/msg/StatisticDataType.msg
+[2.003s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/ament_index/resource_index/package_run_dependencies/statistics_msgs
+[2.003s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/ament_index/resource_index/parent_prefix_path/statistics_msgs
+[2.003s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/statistics_msgs/environment/ament_prefix_path.sh
+[2.004s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/statistics_msgs/environment/ament_prefix_path.dsv
+[2.004s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/statistics_msgs/environment/path.sh
+[2.004s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/statistics_msgs/environment/path.dsv
+[2.004s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/statistics_msgs/local_setup.bash
+[2.005s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/statistics_msgs/local_setup.sh
+[2.005s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/statistics_msgs/local_setup.zsh
+[2.005s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/statistics_msgs/local_setup.dsv
+[2.006s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/statistics_msgs/package.dsv
+[2.006s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/ament_index/resource_index/packages/statistics_msgs
+[2.008s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/statistics_msgs/cmake/export_statistics_msgs__rosidl_generator_cExport.cmake
+[2.012s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/statistics_msgs/cmake/export_statistics_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.012s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/statistics_msgs/cmake/export_statistics_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.012s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/statistics_msgs/cmake/export_statistics_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.013s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/statistics_msgs/cmake/export_statistics_msgs__rosidl_generator_cppExport.cmake
+[2.013s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/statistics_msgs/cmake/export_statistics_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.013s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/statistics_msgs/cmake/export_statistics_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.014s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.015s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.015s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_cExport.cmake
+[2.015s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.015s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.016s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.016s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_cppExport.cmake
+[2.016s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.016s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/statistics_msgs/cmake/export_statistics_msgs__rosidl_generator_pyExport.cmake
+[2.016s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/statistics_msgs/cmake/export_statistics_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.017s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/statistics_msgs/cmake/rosidl_cmake-extras.cmake
+[2.018s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/statistics_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.021s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/statistics_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.021s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/statistics_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.021s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/statistics_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.022s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/statistics_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.022s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/statistics_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.023s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgsConfig.cmake
+[2.023s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgsConfig-version.cmake
+[2.023s] -- Up-to-date: /home/uwr/microROS_AUV/install/statistics_msgs/share/statistics_msgs/package.xml
+[2.051s] Invoked command in '/home/uwr/microROS_AUV/build/statistics_msgs' returned '0': CMAKE_PREFIX_PATH=/home/uwr/microROS_AUV/install/builtin_interfaces:/home/uwr/microROS_AUV/install/action_msgs:/home/uwr/microROS_AUV/install/unique_identifier_msgs:/home/uwr/microROS_AUV/install/std_srvs:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_test_msg:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/uwr/microROS_AUV/install/rmw_microxrcedds:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c_tests:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c:/home/uwr/microROS_AUV/install/rosgraph_msgs:/home/uwr/microROS_AUV/install/microxrcedds_client:/home/uwr/microROS_AUV/install/microcdr:/home/uwr/microROS_AUV/install/micro_ros_utilities:/home/uwr/microROS_AUV/install/micro_ros_msgs:/home/uwr/microROS_AUV/install/lifecycle_msgs:/home/uwr/microROS_AUV/install/complex_msgs:/home/uwr/microROS_AUV/install/micro_ros_setup:/home/uwr/microROS_AUV/install/custom_interfaces:/home/uwr/Desktop/2024_UWR/install/kalman_filter:/home/uwr/Desktop/2024_UWR/install/sonar_msgs:/home/uwr/Desktop/2024_UWR/install/ros2-driver:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces:/home/uwr/Desktop/2024_UWR/install/ntrip:/home/uwr/Desktop/2024_UWR/install/adnav-driver:/home/uwr/fls_ws/install/oculus_interfaces:/home/uwr/microROS_AUV/install/statistics_msgs:/home/uwr/microROS_AUV/install/control_pkg:/home/uwr/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble LD_LIBRARY_PATH=/home/uwr/microROS_AUV/install/builtin_interfaces/lib:/home/uwr/microROS_AUV/install/action_msgs/lib:/home/uwr/microROS_AUV/install/unique_identifier_msgs/lib:/home/uwr/microROS_AUV/install/std_srvs/lib:/home/uwr/microROS_AUV/install/statistics_msgs/lib:/home/uwr/microROS_AUV/install/rmw_microxrcedds/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c/lib:/home/uwr/microROS_AUV/install/rosgraph_msgs/lib:/home/uwr/microROS_AUV/install/microxrcedds_client/lib:/home/uwr/microROS_AUV/install/microcdr/lib:/home/uwr/microROS_AUV/install/micro_ros_utilities/lib:/home/uwr/microROS_AUV/install/micro_ros_msgs/lib:/home/uwr/microROS_AUV/install/lifecycle_msgs/lib:/home/uwr/microROS_AUV/install/complex_msgs/lib:/home/uwr/microROS_AUV/install/custom_interfaces/lib:/home/uwr/oculus_driver/install/lib:/home/uwr/Desktop/2024_UWR/install/sonar_msgs/lib:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces/lib:/home/uwr/fls_ws/install/oculus_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/uwr/microROS_AUV/build/statistics_msgs

@@ -1,0 +1,4 @@
+Invoking command in '/home/uwr/microROS_AUV/build/microcdr': /usr/bin/cmake --build /home/uwr/microROS_AUV/build/microcdr -- -j8 -l8
+Invoked command in '/home/uwr/microROS_AUV/build/microcdr' returned '0': /usr/bin/cmake --build /home/uwr/microROS_AUV/build/microcdr -- -j8 -l8
+Invoking command in '/home/uwr/microROS_AUV/build/microcdr': /usr/bin/cmake --install /home/uwr/microROS_AUV/build/microcdr
+Invoked command in '/home/uwr/microROS_AUV/build/microcdr' returned '0': /usr/bin/cmake --install /home/uwr/microROS_AUV/build/microcdr

@@ -1,0 +1,414 @@
+[0.052s] Invoking command in '/home/uwr/microROS_AUV/build/diagnostic_msgs': AMENT_PREFIX_PATH=/home/uwr/microROS_AUV/install/geometry_msgs:/home/uwr/microROS_AUV/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/uwr/microROS_AUV/install/geometry_msgs:/home/uwr/microROS_AUV/install/std_msgs:/home/uwr/microROS_AUV/install/builtin_interfaces:/home/uwr/microROS_AUV/install/action_msgs:/home/uwr/microROS_AUV/install/unique_identifier_msgs:/home/uwr/microROS_AUV/install/std_srvs:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_test_msg:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/uwr/microROS_AUV/install/rmw_microxrcedds:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c_tests:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c:/home/uwr/microROS_AUV/install/rosgraph_msgs:/home/uwr/microROS_AUV/install/microxrcedds_client:/home/uwr/microROS_AUV/install/microcdr:/home/uwr/microROS_AUV/install/micro_ros_utilities:/home/uwr/microROS_AUV/install/micro_ros_msgs:/home/uwr/microROS_AUV/install/lifecycle_msgs:/home/uwr/microROS_AUV/install/complex_msgs:/home/uwr/microROS_AUV/install/micro_ros_setup:/home/uwr/microROS_AUV/install/custom_interfaces:/home/uwr/Desktop/2024_UWR/install/kalman_filter:/home/uwr/Desktop/2024_UWR/install/sonar_msgs:/home/uwr/Desktop/2024_UWR/install/ros2-driver:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces:/home/uwr/Desktop/2024_UWR/install/ntrip:/home/uwr/Desktop/2024_UWR/install/adnav-driver:/home/uwr/fls_ws/install/oculus_interfaces:/home/uwr/microROS_AUV/install/statistics_msgs:/home/uwr/microROS_AUV/install/control_pkg:/home/uwr/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble LD_LIBRARY_PATH=/home/uwr/microROS_AUV/install/geometry_msgs/lib:/home/uwr/microROS_AUV/install/std_msgs/lib:/home/uwr/microROS_AUV/install/builtin_interfaces/lib:/home/uwr/microROS_AUV/install/action_msgs/lib:/home/uwr/microROS_AUV/install/unique_identifier_msgs/lib:/home/uwr/microROS_AUV/install/std_srvs/lib:/home/uwr/microROS_AUV/install/statistics_msgs/lib:/home/uwr/microROS_AUV/install/rmw_microxrcedds/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c/lib:/home/uwr/microROS_AUV/install/rosgraph_msgs/lib:/home/uwr/microROS_AUV/install/microxrcedds_client/lib:/home/uwr/microROS_AUV/install/microcdr/lib:/home/uwr/microROS_AUV/install/micro_ros_utilities/lib:/home/uwr/microROS_AUV/install/micro_ros_msgs/lib:/home/uwr/microROS_AUV/install/lifecycle_msgs/lib:/home/uwr/microROS_AUV/install/complex_msgs/lib:/home/uwr/microROS_AUV/install/custom_interfaces/lib:/home/uwr/oculus_driver/install/lib:/home/uwr/Desktop/2024_UWR/install/sonar_msgs/lib:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces/lib:/home/uwr/fls_ws/install/oculus_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/uwr/microROS_AUV/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/uwr/microROS_AUV/install/std_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/uwr/microROS_AUV/src/ros2/common_interfaces/diagnostic_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/uwr/microROS_AUV/install/diagnostic_msgs
+[0.183s] -- The C compiler identification is GNU 11.4.0
+[0.320s] -- The CXX compiler identification is GNU 11.4.0
+[0.339s] -- Detecting C compiler ABI info
+[0.492s] -- Detecting C compiler ABI info - done
+[0.515s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.516s] -- Detecting C compile features
+[0.517s] -- Detecting C compile features - done
+[0.525s] -- Detecting CXX compiler ABI info
+[0.723s] -- Detecting CXX compiler ABI info - done
+[0.749s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.750s] -- Detecting CXX compile features
+[0.751s] -- Detecting CXX compile features - done
+[0.764s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.246s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.594s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.619s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.655s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.859s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.946s] -- Found std_msgs: 4.9.0 (/home/uwr/microROS_AUV/install/std_msgs/share/std_msgs/cmake)
+[2.771s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.527s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.405s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.483s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.493s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.569s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.569s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.570s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.570s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.618s] -- Found PythonExtra: .so  
+[4.796s] -- Configuring done
+[4.924s] -- Generating done
+[4.930s] -- Build files have been written to: /home/uwr/microROS_AUV/build/diagnostic_msgs
+[4.942s] Invoked command in '/home/uwr/microROS_AUV/build/diagnostic_msgs' returned '0': AMENT_PREFIX_PATH=/home/uwr/microROS_AUV/install/geometry_msgs:/home/uwr/microROS_AUV/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/uwr/microROS_AUV/install/geometry_msgs:/home/uwr/microROS_AUV/install/std_msgs:/home/uwr/microROS_AUV/install/builtin_interfaces:/home/uwr/microROS_AUV/install/action_msgs:/home/uwr/microROS_AUV/install/unique_identifier_msgs:/home/uwr/microROS_AUV/install/std_srvs:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_test_msg:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/uwr/microROS_AUV/install/rmw_microxrcedds:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c_tests:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c:/home/uwr/microROS_AUV/install/rosgraph_msgs:/home/uwr/microROS_AUV/install/microxrcedds_client:/home/uwr/microROS_AUV/install/microcdr:/home/uwr/microROS_AUV/install/micro_ros_utilities:/home/uwr/microROS_AUV/install/micro_ros_msgs:/home/uwr/microROS_AUV/install/lifecycle_msgs:/home/uwr/microROS_AUV/install/complex_msgs:/home/uwr/microROS_AUV/install/micro_ros_setup:/home/uwr/microROS_AUV/install/custom_interfaces:/home/uwr/Desktop/2024_UWR/install/kalman_filter:/home/uwr/Desktop/2024_UWR/install/sonar_msgs:/home/uwr/Desktop/2024_UWR/install/ros2-driver:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces:/home/uwr/Desktop/2024_UWR/install/ntrip:/home/uwr/Desktop/2024_UWR/install/adnav-driver:/home/uwr/fls_ws/install/oculus_interfaces:/home/uwr/microROS_AUV/install/statistics_msgs:/home/uwr/microROS_AUV/install/control_pkg:/home/uwr/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble LD_LIBRARY_PATH=/home/uwr/microROS_AUV/install/geometry_msgs/lib:/home/uwr/microROS_AUV/install/std_msgs/lib:/home/uwr/microROS_AUV/install/builtin_interfaces/lib:/home/uwr/microROS_AUV/install/action_msgs/lib:/home/uwr/microROS_AUV/install/unique_identifier_msgs/lib:/home/uwr/microROS_AUV/install/std_srvs/lib:/home/uwr/microROS_AUV/install/statistics_msgs/lib:/home/uwr/microROS_AUV/install/rmw_microxrcedds/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c/lib:/home/uwr/microROS_AUV/install/rosgraph_msgs/lib:/home/uwr/microROS_AUV/install/microxrcedds_client/lib:/home/uwr/microROS_AUV/install/microcdr/lib:/home/uwr/microROS_AUV/install/micro_ros_utilities/lib:/home/uwr/microROS_AUV/install/micro_ros_msgs/lib:/home/uwr/microROS_AUV/install/lifecycle_msgs/lib:/home/uwr/microROS_AUV/install/complex_msgs/lib:/home/uwr/microROS_AUV/install/custom_interfaces/lib:/home/uwr/oculus_driver/install/lib:/home/uwr/Desktop/2024_UWR/install/sonar_msgs/lib:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces/lib:/home/uwr/fls_ws/install/oculus_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/uwr/microROS_AUV/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/uwr/microROS_AUV/install/std_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/uwr/microROS_AUV/src/ros2/common_interfaces/diagnostic_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/uwr/microROS_AUV/install/diagnostic_msgs
+[4.945s] Invoking command in '/home/uwr/microROS_AUV/build/diagnostic_msgs': AMENT_PREFIX_PATH=/home/uwr/microROS_AUV/install/geometry_msgs:/home/uwr/microROS_AUV/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/uwr/microROS_AUV/install/geometry_msgs:/home/uwr/microROS_AUV/install/std_msgs:/home/uwr/microROS_AUV/install/builtin_interfaces:/home/uwr/microROS_AUV/install/action_msgs:/home/uwr/microROS_AUV/install/unique_identifier_msgs:/home/uwr/microROS_AUV/install/std_srvs:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_test_msg:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/uwr/microROS_AUV/install/rmw_microxrcedds:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c_tests:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c:/home/uwr/microROS_AUV/install/rosgraph_msgs:/home/uwr/microROS_AUV/install/microxrcedds_client:/home/uwr/microROS_AUV/install/microcdr:/home/uwr/microROS_AUV/install/micro_ros_utilities:/home/uwr/microROS_AUV/install/micro_ros_msgs:/home/uwr/microROS_AUV/install/lifecycle_msgs:/home/uwr/microROS_AUV/install/complex_msgs:/home/uwr/microROS_AUV/install/micro_ros_setup:/home/uwr/microROS_AUV/install/custom_interfaces:/home/uwr/Desktop/2024_UWR/install/kalman_filter:/home/uwr/Desktop/2024_UWR/install/sonar_msgs:/home/uwr/Desktop/2024_UWR/install/ros2-driver:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces:/home/uwr/Desktop/2024_UWR/install/ntrip:/home/uwr/Desktop/2024_UWR/install/adnav-driver:/home/uwr/fls_ws/install/oculus_interfaces:/home/uwr/microROS_AUV/install/statistics_msgs:/home/uwr/microROS_AUV/install/control_pkg:/home/uwr/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble LD_LIBRARY_PATH=/home/uwr/microROS_AUV/install/geometry_msgs/lib:/home/uwr/microROS_AUV/install/std_msgs/lib:/home/uwr/microROS_AUV/install/builtin_interfaces/lib:/home/uwr/microROS_AUV/install/action_msgs/lib:/home/uwr/microROS_AUV/install/unique_identifier_msgs/lib:/home/uwr/microROS_AUV/install/std_srvs/lib:/home/uwr/microROS_AUV/install/statistics_msgs/lib:/home/uwr/microROS_AUV/install/rmw_microxrcedds/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c/lib:/home/uwr/microROS_AUV/install/rosgraph_msgs/lib:/home/uwr/microROS_AUV/install/microxrcedds_client/lib:/home/uwr/microROS_AUV/install/microcdr/lib:/home/uwr/microROS_AUV/install/micro_ros_utilities/lib:/home/uwr/microROS_AUV/install/micro_ros_msgs/lib:/home/uwr/microROS_AUV/install/lifecycle_msgs/lib:/home/uwr/microROS_AUV/install/complex_msgs/lib:/home/uwr/microROS_AUV/install/custom_interfaces/lib:/home/uwr/oculus_driver/install/lib:/home/uwr/Desktop/2024_UWR/install/sonar_msgs/lib:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces/lib:/home/uwr/fls_ws/install/oculus_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/uwr/microROS_AUV/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/uwr/microROS_AUV/install/std_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/uwr/microROS_AUV/build/diagnostic_msgs -- -j8 -l8
+[5.036s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.063s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.081s] [  2%] Built target ament_cmake_python_copy_diagnostic_msgs
+[6.321s] running egg_info
+[6.329s] creating diagnostic_msgs.egg-info
+[6.329s] writing diagnostic_msgs.egg-info/PKG-INFO
+[6.329s] writing dependency_links to diagnostic_msgs.egg-info/dependency_links.txt
+[6.329s] writing top-level names to diagnostic_msgs.egg-info/top_level.txt
+[6.334s] writing manifest file 'diagnostic_msgs.egg-info/SOURCES.txt'
+[6.348s] reading manifest file 'diagnostic_msgs.egg-info/SOURCES.txt'
+[6.354s] writing manifest file 'diagnostic_msgs.egg-info/SOURCES.txt'
+[6.527s] [  2%] Built target ament_cmake_python_build_diagnostic_msgs_egg
+[7.729s] [  2%] Built target diagnostic_msgs__cpp
+[7.773s] [  3%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.796s] [  5%] [34m[1mGenerating C++ type support for eProsima Micro XRCE-DDS[0m
+[7.806s] [  6%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.815s] [  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[9.263s] [  8%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/msg/detail/diagnostic_status__functions.c.o[0m
+[9.279s] [ 10%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/msg/detail/key_value__functions.c.o[0m
+[9.295s] [ 11%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/srv/detail/add_diagnostics__functions.c.o[0m
+[9.302s] [ 12%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/msg/detail/diagnostic_array__functions.c.o[0m
+[9.634s] [ 13%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/srv/detail/self_test__functions.c.o[0m
+[10.208s] [ 15%] [32m[1mLinking C shared library libdiagnostic_msgs__rosidl_generator_c.so[0m
+[10.530s] [ 16%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/diagnostic_msgs/msg/detail/key_value__type_support.cpp.o[0m
+[10.532s] [ 17%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/diagnostic_msgs/msg/detail/diagnostic_array__type_support.cpp.o[0m
+[10.549s] [ 17%] Built target diagnostic_msgs__rosidl_generator_c
+[10.555s] [ 18%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/diagnostic_msgs/msg/detail/diagnostic_status__type_support.cpp.o[0m
+[10.557s] [ 20%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/diagnostic_msgs/srv/detail/add_diagnostics__type_support.cpp.o[0m
+[10.621s] [ 21%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/diagnostic_msgs/srv/detail/self_test__type_support.cpp.o[0m
+[13.009s] [ 22%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/diagnostic_msgs/msg/diagnostic_array__type_support.cpp.o[0m
+[14.640s] [ 24%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/diagnostic_msgs/msg/detail/microxrcedds/diagnostic_array__type_support_cpp.cpp.o[0m
+[14.874s] [ 25%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/diagnostic_msgs/msg/detail/dds_fastrtps/diagnostic_array__type_support.cpp.o[0m
+[15.472s] [ 26%] [32m[1mLinking CXX shared library libdiagnostic_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[15.871s] [ 27%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/diagnostic_msgs/msg/key_value__type_support.cpp.o[0m
+[16.069s] [ 27%] Built target diagnostic_msgs__rosidl_typesupport_introspection_cpp
+[17.610s] [ 29%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/diagnostic_msgs/msg/detail/dds_fastrtps/diagnostic_status__type_support.cpp.o[0m
+[18.339s] [ 30%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/diagnostic_msgs/msg/diagnostic_status__type_support.cpp.o[0m
+[18.538s] [ 31%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/diagnostic_msgs/srv/detail/microxrcedds/add_diagnostics__type_support_cpp.cpp.o[0m
+[20.197s] [ 32%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/diagnostic_msgs/srv/add_diagnostics__type_support.cpp.o[0m
+[20.250s] [ 34%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/diagnostic_msgs/msg/detail/microxrcedds/key_value__type_support_cpp.cpp.o[0m
+[20.661s] [ 35%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/diagnostic_msgs/msg/detail/dds_fastrtps/key_value__type_support.cpp.o[0m
+[21.736s] [ 36%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/diagnostic_msgs/srv/self_test__type_support.cpp.o[0m
+[21.953s] [ 37%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/diagnostic_msgs/msg/detail/microxrcedds/diagnostic_status__type_support_cpp.cpp.o[0m
+[22.679s] [ 39%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/diagnostic_msgs/srv/detail/dds_fastrtps/add_diagnostics__type_support.cpp.o[0m
+[23.363s] [ 40%] [32m[1mLinking CXX shared library libdiagnostic_msgs__rosidl_typesupport_cpp.so[0m
+[23.577s] [ 40%] Built target diagnostic_msgs__rosidl_typesupport_cpp
+[23.622s] [ 41%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/diagnostic_msgs/srv/detail/microxrcedds/self_test__type_support_cpp.cpp.o[0m
+[23.924s] [ 43%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/diagnostic_msgs/srv/detail/dds_fastrtps/self_test__type_support.cpp.o[0m
+[25.227s] [ 44%] [32m[1mLinking CXX shared library libdiagnostic_msgs__rosidl_typesupport_microxrcedds_cpp.so[0m
+[25.529s] [ 44%] Built target diagnostic_msgs__rosidl_typesupport_microxrcedds_cpp
+[26.013s] [ 45%] [32m[1mLinking CXX shared library libdiagnostic_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[26.249s] [ 45%] Built target diagnostic_msgs__rosidl_typesupport_fastrtps_cpp
+[26.279s] [ 46%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[27.939s] [ 48%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/diagnostic_msgs/msg/diagnostic_array__type_support.cpp.o[0m
+[28.003s] [ 49%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/diagnostic_msgs/srv/self_test__type_support.cpp.o[0m
+[28.076s] [ 50%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/diagnostic_msgs/srv/add_diagnostics__type_support.cpp.o[0m
+[28.175s] [ 51%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/diagnostic_msgs/msg/key_value__type_support.cpp.o[0m
+[28.261s] [ 53%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/diagnostic_msgs/msg/diagnostic_status__type_support.cpp.o[0m
+[28.365s] [ 54%] [32m[1mLinking CXX shared library libdiagnostic_msgs__rosidl_typesupport_c.so[0m
+[28.490s] [ 54%] Built target diagnostic_msgs__rosidl_typesupport_c
+[28.520s] [ 55%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[30.698s] [ 56%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/diagnostic_msgs/msg/detail/diagnostic_array__type_support.c.o[0m
+[30.807s] [ 58%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/diagnostic_msgs/srv/detail/self_test__type_support.c.o[0m
+[30.910s] [ 59%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/diagnostic_msgs/srv/detail/add_diagnostics__type_support.c.o[0m
+[31.000s] [ 60%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/diagnostic_msgs/msg/detail/key_value__type_support.c.o[0m
+[31.097s] [ 62%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/diagnostic_msgs/msg/detail/diagnostic_status__type_support.c.o[0m
+[31.201s] [ 63%] [32m[1mLinking C shared library libdiagnostic_msgs__rosidl_typesupport_introspection_c.so[0m
+[31.292s] [ 63%] Built target diagnostic_msgs__rosidl_typesupport_introspection_c
+[31.323s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[32.955s] [ 65%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/diagnostic_msgs/msg/detail/diagnostic_array__type_support_c.cpp.o[0m
+[33.603s] [ 67%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/diagnostic_msgs/srv/detail/self_test__type_support_c.cpp.o[0m
+[34.425s] [ 68%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/diagnostic_msgs/srv/detail/add_diagnostics__type_support_c.cpp.o[0m
+[35.191s] [ 69%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/diagnostic_msgs/msg/detail/key_value__type_support_c.cpp.o[0m
+[35.857s] [ 70%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/diagnostic_msgs/msg/detail/diagnostic_status__type_support_c.cpp.o[0m
+[36.515s] [ 72%] [32m[1mLinking CXX shared library libdiagnostic_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[36.655s] [ 72%] Built target diagnostic_msgs__rosidl_typesupport_fastrtps_c
+[36.675s] [ 73%] [34m[1mGenerating C type support for eProsima Micro XRCE-DDS[0m
+[38.096s] [ 74%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/diagnostic_msgs/msg/detail/microxrcedds/diagnostic_array__type_support_c.c.o[0m
+[38.190s] [ 75%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/diagnostic_msgs/srv/detail/microxrcedds/self_test__type_support_c.c.o[0m
+[38.287s] [ 77%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/diagnostic_msgs/srv/detail/microxrcedds/add_diagnostics__type_support_c.c.o[0m
+[38.383s] [ 78%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/diagnostic_msgs/msg/detail/microxrcedds/key_value__type_support_c.c.o[0m
+[38.467s] [ 79%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/diagnostic_msgs/msg/detail/microxrcedds/diagnostic_status__type_support_c.c.o[0m
+[38.556s] [ 81%] [32m[1mLinking C shared library libdiagnostic_msgs__rosidl_typesupport_microxrcedds_c.so[0m
+[38.637s] [ 81%] Built target diagnostic_msgs__rosidl_typesupport_microxrcedds_c
+[38.677s] [ 81%] Built target diagnostic_msgs
+[38.719s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[41.307s] [ 82%] Built target diagnostic_msgs__py
+[41.348s] [ 83%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_py.dir/rosidl_generator_py/diagnostic_msgs/msg/_diagnostic_array_s.c.o[0m
+[41.525s] [ 84%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_py.dir/rosidl_generator_py/diagnostic_msgs/srv/_self_test_s.c.o[0m
+[41.714s] [ 86%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_py.dir/rosidl_generator_py/diagnostic_msgs/srv/_add_diagnostics_s.c.o[0m
+[41.898s] [ 87%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_py.dir/rosidl_generator_py/diagnostic_msgs/msg/_key_value_s.c.o[0m
+[42.073s] [ 88%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_py.dir/rosidl_generator_py/diagnostic_msgs/msg/_diagnostic_status_s.c.o[0m
+[42.258s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/diagnostic_msgs/libdiagnostic_msgs__rosidl_generator_py.so[0m
+[42.332s] [ 89%] Built target diagnostic_msgs__rosidl_generator_py
+[42.371s] [ 91%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_typesupport_microxrcedds_c__pyext.dir/rosidl_generator_py/diagnostic_msgs/_diagnostic_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c.o[0m
+[42.576s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so[0m
+[42.644s] [ 92%] Built target diagnostic_msgs__rosidl_typesupport_microxrcedds_c__pyext
+[42.682s] [ 93%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/diagnostic_msgs/_diagnostic_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[42.930s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[43.007s] [ 94%] Built target diagnostic_msgs__rosidl_typesupport_c__pyext
+[43.045s] [ 96%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/diagnostic_msgs/_diagnostic_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[43.258s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[43.328s] [ 97%] Built target diagnostic_msgs__rosidl_typesupport_introspection_c__pyext
+[43.366s] [ 98%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/diagnostic_msgs/_diagnostic_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[43.577s] [100%] [32m[1mLinking C shared library rosidl_generator_py/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[43.647s] [100%] Built target diagnostic_msgs__rosidl_typesupport_fastrtps_c__pyext
+[43.669s] Invoked command in '/home/uwr/microROS_AUV/build/diagnostic_msgs' returned '0': AMENT_PREFIX_PATH=/home/uwr/microROS_AUV/install/geometry_msgs:/home/uwr/microROS_AUV/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/uwr/microROS_AUV/install/geometry_msgs:/home/uwr/microROS_AUV/install/std_msgs:/home/uwr/microROS_AUV/install/builtin_interfaces:/home/uwr/microROS_AUV/install/action_msgs:/home/uwr/microROS_AUV/install/unique_identifier_msgs:/home/uwr/microROS_AUV/install/std_srvs:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_test_msg:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/uwr/microROS_AUV/install/rmw_microxrcedds:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c_tests:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c:/home/uwr/microROS_AUV/install/rosgraph_msgs:/home/uwr/microROS_AUV/install/microxrcedds_client:/home/uwr/microROS_AUV/install/microcdr:/home/uwr/microROS_AUV/install/micro_ros_utilities:/home/uwr/microROS_AUV/install/micro_ros_msgs:/home/uwr/microROS_AUV/install/lifecycle_msgs:/home/uwr/microROS_AUV/install/complex_msgs:/home/uwr/microROS_AUV/install/micro_ros_setup:/home/uwr/microROS_AUV/install/custom_interfaces:/home/uwr/Desktop/2024_UWR/install/kalman_filter:/home/uwr/Desktop/2024_UWR/install/sonar_msgs:/home/uwr/Desktop/2024_UWR/install/ros2-driver:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces:/home/uwr/Desktop/2024_UWR/install/ntrip:/home/uwr/Desktop/2024_UWR/install/adnav-driver:/home/uwr/fls_ws/install/oculus_interfaces:/home/uwr/microROS_AUV/install/statistics_msgs:/home/uwr/microROS_AUV/install/control_pkg:/home/uwr/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble LD_LIBRARY_PATH=/home/uwr/microROS_AUV/install/geometry_msgs/lib:/home/uwr/microROS_AUV/install/std_msgs/lib:/home/uwr/microROS_AUV/install/builtin_interfaces/lib:/home/uwr/microROS_AUV/install/action_msgs/lib:/home/uwr/microROS_AUV/install/unique_identifier_msgs/lib:/home/uwr/microROS_AUV/install/std_srvs/lib:/home/uwr/microROS_AUV/install/statistics_msgs/lib:/home/uwr/microROS_AUV/install/rmw_microxrcedds/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c/lib:/home/uwr/microROS_AUV/install/rosgraph_msgs/lib:/home/uwr/microROS_AUV/install/microxrcedds_client/lib:/home/uwr/microROS_AUV/install/microcdr/lib:/home/uwr/microROS_AUV/install/micro_ros_utilities/lib:/home/uwr/microROS_AUV/install/micro_ros_msgs/lib:/home/uwr/microROS_AUV/install/lifecycle_msgs/lib:/home/uwr/microROS_AUV/install/complex_msgs/lib:/home/uwr/microROS_AUV/install/custom_interfaces/lib:/home/uwr/oculus_driver/install/lib:/home/uwr/Desktop/2024_UWR/install/sonar_msgs/lib:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces/lib:/home/uwr/fls_ws/install/oculus_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/uwr/microROS_AUV/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/uwr/microROS_AUV/install/std_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/uwr/microROS_AUV/build/diagnostic_msgs -- -j8 -l8
+[44.026s] Invoking command in '/home/uwr/microROS_AUV/build/diagnostic_msgs': AMENT_PREFIX_PATH=/home/uwr/microROS_AUV/install/geometry_msgs:/home/uwr/microROS_AUV/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/uwr/microROS_AUV/install/geometry_msgs:/home/uwr/microROS_AUV/install/std_msgs:/home/uwr/microROS_AUV/install/builtin_interfaces:/home/uwr/microROS_AUV/install/action_msgs:/home/uwr/microROS_AUV/install/unique_identifier_msgs:/home/uwr/microROS_AUV/install/std_srvs:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_test_msg:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/uwr/microROS_AUV/install/rmw_microxrcedds:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c_tests:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c:/home/uwr/microROS_AUV/install/rosgraph_msgs:/home/uwr/microROS_AUV/install/microxrcedds_client:/home/uwr/microROS_AUV/install/microcdr:/home/uwr/microROS_AUV/install/micro_ros_utilities:/home/uwr/microROS_AUV/install/micro_ros_msgs:/home/uwr/microROS_AUV/install/lifecycle_msgs:/home/uwr/microROS_AUV/install/complex_msgs:/home/uwr/microROS_AUV/install/micro_ros_setup:/home/uwr/microROS_AUV/install/custom_interfaces:/home/uwr/Desktop/2024_UWR/install/kalman_filter:/home/uwr/Desktop/2024_UWR/install/sonar_msgs:/home/uwr/Desktop/2024_UWR/install/ros2-driver:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces:/home/uwr/Desktop/2024_UWR/install/ntrip:/home/uwr/Desktop/2024_UWR/install/adnav-driver:/home/uwr/fls_ws/install/oculus_interfaces:/home/uwr/microROS_AUV/install/statistics_msgs:/home/uwr/microROS_AUV/install/control_pkg:/home/uwr/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble LD_LIBRARY_PATH=/home/uwr/microROS_AUV/install/geometry_msgs/lib:/home/uwr/microROS_AUV/install/std_msgs/lib:/home/uwr/microROS_AUV/install/builtin_interfaces/lib:/home/uwr/microROS_AUV/install/action_msgs/lib:/home/uwr/microROS_AUV/install/unique_identifier_msgs/lib:/home/uwr/microROS_AUV/install/std_srvs/lib:/home/uwr/microROS_AUV/install/statistics_msgs/lib:/home/uwr/microROS_AUV/install/rmw_microxrcedds/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c/lib:/home/uwr/microROS_AUV/install/rosgraph_msgs/lib:/home/uwr/microROS_AUV/install/microxrcedds_client/lib:/home/uwr/microROS_AUV/install/microcdr/lib:/home/uwr/microROS_AUV/install/micro_ros_utilities/lib:/home/uwr/microROS_AUV/install/micro_ros_msgs/lib:/home/uwr/microROS_AUV/install/lifecycle_msgs/lib:/home/uwr/microROS_AUV/install/complex_msgs/lib:/home/uwr/microROS_AUV/install/custom_interfaces/lib:/home/uwr/oculus_driver/install/lib:/home/uwr/Desktop/2024_UWR/install/sonar_msgs/lib:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces/lib:/home/uwr/fls_ws/install/oculus_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/uwr/microROS_AUV/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/uwr/microROS_AUV/install/std_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/uwr/microROS_AUV/build/diagnostic_msgs
+[44.039s] -- Install configuration: ""
+[44.040s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/ament_index/resource_index/rosidl_interfaces/diagnostic_msgs
+[44.040s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs
+[44.040s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg
+[44.040s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/diagnostic_status.h
+[44.041s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/rosidl_generator_c__visibility_control.h
+[44.041s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/key_value.h
+[44.041s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail
+[44.041s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.h
+[44.041s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__type_support.h
+[44.041s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__type_support.h
+[44.041s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__functions.c
+[44.042s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__functions.h
+[44.042s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__functions.c
+[44.042s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__functions.h
+[44.042s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__type_support.h
+[44.042s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__struct.h
+[44.042s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__struct.h
+[44.042s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__functions.h
+[44.043s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__functions.c
+[44.043s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/diagnostic_array.h
+[44.043s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv
+[44.043s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/add_diagnostics.h
+[44.043s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/self_test.h
+[44.043s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail
+[44.043s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__type_support.h
+[44.044s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__type_support.h
+[44.044s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__functions.h
+[44.044s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__struct.h
+[44.044s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__functions.c
+[44.044s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__functions.h
+[44.044s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__functions.c
+[44.045s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__struct.h
+[44.045s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/environment/library_path.sh
+[44.045s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/environment/library_path.dsv
+[44.045s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_generator_c.so
+[44.046s] -- Set runtime path of "/home/uwr/microROS_AUV/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_generator_c.so" to ""
+[44.046s] -- Up-to-date: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs
+[44.047s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/msg
+[44.047s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[44.047s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/msg/detail
+[44.047s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/msg/detail/key_value__rosidl_typesupport_microxrcedds_c.h
+[44.047s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/msg/detail/diagnostic_array__rosidl_typesupport_microxrcedds_c.h
+[44.048s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/msg/detail/diagnostic_status__rosidl_typesupport_microxrcedds_c.h
+[44.048s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/msg/detail/microxrcedds
+[44.048s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/srv
+[44.048s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/srv/detail
+[44.048s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/srv/detail/add_diagnostics__rosidl_typesupport_microxrcedds_c.h
+[44.049s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/srv/detail/self_test__rosidl_typesupport_microxrcedds_c.h
+[44.049s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/srv/detail/microxrcedds
+[44.049s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_microxrcedds_c.so
+[44.049s] -- Set runtime path of "/home/uwr/microROS_AUV/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_microxrcedds_c.so" to ""
+[44.049s] -- Up-to-date: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs
+[44.049s] -- Up-to-date: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg
+[44.050s] -- Up-to-date: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail
+[44.050s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__rosidl_typesupport_fastrtps_c.h
+[44.050s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__rosidl_typesupport_fastrtps_c.h
+[44.050s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__rosidl_typesupport_fastrtps_c.h
+[44.051s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[44.051s] -- Up-to-date: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv
+[44.051s] -- Up-to-date: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail
+[44.051s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__rosidl_typesupport_fastrtps_c.h
+[44.051s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__rosidl_typesupport_fastrtps_c.h
+[44.052s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_fastrtps_c.so
+[44.052s] -- Set runtime path of "/home/uwr/microROS_AUV/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[44.053s] -- Up-to-date: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs
+[44.053s] -- Up-to-date: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg
+[44.053s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[44.053s] -- Up-to-date: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail
+[44.053s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__type_support.c
+[44.053s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__type_support.c
+[44.053s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__rosidl_typesupport_introspection_c.h
+[44.053s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__rosidl_typesupport_introspection_c.h
+[44.054s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__type_support.c
+[44.054s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__rosidl_typesupport_introspection_c.h
+[44.054s] -- Up-to-date: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv
+[44.054s] -- Up-to-date: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail
+[44.054s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__rosidl_typesupport_introspection_c.h
+[44.055s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__rosidl_typesupport_introspection_c.h
+[44.055s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__type_support.c
+[44.055s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__type_support.c
+[44.055s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_introspection_c.so
+[44.056s] -- Set runtime path of "/home/uwr/microROS_AUV/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_introspection_c.so" to ""
+[44.056s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_c.so
+[44.056s] -- Set runtime path of "/home/uwr/microROS_AUV/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_c.so" to ""
+[44.056s] -- Up-to-date: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs
+[44.056s] -- Up-to-date: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg
+[44.056s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/key_value.hpp
+[44.057s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/diagnostic_array.hpp
+[44.057s] -- Up-to-date: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail
+[44.057s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__traits.hpp
+[44.057s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__struct.hpp
+[44.058s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__builder.hpp
+[44.058s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__traits.hpp
+[44.058s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp
+[44.058s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__builder.hpp
+[44.059s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__struct.hpp
+[44.059s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__traits.hpp
+[44.059s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__builder.hpp
+[44.059s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/diagnostic_status.hpp
+[44.060s] -- Up-to-date: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv
+[44.060s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/add_diagnostics.hpp
+[44.060s] -- Up-to-date: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail
+[44.060s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__traits.hpp
+[44.060s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__builder.hpp
+[44.061s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__struct.hpp
+[44.061s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__builder.hpp
+[44.061s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__traits.hpp
+[44.061s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__struct.hpp
+[44.061s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/self_test.hpp
+[44.062s] -- Up-to-date: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs
+[44.062s] -- Up-to-date: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/msg
+[44.062s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[44.062s] -- Up-to-date: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/msg/detail
+[44.062s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/msg/detail/diagnostic_array__rosidl_typesupport_microxrcedds_cpp.hpp
+[44.063s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/msg/detail/key_value__rosidl_typesupport_microxrcedds_cpp.hpp
+[44.063s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/msg/detail/diagnostic_status__rosidl_typesupport_microxrcedds_cpp.hpp
+[44.063s] -- Up-to-date: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/msg/detail/microxrcedds
+[44.063s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/msg/detail/microxrcedds/diagnostic_array__type_support_cpp.cpp
+[44.063s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/msg/detail/microxrcedds/key_value__type_support_cpp.cpp
+[44.063s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/msg/detail/microxrcedds/diagnostic_status__type_support_cpp.cpp
+[44.064s] -- Up-to-date: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/srv
+[44.064s] -- Up-to-date: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/srv/detail
+[44.064s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/srv/detail/add_diagnostics__rosidl_typesupport_microxrcedds_cpp.hpp
+[44.064s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/srv/detail/self_test__rosidl_typesupport_microxrcedds_cpp.hpp
+[44.064s] -- Up-to-date: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/srv/detail/microxrcedds
+[44.065s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/srv/detail/microxrcedds/self_test__type_support_cpp.cpp
+[44.065s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/srv/detail/microxrcedds/add_diagnostics__type_support_cpp.cpp
+[44.065s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_microxrcedds_cpp.so
+[44.065s] -- Set runtime path of "/home/uwr/microROS_AUV/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_microxrcedds_cpp.so" to ""
+[44.066s] -- Up-to-date: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs
+[44.066s] -- Up-to-date: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg
+[44.066s] -- Up-to-date: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail
+[44.066s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__rosidl_typesupport_fastrtps_cpp.hpp
+[44.066s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__rosidl_typesupport_fastrtps_cpp.hpp
+[44.066s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__rosidl_typesupport_fastrtps_cpp.hpp
+[44.067s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/dds_fastrtps
+[44.067s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[44.067s] -- Up-to-date: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv
+[44.067s] -- Up-to-date: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail
+[44.067s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__rosidl_typesupport_fastrtps_cpp.hpp
+[44.067s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__rosidl_typesupport_fastrtps_cpp.hpp
+[44.067s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/dds_fastrtps
+[44.068s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_fastrtps_cpp.so
+[44.068s] -- Set runtime path of "/home/uwr/microROS_AUV/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[44.068s] -- Up-to-date: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs
+[44.068s] -- Up-to-date: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg
+[44.068s] -- Up-to-date: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail
+[44.068s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__type_support.cpp
+[44.068s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__rosidl_typesupport_introspection_cpp.hpp
+[44.068s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__rosidl_typesupport_introspection_cpp.hpp
+[44.068s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__rosidl_typesupport_introspection_cpp.hpp
+[44.069s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__type_support.cpp
+[44.069s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__type_support.cpp
+[44.069s] -- Up-to-date: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv
+[44.069s] -- Up-to-date: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail
+[44.069s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__type_support.cpp
+[44.069s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__rosidl_typesupport_introspection_cpp.hpp
+[44.070s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__rosidl_typesupport_introspection_cpp.hpp
+[44.070s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__type_support.cpp
+[44.070s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_introspection_cpp.so
+[44.070s] -- Set runtime path of "/home/uwr/microROS_AUV/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[44.070s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_cpp.so
+[44.070s] -- Set runtime path of "/home/uwr/microROS_AUV/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_cpp.so" to ""
+[44.070s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/environment/pythonpath.sh
+[44.071s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/environment/pythonpath.dsv
+[44.071s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs-4.9.0-py3.10.egg-info
+[44.071s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs-4.9.0-py3.10.egg-info/top_level.txt
+[44.071s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs-4.9.0-py3.10.egg-info/dependency_links.txt
+[44.071s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs-4.9.0-py3.10.egg-info/PKG-INFO
+[44.071s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs-4.9.0-py3.10.egg-info/SOURCES.txt
+[44.071s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs
+[44.072s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so
+[44.072s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/libdiagnostic_msgs__rosidl_generator_py.so
+[44.072s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[44.072s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[44.072s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/_diagnostic_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[44.072s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/msg
+[44.072s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/msg/_key_value_s.c
+[44.072s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/msg/_diagnostic_status_s.c
+[44.072s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/msg/_key_value.py
+[44.073s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/msg/_diagnostic_array_s.c
+[44.073s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/msg/_diagnostic_array.py
+[44.073s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/msg/__init__.py
+[44.073s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/msg/_diagnostic_status.py
+[44.073s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/_diagnostic_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[44.073s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/__init__.py
+[44.073s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[44.074s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/_diagnostic_msgs_s.ep.rosidl_typesupport_c.c
+[44.074s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/_diagnostic_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[44.074s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/srv
+[44.074s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/srv/_add_diagnostics_s.c
+[44.074s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/srv/_self_test_s.c
+[44.074s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/srv/_self_test.py
+[44.075s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/srv/_add_diagnostics.py
+[44.075s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/srv/__init__.py
+[44.166s] Listing '/home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs'...
+[44.166s] Compiling '/home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/__init__.py'...
+[44.166s] Listing '/home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/msg'...
+[44.166s] Compiling '/home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/msg/__init__.py'...
+[44.166s] Compiling '/home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/msg/_diagnostic_array.py'...
+[44.166s] Compiling '/home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/msg/_diagnostic_status.py'...
+[44.166s] Compiling '/home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/msg/_key_value.py'...
+[44.166s] Listing '/home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/srv'...
+[44.166s] Compiling '/home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/srv/__init__.py'...
+[44.166s] Compiling '/home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/srv/_add_diagnostics.py'...
+[44.167s] Compiling '/home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/srv/_self_test.py'...
+[44.175s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so
+[44.176s] -- Set runtime path of "/home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so" to ""
+[44.176s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[44.177s] -- Set runtime path of "/home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[44.177s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[44.178s] -- Set runtime path of "/home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[44.179s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[44.180s] -- Set runtime path of "/home/uwr/microROS_AUV/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[44.180s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_generator_py.so
+[44.180s] -- Set runtime path of "/home/uwr/microROS_AUV/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_generator_py.so" to ""
+[44.181s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/msg/DiagnosticArray.idl
+[44.181s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/msg/DiagnosticStatus.idl
+[44.181s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/msg/KeyValue.idl
+[44.182s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/srv/AddDiagnostics.idl
+[44.182s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/srv/SelfTest.idl
+[44.182s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/msg/DiagnosticArray.msg
+[44.182s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/msg/DiagnosticStatus.msg
+[44.183s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/msg/KeyValue.msg
+[44.183s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/srv/AddDiagnostics.srv
+[44.183s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/srv/AddDiagnostics_Request.msg
+[44.184s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/srv/AddDiagnostics_Response.msg
+[44.184s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/srv/SelfTest.srv
+[44.184s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/srv/SelfTest_Request.msg
+[44.185s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/srv/SelfTest_Response.msg
+[44.185s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/ament_index/resource_index/package_run_dependencies/diagnostic_msgs
+[44.185s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/ament_index/resource_index/parent_prefix_path/diagnostic_msgs
+[44.186s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/environment/ament_prefix_path.sh
+[44.186s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/environment/ament_prefix_path.dsv
+[44.186s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/environment/path.sh
+[44.187s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/environment/path.dsv
+[44.187s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/local_setup.bash
+[44.187s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/local_setup.sh
+[44.187s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/local_setup.zsh
+[44.187s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/local_setup.dsv
+[44.188s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/package.dsv
+[44.188s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/ament_index/resource_index/packages/diagnostic_msgs
+[44.188s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_generator_cExport.cmake
+[44.188s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_generator_cExport-noconfig.cmake
+[44.188s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[44.189s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[44.189s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_introspection_cExport.cmake
+[44.189s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[44.189s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_cExport.cmake
+[44.189s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[44.190s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_generator_cppExport.cmake
+[44.190s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[44.190s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[44.190s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[44.191s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[44.191s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_cppExport.cmake
+[44.191s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[44.191s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_generator_pyExport.cmake
+[44.191s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_generator_pyExport-noconfig.cmake
+[44.192s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/cmake/rosidl_cmake-extras.cmake
+[44.192s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[44.192s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[44.193s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[44.193s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[44.193s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[44.194s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[44.194s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgsConfig.cmake
+[44.194s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgsConfig-version.cmake
+[44.195s] -- Installing: /home/uwr/microROS_AUV/install/diagnostic_msgs/share/diagnostic_msgs/package.xml
+[44.199s] Invoked command in '/home/uwr/microROS_AUV/build/diagnostic_msgs' returned '0': AMENT_PREFIX_PATH=/home/uwr/microROS_AUV/install/geometry_msgs:/home/uwr/microROS_AUV/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/uwr/microROS_AUV/install/geometry_msgs:/home/uwr/microROS_AUV/install/std_msgs:/home/uwr/microROS_AUV/install/builtin_interfaces:/home/uwr/microROS_AUV/install/action_msgs:/home/uwr/microROS_AUV/install/unique_identifier_msgs:/home/uwr/microROS_AUV/install/std_srvs:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_test_msg:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/uwr/microROS_AUV/install/rmw_microxrcedds:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c_tests:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c:/home/uwr/microROS_AUV/install/rosgraph_msgs:/home/uwr/microROS_AUV/install/microxrcedds_client:/home/uwr/microROS_AUV/install/microcdr:/home/uwr/microROS_AUV/install/micro_ros_utilities:/home/uwr/microROS_AUV/install/micro_ros_msgs:/home/uwr/microROS_AUV/install/lifecycle_msgs:/home/uwr/microROS_AUV/install/complex_msgs:/home/uwr/microROS_AUV/install/micro_ros_setup:/home/uwr/microROS_AUV/install/custom_interfaces:/home/uwr/Desktop/2024_UWR/install/kalman_filter:/home/uwr/Desktop/2024_UWR/install/sonar_msgs:/home/uwr/Desktop/2024_UWR/install/ros2-driver:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces:/home/uwr/Desktop/2024_UWR/install/ntrip:/home/uwr/Desktop/2024_UWR/install/adnav-driver:/home/uwr/fls_ws/install/oculus_interfaces:/home/uwr/microROS_AUV/install/statistics_msgs:/home/uwr/microROS_AUV/install/control_pkg:/home/uwr/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble LD_LIBRARY_PATH=/home/uwr/microROS_AUV/install/geometry_msgs/lib:/home/uwr/microROS_AUV/install/std_msgs/lib:/home/uwr/microROS_AUV/install/builtin_interfaces/lib:/home/uwr/microROS_AUV/install/action_msgs/lib:/home/uwr/microROS_AUV/install/unique_identifier_msgs/lib:/home/uwr/microROS_AUV/install/std_srvs/lib:/home/uwr/microROS_AUV/install/statistics_msgs/lib:/home/uwr/microROS_AUV/install/rmw_microxrcedds/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c/lib:/home/uwr/microROS_AUV/install/rosgraph_msgs/lib:/home/uwr/microROS_AUV/install/microxrcedds_client/lib:/home/uwr/microROS_AUV/install/microcdr/lib:/home/uwr/microROS_AUV/install/micro_ros_utilities/lib:/home/uwr/microROS_AUV/install/micro_ros_msgs/lib:/home/uwr/microROS_AUV/install/lifecycle_msgs/lib:/home/uwr/microROS_AUV/install/complex_msgs/lib:/home/uwr/microROS_AUV/install/custom_interfaces/lib:/home/uwr/oculus_driver/install/lib:/home/uwr/Desktop/2024_UWR/install/sonar_msgs/lib:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces/lib:/home/uwr/fls_ws/install/oculus_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/uwr/microROS_AUV/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/uwr/microROS_AUV/install/std_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/uwr/microROS_AUV/build/diagnostic_msgs

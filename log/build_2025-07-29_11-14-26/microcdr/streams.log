@@ -1,0 +1,17 @@
+[0.087s] Invoking command in '/home/uwr/microROS_AUV/build/microcdr': /usr/bin/cmake --build /home/uwr/microROS_AUV/build/microcdr -- -j8 -l8
+[0.228s] [100%] Built target microcdr
+[0.305s] Invoked command in '/home/uwr/microROS_AUV/build/microcdr' returned '0': /usr/bin/cmake --build /home/uwr/microROS_AUV/build/microcdr -- -j8 -l8
+[0.874s] Invoking command in '/home/uwr/microROS_AUV/build/microcdr': /usr/bin/cmake --install /home/uwr/microROS_AUV/build/microcdr
+[2.074s] -- Install configuration: "Release"
+[2.074s] -- Up-to-date: /home/uwr/microROS_AUV/install/microcdr/lib/libmicrocdr.so.2.0.1
+[2.076s] -- Up-to-date: /home/uwr/microROS_AUV/install/microcdr/lib/libmicrocdr.so.2.0
+[2.076s] -- Up-to-date: /home/uwr/microROS_AUV/install/microcdr/lib/libmicrocdr.so
+[2.076s] -- Up-to-date: /home/uwr/microROS_AUV/install/microcdr/include/ucdr
+[2.076s] -- Up-to-date: /home/uwr/microROS_AUV/install/microcdr/include/ucdr/visibility.h
+[2.077s] -- Up-to-date: /home/uwr/microROS_AUV/install/microcdr/include/ucdr/microcdr.h
+[2.077s] -- Up-to-date: /home/uwr/microROS_AUV/install/microcdr/include/ucdr/config.h
+[2.077s] -- Up-to-date: /home/uwr/microROS_AUV/install/microcdr/share/microcdr/cmake/microcdrTargets.cmake
+[2.077s] -- Up-to-date: /home/uwr/microROS_AUV/install/microcdr/share/microcdr/cmake/microcdrTargets-release.cmake
+[2.077s] -- Up-to-date: /home/uwr/microROS_AUV/install/microcdr/share/microcdr/cmake/microcdrConfig.cmake
+[2.078s] -- Up-to-date: /home/uwr/microROS_AUV/install/microcdr/share/microcdr/cmake/microcdrConfigVersion.cmake
+[2.093s] Invoked command in '/home/uwr/microROS_AUV/build/microcdr' returned '0': /usr/bin/cmake --install /home/uwr/microROS_AUV/build/microcdr

@@ -1,0 +1,386 @@
+[0.075s] Invoking command in '/home/uwr/microROS_AUV/build/lifecycle_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uwr/microROS_AUV/install/control_pkg:/home/uwr/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble /usr/bin/cmake --build /home/uwr/microROS_AUV/build/lifecycle_msgs -- -j8 -l8
+[0.276s] [35m[1mConsolidate compiler generated dependencies of target lifecycle_msgs__rosidl_generator_c[0m
+[0.386s] [ 10%] Built target lifecycle_msgs__rosidl_generator_c
+[0.428s] [ 10%] Built target lifecycle_msgs__cpp
+[0.529s] [ 10%] Built target ament_cmake_python_copy_lifecycle_msgs
+[0.579s] [35m[1mConsolidate compiler generated dependencies of target lifecycle_msgs__rosidl_typesupport_microxrcedds_c[0m
+[0.612s] [35m[1mConsolidate compiler generated dependencies of target lifecycle_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.638s] [35m[1mConsolidate compiler generated dependencies of target lifecycle_msgs__rosidl_typesupport_c[0m
+[0.639s] [35m[1mConsolidate compiler generated dependencies of target lifecycle_msgs__rosidl_typesupport_cpp[0m
+[0.674s] [35m[1mConsolidate compiler generated dependencies of target lifecycle_msgs__rosidl_typesupport_microxrcedds_cpp[0m
+[0.685s] [35m[1mConsolidate compiler generated dependencies of target lifecycle_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.707s] [35m[1mConsolidate compiler generated dependencies of target lifecycle_msgs__rosidl_typesupport_introspection_c[0m
+[0.716s] [35m[1mConsolidate compiler generated dependencies of target lifecycle_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.719s] [ 19%] Built target lifecycle_msgs__rosidl_typesupport_microxrcedds_c
+[0.762s] [ 28%] Built target lifecycle_msgs__rosidl_typesupport_c
+[0.773s] [ 37%] Built target lifecycle_msgs__rosidl_typesupport_cpp
+[0.885s] [ 46%] Built target lifecycle_msgs__rosidl_typesupport_fastrtps_c
+[0.889s] [ 67%] Built target lifecycle_msgs__rosidl_typesupport_introspection_c
+[0.900s] [ 70%] Built target lifecycle_msgs__rosidl_typesupport_introspection_cpp
+[0.911s] [ 73%] Built target lifecycle_msgs__rosidl_typesupport_fastrtps_cpp
+[0.972s] [ 83%] Built target lifecycle_msgs__rosidl_typesupport_microxrcedds_cpp
+[1.194s] [ 83%] Built target lifecycle_msgs
+[1.337s] [ 84%] Built target lifecycle_msgs__py
+[1.420s] [35m[1mConsolidate compiler generated dependencies of target lifecycle_msgs__rosidl_generator_py[0m
+[1.596s] [ 92%] Built target lifecycle_msgs__rosidl_generator_py
+[1.729s] [35m[1mConsolidate compiler generated dependencies of target lifecycle_msgs__rosidl_typesupport_c__pyext[0m
+[1.739s] [35m[1mConsolidate compiler generated dependencies of target lifecycle_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.760s] [35m[1mConsolidate compiler generated dependencies of target lifecycle_msgs__rosidl_typesupport_microxrcedds_c__pyext[0m
+[1.795s] [35m[1mConsolidate compiler generated dependencies of target lifecycle_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[1.796s] [ 94%] Built target lifecycle_msgs__rosidl_typesupport_c__pyext
+[1.823s] [ 96%] Built target lifecycle_msgs__rosidl_typesupport_microxrcedds_c__pyext
+[1.843s] [ 98%] Built target lifecycle_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.858s] [100%] Built target lifecycle_msgs__rosidl_typesupport_introspection_c__pyext
+[2.214s] running egg_info
+[2.220s] writing lifecycle_msgs.egg-info/PKG-INFO
+[2.221s] writing dependency_links to lifecycle_msgs.egg-info/dependency_links.txt
+[2.222s] writing top-level names to lifecycle_msgs.egg-info/top_level.txt
+[2.230s] reading manifest file 'lifecycle_msgs.egg-info/SOURCES.txt'
+[2.233s] writing manifest file 'lifecycle_msgs.egg-info/SOURCES.txt'
+[2.314s] [100%] Built target ament_cmake_python_build_lifecycle_msgs_egg
+[2.369s] Invoked command in '/home/uwr/microROS_AUV/build/lifecycle_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uwr/microROS_AUV/install/control_pkg:/home/uwr/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble /usr/bin/cmake --build /home/uwr/microROS_AUV/build/lifecycle_msgs -- -j8 -l8
+[3.353s] Invoking command in '/home/uwr/microROS_AUV/build/lifecycle_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uwr/microROS_AUV/install/control_pkg:/home/uwr/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble /usr/bin/cmake --install /home/uwr/microROS_AUV/build/lifecycle_msgs
+[3.373s] -- Install configuration: ""
+[3.373s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/ament_index/resource_index/rosidl_interfaces/lifecycle_msgs
+[3.374s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs
+[3.374s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg
+[3.375s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.380s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/transition_description.h
+[3.381s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/transition.h
+[3.382s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail
+[3.382s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__functions.h
+[3.382s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__type_support.h
+[3.382s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__functions.h
+[3.382s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__struct.h
+[3.383s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__type_support.h
+[3.383s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.h
+[3.383s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__functions.c
+[3.383s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__functions.h
+[3.383s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__functions.c
+[3.384s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__functions.h
+[3.384s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.h
+[3.384s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.h
+[3.384s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__struct.h
+[3.388s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__functions.c
+[3.388s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.h
+[3.388s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__functions.c
+[3.389s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/state.h
+[3.389s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/transition_event.h
+[3.389s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv
+[3.390s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/get_available_transitions.h
+[3.390s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/get_state.h
+[3.390s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail
+[3.390s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__functions.h
+[3.391s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__functions.h
+[3.391s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__functions.c
+[3.391s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__type_support.h
+[3.391s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__struct.h
+[3.391s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__struct.h
+[3.392s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__struct.h
+[3.392s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__type_support.h
+[3.392s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__type_support.h
+[3.392s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__functions.c
+[3.394s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__functions.c
+[3.395s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__struct.h
+[3.396s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__type_support.h
+[3.396s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__functions.c
+[3.397s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__functions.h
+[3.397s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__functions.h
+[3.397s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/change_state.h
+[3.398s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/get_available_states.h
+[3.398s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/environment/library_path.sh
+[3.398s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/environment/library_path.dsv
+[3.398s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_generator_c.so
+[3.400s] -- Set runtime path of "/home/uwr/microROS_AUV/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_generator_c.so" to ""
+[3.401s] -- Up-to-date: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs
+[3.401s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/msg
+[3.401s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[3.401s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail
+[3.401s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition_description__rosidl_typesupport_microxrcedds_c.h
+[3.402s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition__rosidl_typesupport_microxrcedds_c.h
+[3.402s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition_event__rosidl_typesupport_microxrcedds_c.h
+[3.404s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/state__rosidl_typesupport_microxrcedds_c.h
+[3.406s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/microxrcedds
+[3.410s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/srv
+[3.411s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail
+[3.411s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_available_states__rosidl_typesupport_microxrcedds_c.h
+[3.412s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_available_transitions__rosidl_typesupport_microxrcedds_c.h
+[3.412s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_state__rosidl_typesupport_microxrcedds_c.h
+[3.412s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/change_state__rosidl_typesupport_microxrcedds_c.h
+[3.412s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/microxrcedds
+[3.412s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_microxrcedds_c.so
+[3.414s] -- Set runtime path of "/home/uwr/microROS_AUV/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_microxrcedds_c.so" to ""
+[3.414s] -- Up-to-date: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs
+[3.416s] -- Up-to-date: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg
+[3.417s] -- Up-to-date: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail
+[3.417s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__rosidl_typesupport_fastrtps_c.h
+[3.417s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__rosidl_typesupport_fastrtps_c.h
+[3.417s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__rosidl_typesupport_fastrtps_c.h
+[3.419s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__rosidl_typesupport_fastrtps_c.h
+[3.420s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.421s] -- Up-to-date: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv
+[3.422s] -- Up-to-date: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail
+[3.422s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__rosidl_typesupport_fastrtps_c.h
+[3.426s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__rosidl_typesupport_fastrtps_c.h
+[3.426s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__rosidl_typesupport_fastrtps_c.h
+[3.427s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__rosidl_typesupport_fastrtps_c.h
+[3.433s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_c.so
+[3.435s] -- Set runtime path of "/home/uwr/microROS_AUV/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[3.436s] -- Up-to-date: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs
+[3.436s] -- Up-to-date: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg
+[3.436s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.436s] -- Up-to-date: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail
+[3.443s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__type_support.c
+[3.443s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__rosidl_typesupport_introspection_c.h
+[3.443s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__rosidl_typesupport_introspection_c.h
+[3.443s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__type_support.c
+[3.444s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__rosidl_typesupport_introspection_c.h
+[3.445s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__rosidl_typesupport_introspection_c.h
+[3.446s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.c
+[3.446s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.c
+[3.446s] -- Up-to-date: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv
+[3.446s] -- Up-to-date: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail
+[3.446s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__type_support.c
+[3.447s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__rosidl_typesupport_introspection_c.h
+[3.447s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__type_support.c
+[3.448s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__rosidl_typesupport_introspection_c.h
+[3.448s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__type_support.c
+[3.450s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__type_support.c
+[3.456s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__rosidl_typesupport_introspection_c.h
+[3.456s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__rosidl_typesupport_introspection_c.h
+[3.456s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_introspection_c.so
+[3.456s] -- Set runtime path of "/home/uwr/microROS_AUV/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_introspection_c.so" to ""
+[3.456s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_c.so
+[3.457s] -- Set runtime path of "/home/uwr/microROS_AUV/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_c.so" to ""
+[3.457s] -- Up-to-date: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs
+[3.457s] -- Up-to-date: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg
+[3.464s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/state.hpp
+[3.464s] -- Up-to-date: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail
+[3.464s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.hpp
+[3.465s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__builder.hpp
+[3.465s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__traits.hpp
+[3.465s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__traits.hpp
+[3.466s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__traits.hpp
+[3.466s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__builder.hpp
+[3.466s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__traits.hpp
+[3.467s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__builder.hpp
+[3.467s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__builder.hpp
+[3.473s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__struct.hpp
+[3.473s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.hpp
+[3.474s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__struct.hpp
+[3.474s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/transition_description.hpp
+[3.474s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/transition_event.hpp
+[3.474s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp
+[3.474s] -- Up-to-date: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv
+[3.475s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/get_state.hpp
+[3.475s] -- Up-to-date: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail
+[3.475s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__builder.hpp
+[3.475s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__struct.hpp
+[3.475s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__builder.hpp
+[3.476s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__struct.hpp
+[3.481s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__traits.hpp
+[3.482s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__builder.hpp
+[3.485s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__struct.hpp
+[3.485s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__traits.hpp
+[3.485s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__traits.hpp
+[3.485s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__traits.hpp
+[3.485s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__builder.hpp
+[3.490s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__struct.hpp
+[3.491s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/get_available_states.hpp
+[3.491s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/get_available_transitions.hpp
+[3.494s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/change_state.hpp
+[3.495s] -- Up-to-date: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs
+[3.495s] -- Up-to-date: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/msg
+[3.495s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[3.495s] -- Up-to-date: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail
+[3.496s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition_description__rosidl_typesupport_microxrcedds_cpp.hpp
+[3.496s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition__rosidl_typesupport_microxrcedds_cpp.hpp
+[3.497s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition_event__rosidl_typesupport_microxrcedds_cpp.hpp
+[3.497s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/state__rosidl_typesupport_microxrcedds_cpp.hpp
+[3.497s] -- Up-to-date: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/microxrcedds
+[3.497s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/microxrcedds/state__type_support_cpp.cpp
+[3.500s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/microxrcedds/transition_event__type_support_cpp.cpp
+[3.501s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/microxrcedds/transition__type_support_cpp.cpp
+[3.501s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/microxrcedds/transition_description__type_support_cpp.cpp
+[3.502s] -- Up-to-date: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/srv
+[3.502s] -- Up-to-date: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail
+[3.502s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_available_transitions__rosidl_typesupport_microxrcedds_cpp.hpp
+[3.502s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_state__rosidl_typesupport_microxrcedds_cpp.hpp
+[3.503s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_available_states__rosidl_typesupport_microxrcedds_cpp.hpp
+[3.504s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/change_state__rosidl_typesupport_microxrcedds_cpp.hpp
+[3.508s] -- Up-to-date: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/microxrcedds
+[3.508s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/microxrcedds/get_state__type_support_cpp.cpp
+[3.508s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/microxrcedds/get_available_states__type_support_cpp.cpp
+[3.509s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/microxrcedds/get_available_transitions__type_support_cpp.cpp
+[3.510s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/microxrcedds/change_state__type_support_cpp.cpp
+[3.510s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_microxrcedds_cpp.so
+[3.518s] -- Set runtime path of "/home/uwr/microROS_AUV/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_microxrcedds_cpp.so" to ""
+[3.518s] -- Up-to-date: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs
+[3.519s] -- Up-to-date: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg
+[3.520s] -- Up-to-date: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail
+[3.520s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__rosidl_typesupport_fastrtps_cpp.hpp
+[3.520s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__rosidl_typesupport_fastrtps_cpp.hpp
+[3.520s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__rosidl_typesupport_fastrtps_cpp.hpp
+[3.520s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__rosidl_typesupport_fastrtps_cpp.hpp
+[3.520s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/dds_fastrtps
+[3.521s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.521s] -- Up-to-date: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv
+[3.521s] -- Up-to-date: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail
+[3.522s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__rosidl_typesupport_fastrtps_cpp.hpp
+[3.522s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__rosidl_typesupport_fastrtps_cpp.hpp
+[3.525s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__rosidl_typesupport_fastrtps_cpp.hpp
+[3.525s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__rosidl_typesupport_fastrtps_cpp.hpp
+[3.527s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/dds_fastrtps
+[3.529s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.530s] -- Set runtime path of "/home/uwr/microROS_AUV/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.530s] -- Up-to-date: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs
+[3.530s] -- Up-to-date: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg
+[3.531s] -- Up-to-date: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail
+[3.531s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.cpp
+[3.532s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.cpp
+[3.532s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__type_support.cpp
+[3.533s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__rosidl_typesupport_introspection_cpp.hpp
+[3.534s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__rosidl_typesupport_introspection_cpp.hpp
+[3.535s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__type_support.cpp
+[3.535s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__rosidl_typesupport_introspection_cpp.hpp
+[3.536s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__rosidl_typesupport_introspection_cpp.hpp
+[3.537s] -- Up-to-date: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv
+[3.537s] -- Up-to-date: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail
+[3.538s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__type_support.cpp
+[3.542s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__type_support.cpp
+[3.542s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__rosidl_typesupport_introspection_cpp.hpp
+[3.543s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__rosidl_typesupport_introspection_cpp.hpp
+[3.544s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__rosidl_typesupport_introspection_cpp.hpp
+[3.544s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__type_support.cpp
+[3.545s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__type_support.cpp
+[3.545s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__rosidl_typesupport_introspection_cpp.hpp
+[3.550s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_introspection_cpp.so
+[3.550s] -- Set runtime path of "/home/uwr/microROS_AUV/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[3.550s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_cpp.so
+[3.552s] -- Set runtime path of "/home/uwr/microROS_AUV/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_cpp.so" to ""
+[3.552s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/environment/pythonpath.sh
+[3.557s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/environment/pythonpath.dsv
+[3.557s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs-1.2.2-py3.10.egg-info
+[3.557s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs-1.2.2-py3.10.egg-info/top_level.txt
+[3.558s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs-1.2.2-py3.10.egg-info/dependency_links.txt
+[3.558s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs-1.2.2-py3.10.egg-info/PKG-INFO
+[3.558s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs-1.2.2-py3.10.egg-info/SOURCES.txt
+[3.558s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs
+[3.558s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so
+[3.559s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.559s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/_lifecycle_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[3.565s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/liblifecycle_msgs__rosidl_generator_py.so
+[3.565s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/_lifecycle_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[3.576s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.576s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/_lifecycle_msgs_s.ep.rosidl_typesupport_c.c
+[3.576s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.576s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/_lifecycle_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.576s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg
+[3.577s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/_transition.py
+[3.577s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/_transition_description.py
+[3.577s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/_transition_s.c
+[3.577s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/_state_s.c
+[3.577s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/_state.py
+[3.578s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/_transition_event.py
+[3.578s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/__init__.py
+[3.585s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/_transition_event_s.c
+[3.585s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/_transition_description_s.c
+[3.585s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/__init__.py
+[3.586s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv
+[3.586s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/_get_available_states.py
+[3.586s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/_change_state_s.c
+[3.586s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/_get_state.py
+[3.586s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/_change_state.py
+[3.586s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/_get_available_transitions.py
+[3.587s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/_get_available_transitions_s.c
+[3.587s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/__init__.py
+[3.587s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/_get_state_s.c
+[3.587s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/_get_available_states_s.c
+[3.962s] Listing '/home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs'...
+[3.962s] Compiling '/home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/__init__.py'...
+[3.962s] Listing '/home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg'...
+[3.962s] Compiling '/home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/__init__.py'...
+[3.963s] Compiling '/home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/_state.py'...
+[3.963s] Compiling '/home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/_transition.py'...
+[3.963s] Compiling '/home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/_transition_description.py'...
+[3.969s] Compiling '/home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/_transition_event.py'...
+[3.969s] Listing '/home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv'...
+[3.969s] Compiling '/home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/__init__.py'...
+[3.969s] Compiling '/home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/_change_state.py'...
+[3.970s] Compiling '/home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/_get_available_states.py'...
+[3.970s] Compiling '/home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/_get_available_transitions.py'...
+[3.970s] Compiling '/home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/_get_state.py'...
+[3.983s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so
+[3.985s] -- Set runtime path of "/home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.986s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.987s] -- Set runtime path of "/home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.992s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.994s] -- Set runtime path of "/home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.994s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.995s] -- Set runtime path of "/home/uwr/microROS_AUV/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.995s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_generator_py.so
+[4.006s] -- Set runtime path of "/home/uwr/microROS_AUV/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_generator_py.so" to ""
+[4.007s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/msg/State.idl
+[4.007s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/msg/Transition.idl
+[4.008s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/msg/TransitionDescription.idl
+[4.008s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/msg/TransitionEvent.idl
+[4.009s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/srv/ChangeState.idl
+[4.010s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableStates.idl
+[4.010s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableTransitions.idl
+[4.010s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetState.idl
+[4.010s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/msg/State.msg
+[4.014s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/msg/Transition.msg
+[4.014s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/msg/TransitionDescription.msg
+[4.014s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/msg/TransitionEvent.msg
+[4.014s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/srv/ChangeState.srv
+[4.015s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/srv/ChangeState_Request.msg
+[4.015s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/srv/ChangeState_Response.msg
+[4.016s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableStates.srv
+[4.016s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableStates_Request.msg
+[4.017s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableStates_Response.msg
+[4.017s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableTransitions.srv
+[4.021s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableTransitions_Request.msg
+[4.021s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableTransitions_Response.msg
+[4.021s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetState.srv
+[4.022s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetState_Request.msg
+[4.025s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetState_Response.msg
+[4.025s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/ament_index/resource_index/package_run_dependencies/lifecycle_msgs
+[4.025s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/ament_index/resource_index/parent_prefix_path/lifecycle_msgs
+[4.027s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/environment/ament_prefix_path.sh
+[4.027s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/environment/ament_prefix_path.dsv
+[4.028s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/environment/path.sh
+[4.028s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/environment/path.dsv
+[4.029s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/local_setup.bash
+[4.030s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/local_setup.sh
+[4.030s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/local_setup.zsh
+[4.040s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/local_setup.dsv
+[4.041s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/package.dsv
+[4.041s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/ament_index/resource_index/packages/lifecycle_msgs
+[4.044s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_generator_cExport.cmake
+[4.045s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_generator_cExport-noconfig.cmake
+[4.045s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[4.046s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.046s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_introspection_cExport.cmake
+[4.046s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.046s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_cExport.cmake
+[4.047s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[4.047s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_generator_cppExport.cmake
+[4.047s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.047s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.047s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[4.048s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.048s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_cppExport.cmake
+[4.048s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[4.052s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_generator_pyExport.cmake
+[4.057s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_generator_pyExport-noconfig.cmake
+[4.057s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/cmake/rosidl_cmake-extras.cmake
+[4.057s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.057s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.057s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.058s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.058s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.058s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.058s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgsConfig.cmake
+[4.058s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgsConfig-version.cmake
+[4.059s] -- Installing: /home/uwr/microROS_AUV/install/lifecycle_msgs/share/lifecycle_msgs/package.xml
+[4.151s] Invoked command in '/home/uwr/microROS_AUV/build/lifecycle_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uwr/microROS_AUV/install/control_pkg:/home/uwr/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble /usr/bin/cmake --install /home/uwr/microROS_AUV/build/lifecycle_msgs

@@ -1,0 +1,185 @@
+[0.213s] Invoking command in '/home/uwr/microROS_AUV/build/complex_msgs': CMAKE_PREFIX_PATH=/home/uwr/microROS_AUV/install/builtin_interfaces:/home/uwr/microROS_AUV/install/action_msgs:/home/uwr/microROS_AUV/install/unique_identifier_msgs:/home/uwr/microROS_AUV/install/std_srvs:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_test_msg:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/uwr/microROS_AUV/install/rmw_microxrcedds:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c_tests:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c:/home/uwr/microROS_AUV/install/rosgraph_msgs:/home/uwr/microROS_AUV/install/microxrcedds_client:/home/uwr/microROS_AUV/install/microcdr:/home/uwr/microROS_AUV/install/micro_ros_utilities:/home/uwr/microROS_AUV/install/micro_ros_msgs:/home/uwr/microROS_AUV/install/lifecycle_msgs:/home/uwr/microROS_AUV/install/complex_msgs:/home/uwr/microROS_AUV/install/micro_ros_setup:/home/uwr/microROS_AUV/install/custom_interfaces:/home/uwr/Desktop/2024_UWR/install/kalman_filter:/home/uwr/Desktop/2024_UWR/install/sonar_msgs:/home/uwr/Desktop/2024_UWR/install/ros2-driver:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces:/home/uwr/Desktop/2024_UWR/install/ntrip:/home/uwr/Desktop/2024_UWR/install/adnav-driver:/home/uwr/fls_ws/install/oculus_interfaces:/home/uwr/microROS_AUV/install/statistics_msgs:/home/uwr/microROS_AUV/install/control_pkg:/home/uwr/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble LD_LIBRARY_PATH=/home/uwr/microROS_AUV/install/builtin_interfaces/lib:/home/uwr/microROS_AUV/install/action_msgs/lib:/home/uwr/microROS_AUV/install/unique_identifier_msgs/lib:/home/uwr/microROS_AUV/install/std_srvs/lib:/home/uwr/microROS_AUV/install/statistics_msgs/lib:/home/uwr/microROS_AUV/install/rmw_microxrcedds/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c/lib:/home/uwr/microROS_AUV/install/rosgraph_msgs/lib:/home/uwr/microROS_AUV/install/microxrcedds_client/lib:/home/uwr/microROS_AUV/install/microcdr/lib:/home/uwr/microROS_AUV/install/micro_ros_utilities/lib:/home/uwr/microROS_AUV/install/micro_ros_msgs/lib:/home/uwr/microROS_AUV/install/lifecycle_msgs/lib:/home/uwr/microROS_AUV/install/complex_msgs/lib:/home/uwr/microROS_AUV/install/custom_interfaces/lib:/home/uwr/oculus_driver/install/lib:/home/uwr/Desktop/2024_UWR/install/sonar_msgs/lib:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces/lib:/home/uwr/fls_ws/install/oculus_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/uwr/microROS_AUV/build/complex_msgs -- -j8 -l8
+[0.528s] [  8%] Built target complex_msgs__rosidl_generator_c
+[0.545s] [ 10%] Built target complex_msgs__cpp
+[0.654s] [ 10%] Built target ament_cmake_python_copy_complex_msgs
+[0.682s] [ 18%] Built target complex_msgs__rosidl_typesupport_c
+[0.739s] [ 26%] Built target complex_msgs__rosidl_typesupport_introspection_c
+[0.757s] [ 34%] Built target complex_msgs__rosidl_typesupport_fastrtps_c
+[0.768s] [ 42%] Built target complex_msgs__rosidl_typesupport_introspection_cpp
+[0.772s] [ 51%] Built target complex_msgs__rosidl_typesupport_microxrcedds_cpp
+[0.786s] [ 59%] Built target complex_msgs__rosidl_typesupport_cpp
+[0.796s] [ 67%] Built target complex_msgs__rosidl_typesupport_microxrcedds_c
+[0.836s] [ 75%] Built target complex_msgs__rosidl_typesupport_fastrtps_cpp
+[0.938s] [ 75%] Built target complex_msgs
+[1.067s] [ 77%] Built target complex_msgs__py
+[1.220s] [ 83%] Built target complex_msgs__rosidl_generator_py
+[1.381s] [ 87%] Built target complex_msgs__rosidl_typesupport_microxrcedds_c__pyext
+[1.386s] [ 91%] Built target complex_msgs__rosidl_typesupport_c__pyext
+[1.401s] [ 95%] Built target complex_msgs__rosidl_typesupport_introspection_c__pyext
+[1.401s] [100%] Built target complex_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.893s] running egg_info
+[1.899s] writing complex_msgs.egg-info/PKG-INFO
+[1.901s] writing dependency_links to complex_msgs.egg-info/dependency_links.txt
+[1.902s] writing top-level names to complex_msgs.egg-info/top_level.txt
+[1.906s] reading manifest file 'complex_msgs.egg-info/SOURCES.txt'
+[1.909s] writing manifest file 'complex_msgs.egg-info/SOURCES.txt'
+[1.990s] [100%] Built target ament_cmake_python_build_complex_msgs_egg
+[2.057s] Invoked command in '/home/uwr/microROS_AUV/build/complex_msgs' returned '0': CMAKE_PREFIX_PATH=/home/uwr/microROS_AUV/install/builtin_interfaces:/home/uwr/microROS_AUV/install/action_msgs:/home/uwr/microROS_AUV/install/unique_identifier_msgs:/home/uwr/microROS_AUV/install/std_srvs:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_test_msg:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/uwr/microROS_AUV/install/rmw_microxrcedds:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c_tests:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c:/home/uwr/microROS_AUV/install/rosgraph_msgs:/home/uwr/microROS_AUV/install/microxrcedds_client:/home/uwr/microROS_AUV/install/microcdr:/home/uwr/microROS_AUV/install/micro_ros_utilities:/home/uwr/microROS_AUV/install/micro_ros_msgs:/home/uwr/microROS_AUV/install/lifecycle_msgs:/home/uwr/microROS_AUV/install/complex_msgs:/home/uwr/microROS_AUV/install/micro_ros_setup:/home/uwr/microROS_AUV/install/custom_interfaces:/home/uwr/Desktop/2024_UWR/install/kalman_filter:/home/uwr/Desktop/2024_UWR/install/sonar_msgs:/home/uwr/Desktop/2024_UWR/install/ros2-driver:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces:/home/uwr/Desktop/2024_UWR/install/ntrip:/home/uwr/Desktop/2024_UWR/install/adnav-driver:/home/uwr/fls_ws/install/oculus_interfaces:/home/uwr/microROS_AUV/install/statistics_msgs:/home/uwr/microROS_AUV/install/control_pkg:/home/uwr/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble LD_LIBRARY_PATH=/home/uwr/microROS_AUV/install/builtin_interfaces/lib:/home/uwr/microROS_AUV/install/action_msgs/lib:/home/uwr/microROS_AUV/install/unique_identifier_msgs/lib:/home/uwr/microROS_AUV/install/std_srvs/lib:/home/uwr/microROS_AUV/install/statistics_msgs/lib:/home/uwr/microROS_AUV/install/rmw_microxrcedds/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c/lib:/home/uwr/microROS_AUV/install/rosgraph_msgs/lib:/home/uwr/microROS_AUV/install/microxrcedds_client/lib:/home/uwr/microROS_AUV/install/microcdr/lib:/home/uwr/microROS_AUV/install/micro_ros_utilities/lib:/home/uwr/microROS_AUV/install/micro_ros_msgs/lib:/home/uwr/microROS_AUV/install/lifecycle_msgs/lib:/home/uwr/microROS_AUV/install/complex_msgs/lib:/home/uwr/microROS_AUV/install/custom_interfaces/lib:/home/uwr/oculus_driver/install/lib:/home/uwr/Desktop/2024_UWR/install/sonar_msgs/lib:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces/lib:/home/uwr/fls_ws/install/oculus_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/uwr/microROS_AUV/build/complex_msgs -- -j8 -l8
+[2.468s] Invoking command in '/home/uwr/microROS_AUV/build/complex_msgs': CMAKE_PREFIX_PATH=/home/uwr/microROS_AUV/install/builtin_interfaces:/home/uwr/microROS_AUV/install/action_msgs:/home/uwr/microROS_AUV/install/unique_identifier_msgs:/home/uwr/microROS_AUV/install/std_srvs:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_test_msg:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/uwr/microROS_AUV/install/rmw_microxrcedds:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c_tests:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c:/home/uwr/microROS_AUV/install/rosgraph_msgs:/home/uwr/microROS_AUV/install/microxrcedds_client:/home/uwr/microROS_AUV/install/microcdr:/home/uwr/microROS_AUV/install/micro_ros_utilities:/home/uwr/microROS_AUV/install/micro_ros_msgs:/home/uwr/microROS_AUV/install/lifecycle_msgs:/home/uwr/microROS_AUV/install/complex_msgs:/home/uwr/microROS_AUV/install/micro_ros_setup:/home/uwr/microROS_AUV/install/custom_interfaces:/home/uwr/Desktop/2024_UWR/install/kalman_filter:/home/uwr/Desktop/2024_UWR/install/sonar_msgs:/home/uwr/Desktop/2024_UWR/install/ros2-driver:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces:/home/uwr/Desktop/2024_UWR/install/ntrip:/home/uwr/Desktop/2024_UWR/install/adnav-driver:/home/uwr/fls_ws/install/oculus_interfaces:/home/uwr/microROS_AUV/install/statistics_msgs:/home/uwr/microROS_AUV/install/control_pkg:/home/uwr/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble LD_LIBRARY_PATH=/home/uwr/microROS_AUV/install/builtin_interfaces/lib:/home/uwr/microROS_AUV/install/action_msgs/lib:/home/uwr/microROS_AUV/install/unique_identifier_msgs/lib:/home/uwr/microROS_AUV/install/std_srvs/lib:/home/uwr/microROS_AUV/install/statistics_msgs/lib:/home/uwr/microROS_AUV/install/rmw_microxrcedds/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c/lib:/home/uwr/microROS_AUV/install/rosgraph_msgs/lib:/home/uwr/microROS_AUV/install/microxrcedds_client/lib:/home/uwr/microROS_AUV/install/microcdr/lib:/home/uwr/microROS_AUV/install/micro_ros_utilities/lib:/home/uwr/microROS_AUV/install/micro_ros_msgs/lib:/home/uwr/microROS_AUV/install/lifecycle_msgs/lib:/home/uwr/microROS_AUV/install/complex_msgs/lib:/home/uwr/microROS_AUV/install/custom_interfaces/lib:/home/uwr/oculus_driver/install/lib:/home/uwr/Desktop/2024_UWR/install/sonar_msgs/lib:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces/lib:/home/uwr/fls_ws/install/oculus_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/uwr/microROS_AUV/build/complex_msgs
+[2.492s] -- Install configuration: ""
+[2.492s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/share/ament_index/resource_index/rosidl_interfaces/complex_msgs
+[2.493s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs
+[2.493s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs/msg
+[2.493s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.494s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail
+[2.494s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__struct.h
+[2.494s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__functions.h
+[2.494s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__type_support.h
+[2.495s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__functions.c
+[2.495s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__functions.c
+[2.496s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__functions.h
+[2.496s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__struct.h
+[2.496s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__type_support.h
+[2.496s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs/msg/nested_msg_test.h
+[2.496s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs/msg/multi_string_test.h
+[2.497s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/share/complex_msgs/environment/library_path.sh
+[2.497s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/share/complex_msgs/environment/library_path.dsv
+[2.498s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/lib/libcomplex_msgs__rosidl_generator_c.so
+[2.498s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs
+[2.498s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs/msg
+[2.498s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail
+[2.499s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__rosidl_typesupport_fastrtps_c.h
+[2.499s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__rosidl_typesupport_fastrtps_c.h
+[2.499s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.499s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_fastrtps_c.so
+[2.499s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs
+[2.499s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs/msg
+[2.500s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs/msg/nested_msg_test.hpp
+[2.500s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail
+[2.500s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__builder.hpp
+[2.501s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__struct.hpp
+[2.501s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__traits.hpp
+[2.501s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__builder.hpp
+[2.504s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__traits.hpp
+[2.504s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__struct.hpp
+[2.504s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs/msg/multi_string_test.hpp
+[2.504s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs
+[2.504s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs/msg
+[2.505s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail
+[2.505s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__rosidl_typesupport_fastrtps_cpp.hpp
+[2.505s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__rosidl_typesupport_fastrtps_cpp.hpp
+[2.506s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/dds_fastrtps
+[2.506s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.507s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.507s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs
+[2.507s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/msg
+[2.507s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[2.508s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/msg/detail
+[2.508s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/msg/detail/nested_msg_test__rosidl_typesupport_microxrcedds_c.h
+[2.508s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/msg/detail/microxrcedds
+[2.509s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/msg/detail/multi_string_test__rosidl_typesupport_microxrcedds_c.h
+[2.509s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_microxrcedds_c.so
+[2.509s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs
+[2.510s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs/msg
+[2.511s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.511s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail
+[2.512s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__type_support.c
+[2.512s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__type_support.c
+[2.512s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__rosidl_typesupport_introspection_c.h
+[2.513s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__rosidl_typesupport_introspection_c.h
+[2.513s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_introspection_c.so
+[2.513s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_c.so
+[2.513s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs
+[2.514s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/msg
+[2.514s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[2.514s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/msg/detail
+[2.514s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/msg/detail/multi_string_test__rosidl_typesupport_microxrcedds_cpp.hpp
+[2.514s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/msg/detail/nested_msg_test__rosidl_typesupport_microxrcedds_cpp.hpp
+[2.515s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/msg/detail/microxrcedds
+[2.524s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/msg/detail/microxrcedds/multi_string_test__type_support_cpp.cpp
+[2.524s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/msg/detail/microxrcedds/nested_msg_test__type_support_cpp.cpp
+[2.524s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_microxrcedds_cpp.so
+[2.525s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs
+[2.525s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs/msg
+[2.525s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail
+[2.525s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__rosidl_typesupport_introspection_cpp.hpp
+[2.525s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__type_support.cpp
+[2.526s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__type_support.cpp
+[2.526s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__rosidl_typesupport_introspection_cpp.hpp
+[2.526s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_introspection_cpp.so
+[2.527s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_cpp.so
+[2.527s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/share/complex_msgs/environment/pythonpath.sh
+[2.528s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/share/complex_msgs/environment/pythonpath.dsv
+[2.528s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs-3.0.2-py3.10.egg-info
+[2.528s] -- Installing: /home/uwr/microROS_AUV/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs-3.0.2-py3.10.egg-info/top_level.txt
+[2.531s] -- Installing: /home/uwr/microROS_AUV/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs-3.0.2-py3.10.egg-info/dependency_links.txt
+[2.532s] -- Installing: /home/uwr/microROS_AUV/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs-3.0.2-py3.10.egg-info/PKG-INFO
+[2.532s] -- Installing: /home/uwr/microROS_AUV/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs-3.0.2-py3.10.egg-info/SOURCES.txt
+[2.533s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs
+[2.533s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/complex_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so
+[2.533s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/_complex_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.533s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/_complex_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.534s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/libcomplex_msgs__rosidl_generator_py.so
+[2.534s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/complex_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.534s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/_complex_msgs_s.ep.rosidl_typesupport_c.c
+[2.534s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/_complex_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[2.534s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/complex_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.535s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/msg
+[2.541s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/msg/_nested_msg_test.py
+[2.541s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/msg/_multi_string_test.py
+[2.542s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/msg/_nested_msg_test_s.c
+[2.542s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/msg/_multi_string_test_s.c
+[2.542s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/msg/__init__.py
+[2.542s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/complex_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.542s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/__init__.py
+[2.625s] Listing '/home/uwr/microROS_AUV/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs'...
+[2.625s] Listing '/home/uwr/microROS_AUV/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/msg'...
+[2.638s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/complex_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so
+[2.639s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/complex_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.640s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/complex_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.641s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/complex_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.641s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/lib/libcomplex_msgs__rosidl_generator_py.so
+[2.643s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/share/complex_msgs/msg/MultiStringTest.idl
+[2.643s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/share/complex_msgs/msg/NestedMsgTest.idl
+[2.643s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/share/complex_msgs/msg/MultiStringTest.msg
+[2.643s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/share/complex_msgs/msg/NestedMsgTest.msg
+[2.644s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/share/ament_index/resource_index/package_run_dependencies/complex_msgs
+[2.644s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/share/ament_index/resource_index/parent_prefix_path/complex_msgs
+[2.645s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/share/complex_msgs/environment/ament_prefix_path.sh
+[2.645s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/share/complex_msgs/environment/ament_prefix_path.dsv
+[2.646s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/share/complex_msgs/environment/path.sh
+[2.646s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/share/complex_msgs/environment/path.dsv
+[2.646s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/share/complex_msgs/local_setup.bash
+[2.646s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/share/complex_msgs/local_setup.sh
+[2.646s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/share/complex_msgs/local_setup.zsh
+[2.647s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/share/complex_msgs/local_setup.dsv
+[2.647s] -- Installing: /home/uwr/microROS_AUV/install/complex_msgs/share/complex_msgs/package.dsv
+[2.647s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/share/ament_index/resource_index/packages/complex_msgs
+[2.648s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/share/complex_msgs/cmake/export_complex_msgs__rosidl_generator_cExport.cmake
+[2.648s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/share/complex_msgs/cmake/export_complex_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.648s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/share/complex_msgs/cmake/export_complex_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.648s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/share/complex_msgs/cmake/export_complex_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.649s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/share/complex_msgs/cmake/export_complex_msgs__rosidl_generator_cppExport.cmake
+[2.649s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/share/complex_msgs/cmake/export_complex_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.650s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/share/complex_msgs/cmake/export_complex_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.650s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/share/complex_msgs/cmake/complex_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.651s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/share/complex_msgs/cmake/complex_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.651s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/share/complex_msgs/cmake/complex_msgs__rosidl_typesupport_cExport.cmake
+[2.651s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/share/complex_msgs/cmake/complex_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.652s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/share/complex_msgs/cmake/complex_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.652s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/share/complex_msgs/cmake/complex_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.653s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/share/complex_msgs/cmake/complex_msgs__rosidl_typesupport_cppExport.cmake
+[2.653s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/share/complex_msgs/cmake/complex_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.654s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/share/complex_msgs/cmake/export_complex_msgs__rosidl_generator_pyExport.cmake
+[2.654s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/share/complex_msgs/cmake/export_complex_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.654s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/share/complex_msgs/cmake/rosidl_cmake-extras.cmake
+[2.656s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/share/complex_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.656s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/share/complex_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.656s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/share/complex_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.657s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/share/complex_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.657s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/share/complex_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.657s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/share/complex_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.657s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/share/complex_msgs/cmake/complex_msgsConfig.cmake
+[2.659s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/share/complex_msgs/cmake/complex_msgsConfig-version.cmake
+[2.659s] -- Up-to-date: /home/uwr/microROS_AUV/install/complex_msgs/share/complex_msgs/package.xml
+[2.666s] Invoked command in '/home/uwr/microROS_AUV/build/complex_msgs' returned '0': CMAKE_PREFIX_PATH=/home/uwr/microROS_AUV/install/builtin_interfaces:/home/uwr/microROS_AUV/install/action_msgs:/home/uwr/microROS_AUV/install/unique_identifier_msgs:/home/uwr/microROS_AUV/install/std_srvs:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_test_msg:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/uwr/microROS_AUV/install/rmw_microxrcedds:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c_tests:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c:/home/uwr/microROS_AUV/install/rosgraph_msgs:/home/uwr/microROS_AUV/install/microxrcedds_client:/home/uwr/microROS_AUV/install/microcdr:/home/uwr/microROS_AUV/install/micro_ros_utilities:/home/uwr/microROS_AUV/install/micro_ros_msgs:/home/uwr/microROS_AUV/install/lifecycle_msgs:/home/uwr/microROS_AUV/install/complex_msgs:/home/uwr/microROS_AUV/install/micro_ros_setup:/home/uwr/microROS_AUV/install/custom_interfaces:/home/uwr/Desktop/2024_UWR/install/kalman_filter:/home/uwr/Desktop/2024_UWR/install/sonar_msgs:/home/uwr/Desktop/2024_UWR/install/ros2-driver:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces:/home/uwr/Desktop/2024_UWR/install/ntrip:/home/uwr/Desktop/2024_UWR/install/adnav-driver:/home/uwr/fls_ws/install/oculus_interfaces:/home/uwr/microROS_AUV/install/statistics_msgs:/home/uwr/microROS_AUV/install/control_pkg:/home/uwr/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble LD_LIBRARY_PATH=/home/uwr/microROS_AUV/install/builtin_interfaces/lib:/home/uwr/microROS_AUV/install/action_msgs/lib:/home/uwr/microROS_AUV/install/unique_identifier_msgs/lib:/home/uwr/microROS_AUV/install/std_srvs/lib:/home/uwr/microROS_AUV/install/statistics_msgs/lib:/home/uwr/microROS_AUV/install/rmw_microxrcedds/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/uwr/microROS_AUV/install/rosidl_typesupport_microxrcedds_c/lib:/home/uwr/microROS_AUV/install/rosgraph_msgs/lib:/home/uwr/microROS_AUV/install/microxrcedds_client/lib:/home/uwr/microROS_AUV/install/microcdr/lib:/home/uwr/microROS_AUV/install/micro_ros_utilities/lib:/home/uwr/microROS_AUV/install/micro_ros_msgs/lib:/home/uwr/microROS_AUV/install/lifecycle_msgs/lib:/home/uwr/microROS_AUV/install/complex_msgs/lib:/home/uwr/microROS_AUV/install/custom_interfaces/lib:/home/uwr/oculus_driver/install/lib:/home/uwr/Desktop/2024_UWR/install/sonar_msgs/lib:/home/uwr/Desktop/2024_UWR/install/oculus_interfaces/lib:/home/uwr/fls_ws/install/oculus_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/uwr/microROS_AUV/build/complex_msgs
