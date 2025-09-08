@@ -1,0 +1,232 @@
+[0.200s] Invoking command in '/home/saab/Desktop/microROS_AUV/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saab/Desktop/microROS_AUV/install/control_pkg:/home/saab/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble /usr/bin/cmake /home/saab/Desktop/microROS_AUV/src/custom_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/saab/Desktop/microROS_AUV/install/custom_interfaces
+[0.258s] -- The C compiler identification is GNU 11.4.0
+[0.359s] -- The CXX compiler identification is Clang 14.0.0
+[0.364s] -- Detecting C compiler ABI info
+[0.431s] -- Detecting C compiler ABI info - done
+[0.436s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.436s] -- Detecting C compile features
+[0.436s] -- Detecting C compile features - done
+[0.439s] -- Detecting CXX compiler ABI info
+[0.555s] -- Detecting CXX compiler ABI info - done
+[0.561s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.561s] -- Detecting CXX compile features
+[0.562s] -- Detecting CXX compile features - done
+[0.566s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.718s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.770s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.799s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.802s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.808s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.843s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.871s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.089s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.271s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.506s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.532s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.535s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.565s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.566s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.566s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.566s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.583s] -- Found PythonExtra: .so  
+[1.627s] -- Added test 'lint_cmake' to check CMake code style
+[1.629s] -- Added test 'xmllint' to check XML markup files
+[1.636s] -- Configuring done
+[1.671s] -- Generating done
+[1.681s] -- Build files have been written to: /home/saab/Desktop/microROS_AUV/build/custom_interfaces
+[1.687s] Invoked command in '/home/saab/Desktop/microROS_AUV/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saab/Desktop/microROS_AUV/install/control_pkg:/home/saab/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble /usr/bin/cmake /home/saab/Desktop/microROS_AUV/src/custom_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/saab/Desktop/microROS_AUV/install/custom_interfaces
+[1.689s] Invoking command in '/home/saab/Desktop/microROS_AUV/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saab/Desktop/microROS_AUV/install/control_pkg:/home/saab/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble /usr/bin/cmake --build /home/saab/Desktop/microROS_AUV/build/custom_interfaces -- -j24 -l24
+[1.720s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.730s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.731s] [  5%] Built target ament_cmake_python_symlink_custom_interfaces
+[1.933s] running egg_info
+[1.934s] creating custom_interfaces.egg-info
+[1.934s] writing custom_interfaces.egg-info/PKG-INFO
+[1.934s] writing dependency_links to custom_interfaces.egg-info/dependency_links.txt
+[1.934s] writing top-level names to custom_interfaces.egg-info/top_level.txt
+[1.935s] [  5%] Built target custom_interfaces__cpp
+[1.935s] [ 10%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/variable_activate__functions.c.o[0m
+[1.935s] [ 10%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/thrusters_states__functions.c.o[0m
+[1.937s] writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[1.939s] reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[1.939s] writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[1.943s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.943s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.943s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.958s] [ 17%] Built target ament_cmake_python_build_custom_interfaces_egg
+[1.975s] [ 20%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_generator_c.so[0m
+[2.001s] [ 20%] Built target custom_interfaces__rosidl_generator_c
+[2.008s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.009s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.010s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.120s] [ 30%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/srv/variable_activate__type_support.cpp.o[0m
+[2.120s] [ 33%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/thrusters_states__type_support.cpp.o[0m
+[2.143s] [ 35%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/thrusters_states__type_support.cpp.o[0m
+[2.143s] [ 38%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/srv/detail/variable_activate__type_support.cpp.o[0m
+[2.146s] [ 43%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/srv/detail/dds_fastrtps/variable_activate__type_support.cpp.o[0m
+[2.146s] [ 43%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/thrusters_states__type_support.cpp.o[0m
+[2.186s] [ 48%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/thrusters_states__type_support.cpp.o[0m
+[2.186s] [ 48%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/srv/variable_activate__type_support.cpp.o[0m
+[2.201s] [ 51%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/thrusters_states__type_support.c.o[0m
+[2.202s] [ 53%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/variable_activate__type_support.c.o[0m
+[2.207s] [ 58%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/srv/detail/variable_activate__type_support_c.cpp.o[0m
+[2.207s] [ 58%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/thrusters_states__type_support_c.cpp.o[0m
+[2.217s] [ 61%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_c.so[0m
+[2.228s] [ 64%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.250s] [ 64%] Built target custom_interfaces__rosidl_typesupport_introspection_c
+[2.281s] [ 64%] Built target custom_interfaces__rosidl_typesupport_c
+[2.334s] [ 66%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_cpp.so[0m
+[2.400s] [ 69%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.410s] [ 69%] Built target custom_interfaces__rosidl_typesupport_cpp
+[2.465s] [ 69%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp
+[2.466s] [ 71%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.497s] [ 74%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.529s] [ 74%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.569s] [ 74%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c
+[2.586s] [ 74%] Built target custom_interfaces
+[2.600s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.874s] [ 76%] Built target custom_interfaces__py
+[2.890s] [ 79%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/srv/_variable_activate_s.c.o[0m
+[2.890s] [ 82%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/msg/_thrusters_states_s.c.o[0m
+[2.994s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so[0m
+[3.033s] [ 84%] Built target custom_interfaces__rosidl_generator_py
+[3.046s] [ 87%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.048s] [ 89%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.052s] [ 92%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.110s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.112s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.118s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.135s] [100%] Built target custom_interfaces__rosidl_typesupport_c__pyext
+[3.136s] [100%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.147s] [100%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.160s] Invoked command in '/home/saab/Desktop/microROS_AUV/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saab/Desktop/microROS_AUV/install/control_pkg:/home/saab/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble /usr/bin/cmake --build /home/saab/Desktop/microROS_AUV/build/custom_interfaces -- -j24 -l24
+[3.166s] Invoking command in '/home/saab/Desktop/microROS_AUV/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saab/Desktop/microROS_AUV/install/control_pkg:/home/saab/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble /usr/bin/cmake --install /home/saab/Desktop/microROS_AUV/build/custom_interfaces
+[3.171s] -- Install configuration: ""
+[3.171s] -- Execute custom install script
+[3.172s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces
+[3.180s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/thrusters_states__functions.h
+[3.189s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/thrusters_states__struct.h
+[3.197s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/thrusters_states__type_support.h
+[3.203s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.212s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/thrusters_states.h
+[3.220s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/variable_activate__functions.h
+[3.229s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/variable_activate__struct.h
+[3.234s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/variable_activate__type_support.h
+[3.240s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/variable_activate.h
+[3.247s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh
+[3.256s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv
+[3.265s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/thrusters_states__rosidl_typesupport_fastrtps_c.h
+[3.273s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.282s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/variable_activate__rosidl_typesupport_fastrtps_c.h
+[3.290s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/thrusters_states__rosidl_typesupport_introspection_c.h
+[3.299s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.307s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/variable_activate__rosidl_typesupport_introspection_c.h
+[3.316s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/thrusters_states__builder.hpp
+[3.325s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/thrusters_states__struct.hpp
+[3.333s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/thrusters_states__traits.hpp
+[3.342s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/thrusters_states__type_support.hpp
+[3.350s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.359s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/thrusters_states.hpp
+[3.367s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/variable_activate__builder.hpp
+[3.376s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/variable_activate__struct.hpp
+[3.384s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/variable_activate__traits.hpp
+[3.393s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/variable_activate__type_support.hpp
+[3.402s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/variable_activate.hpp
+[3.412s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/thrusters_states__rosidl_typesupport_fastrtps_cpp.hpp
+[3.421s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.429s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/variable_activate__rosidl_typesupport_fastrtps_cpp.hpp
+[3.438s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/thrusters_states__rosidl_typesupport_introspection_cpp.hpp
+[3.447s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/variable_activate__rosidl_typesupport_introspection_cpp.hpp
+[3.456s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh
+[3.465s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv
+[3.474s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[3.483s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.492s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.501s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[3.510s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py
+[3.519s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c
+[3.528s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.533s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.539s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.548s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.557s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.565s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so
+[3.574s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/__init__.py
+[3.579s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_thrusters_states.py
+[3.585s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_thrusters_states_s.c
+[3.590s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py
+[3.596s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_variable_activate.py
+[3.602s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_variable_activate_s.c
+[3.610s] -- Up-to-date symlink: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.611s] -- Up-to-date symlink: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.611s] -- Up-to-date symlink: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.611s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/custom_interfaces/msg/ThrustersStates.idl
+[3.620s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/custom_interfaces/srv/VariableActivate.idl
+[3.629s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/custom_interfaces/msg/ThrustersStates.msg
+[3.637s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/custom_interfaces/srv/VariableActivate.srv
+[3.645s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/custom_interfaces/srv/VariableActivate_Request.msg
+[3.653s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/custom_interfaces/srv/VariableActivate_Response.msg
+[3.662s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces
+[3.670s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces
+[3.679s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh
+[3.687s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv
+[3.696s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/custom_interfaces/environment/path.sh
+[3.705s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/custom_interfaces/environment/path.dsv
+[3.714s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/custom_interfaces/local_setup.bash
+[3.723s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/custom_interfaces/local_setup.sh
+[3.732s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/custom_interfaces/local_setup.zsh
+[3.741s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/custom_interfaces/local_setup.dsv
+[3.750s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/custom_interfaces/package.dsv
+[3.759s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces
+[3.768s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.777s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.786s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.794s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.803s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.812s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.821s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.830s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake
+[3.836s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake
+[3.841s] -- Symlinking: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/custom_interfaces/package.xml
+[3.847s] -- Installing: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so
+[3.847s] -- Set runtime path of "/home/saab/Desktop/microROS_AUV/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so" to ""
+[3.848s] -- Installing: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.848s] -- Set runtime path of "/home/saab/Desktop/microROS_AUV/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[3.848s] -- Installing: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so
+[3.848s] -- Set runtime path of "/home/saab/Desktop/microROS_AUV/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[3.848s] -- Installing: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so
+[3.849s] -- Set runtime path of "/home/saab/Desktop/microROS_AUV/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so" to ""
+[3.849s] -- Installing: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.849s] -- Set runtime path of "/home/saab/Desktop/microROS_AUV/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.849s] -- Installing: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.850s] -- Set runtime path of "/home/saab/Desktop/microROS_AUV/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[3.850s] -- Installing: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so
+[3.850s] -- Set runtime path of "/home/saab/Desktop/microROS_AUV/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so" to ""
+[3.879s] Listing '/home/saab/Desktop/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces'...
+[3.879s] Compiling '/home/saab/Desktop/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py'...
+[3.879s] Listing '/home/saab/Desktop/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg'...
+[3.879s] Compiling '/home/saab/Desktop/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/__init__.py'...
+[3.879s] Compiling '/home/saab/Desktop/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_thrusters_states.py'...
+[3.879s] Listing '/home/saab/Desktop/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv'...
+[3.879s] Compiling '/home/saab/Desktop/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py'...
+[3.879s] Compiling '/home/saab/Desktop/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_variable_activate.py'...
+[3.881s] -- Installing: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so
+[3.882s] -- Set runtime path of "/home/saab/Desktop/microROS_AUV/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so" to ""
+[3.882s] -- Installing: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport.cmake
+[3.882s] -- Installing: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.882s] -- Installing: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.882s] -- Installing: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.882s] -- Installing: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.883s] -- Installing: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.883s] -- Installing: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake
+[3.883s] -- Installing: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.883s] -- Installing: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cppExport.cmake
+[3.883s] -- Installing: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.883s] -- Installing: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.884s] -- Installing: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.884s] -- Installing: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.884s] -- Installing: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake
+[3.884s] -- Installing: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.884s] -- Installing: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport.cmake
+[3.884s] -- Installing: /home/saab/Desktop/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.886s] Invoked command in '/home/saab/Desktop/microROS_AUV/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saab/Desktop/microROS_AUV/install/control_pkg:/home/saab/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble /usr/bin/cmake --install /home/saab/Desktop/microROS_AUV/build/custom_interfaces

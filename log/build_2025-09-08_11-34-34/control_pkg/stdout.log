@@ -1,0 +1,28 @@
+running develop
+running egg_info
+creating control_pkg.egg-info
+writing control_pkg.egg-info/PKG-INFO
+writing dependency_links to control_pkg.egg-info/dependency_links.txt
+writing entry points to control_pkg.egg-info/entry_points.txt
+writing requirements to control_pkg.egg-info/requires.txt
+writing top-level names to control_pkg.egg-info/top_level.txt
+writing manifest file 'control_pkg.egg-info/SOURCES.txt'
+reading manifest file 'control_pkg.egg-info/SOURCES.txt'
+writing manifest file 'control_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/saab/Desktop/microROS_AUV/install/control_pkg/lib/python3.10/site-packages/control-pkg.egg-link (link to .)
+Installing depth_holder script to /home/saab/Desktop/microROS_AUV/install/control_pkg/lib/control_pkg
+Installing heading_stabilizer script to /home/saab/Desktop/microROS_AUV/install/control_pkg/lib/control_pkg
+Installing joy_controller script to /home/saab/Desktop/microROS_AUV/install/control_pkg/lib/control_pkg
+Installing main_thruster_controller script to /home/saab/Desktop/microROS_AUV/install/control_pkg/lib/control_pkg
+Installing planar_stabilizer script to /home/saab/Desktop/microROS_AUV/install/control_pkg/lib/control_pkg
+Installing position_holder script to /home/saab/Desktop/microROS_AUV/install/control_pkg/lib/control_pkg
+Installing sync_io script to /home/saab/Desktop/microROS_AUV/install/control_pkg/lib/control_pkg
+
+Installed /home/saab/Desktop/microROS_AUV/build/control_pkg
+running symlink_data
+creating /home/saab/Desktop/microROS_AUV/install/control_pkg/share/ament_index
+creating /home/saab/Desktop/microROS_AUV/install/control_pkg/share/ament_index/resource_index
+creating /home/saab/Desktop/microROS_AUV/install/control_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/saab/Desktop/microROS_AUV/build/control_pkg/resource/control_pkg -> /home/saab/Desktop/microROS_AUV/install/control_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/saab/Desktop/microROS_AUV/build/control_pkg/package.xml -> /home/saab/Desktop/microROS_AUV/install/control_pkg/share/control_pkg

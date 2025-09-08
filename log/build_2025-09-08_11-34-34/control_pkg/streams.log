@@ -1,0 +1,30 @@
+[0.463s] Invoking command in '/home/saab/Desktop/microROS_AUV/build/control_pkg': PYTHONPATH=/home/saab/Desktop/microROS_AUV/build/control_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saab/Desktop/microROS_AUV/install/control_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/saab/Desktop/microROS_AUV/build/control_pkg/build --no-deps symlink_data
+[0.662s] running develop
+[0.854s] running egg_info
+[0.854s] creating control_pkg.egg-info
+[0.854s] writing control_pkg.egg-info/PKG-INFO
+[0.854s] writing dependency_links to control_pkg.egg-info/dependency_links.txt
+[0.854s] writing entry points to control_pkg.egg-info/entry_points.txt
+[0.854s] writing requirements to control_pkg.egg-info/requires.txt
+[0.854s] writing top-level names to control_pkg.egg-info/top_level.txt
+[0.857s] writing manifest file 'control_pkg.egg-info/SOURCES.txt'
+[0.858s] reading manifest file 'control_pkg.egg-info/SOURCES.txt'
+[0.859s] writing manifest file 'control_pkg.egg-info/SOURCES.txt'
+[0.859s] running build_ext
+[0.860s] Creating /home/saab/Desktop/microROS_AUV/install/control_pkg/lib/python3.10/site-packages/control-pkg.egg-link (link to .)
+[0.860s] Installing depth_holder script to /home/saab/Desktop/microROS_AUV/install/control_pkg/lib/control_pkg
+[0.860s] Installing heading_stabilizer script to /home/saab/Desktop/microROS_AUV/install/control_pkg/lib/control_pkg
+[0.860s] Installing joy_controller script to /home/saab/Desktop/microROS_AUV/install/control_pkg/lib/control_pkg
+[0.860s] Installing main_thruster_controller script to /home/saab/Desktop/microROS_AUV/install/control_pkg/lib/control_pkg
+[0.861s] Installing planar_stabilizer script to /home/saab/Desktop/microROS_AUV/install/control_pkg/lib/control_pkg
+[0.861s] Installing position_holder script to /home/saab/Desktop/microROS_AUV/install/control_pkg/lib/control_pkg
+[0.861s] Installing sync_io script to /home/saab/Desktop/microROS_AUV/install/control_pkg/lib/control_pkg
+[0.861s] 
+[0.861s] Installed /home/saab/Desktop/microROS_AUV/build/control_pkg
+[0.861s] running symlink_data
+[0.861s] creating /home/saab/Desktop/microROS_AUV/install/control_pkg/share/ament_index
+[0.861s] creating /home/saab/Desktop/microROS_AUV/install/control_pkg/share/ament_index/resource_index
+[0.861s] creating /home/saab/Desktop/microROS_AUV/install/control_pkg/share/ament_index/resource_index/packages
+[0.861s] symbolically linking /home/saab/Desktop/microROS_AUV/build/control_pkg/resource/control_pkg -> /home/saab/Desktop/microROS_AUV/install/control_pkg/share/ament_index/resource_index/packages
+[0.861s] symbolically linking /home/saab/Desktop/microROS_AUV/build/control_pkg/package.xml -> /home/saab/Desktop/microROS_AUV/install/control_pkg/share/control_pkg
+[0.876s] Invoked command in '/home/saab/Desktop/microROS_AUV/build/control_pkg' returned '0': PYTHONPATH=/home/saab/Desktop/microROS_AUV/build/control_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saab/Desktop/microROS_AUV/install/control_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/saab/Desktop/microROS_AUV/build/control_pkg/build --no-deps symlink_data

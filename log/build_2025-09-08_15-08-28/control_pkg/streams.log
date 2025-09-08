@@ -1,0 +1,66 @@
+[0.487s] Invoking command in '/home/saab/Desktop/microROS_AUV/build/control_pkg': PYTHONPATH=/home/saab/Desktop/microROS_AUV/build/control_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saab/Desktop/microROS_AUV/install/control_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/saab/Desktop/microROS_AUV/build/control_pkg/build
+[0.691s] running develop
+[0.883s] Removing /home/saab/Desktop/microROS_AUV/install/control_pkg/lib/python3.10/site-packages/control-pkg.egg-link (link to .)
+[0.900s] Invoked command in '/home/saab/Desktop/microROS_AUV/build/control_pkg' returned '0': PYTHONPATH=/home/saab/Desktop/microROS_AUV/build/control_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saab/Desktop/microROS_AUV/install/control_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/saab/Desktop/microROS_AUV/build/control_pkg/build
+[0.901s] Invoking command in '/home/saab/Desktop/microROS_AUV/src/control_pkg': PYTHONPATH=/home/saab/Desktop/microROS_AUV/build/control_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saab/Desktop/microROS_AUV/install/control_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/control_pkg build --build-base /home/saab/Desktop/microROS_AUV/build/control_pkg/build install --record /home/saab/Desktop/microROS_AUV/build/control_pkg/install.log --single-version-externally-managed install_data --force
+[1.088s] running egg_info
+[1.088s] writing ../../build/control_pkg/control_pkg.egg-info/PKG-INFO
+[1.088s] writing dependency_links to ../../build/control_pkg/control_pkg.egg-info/dependency_links.txt
+[1.088s] writing entry points to ../../build/control_pkg/control_pkg.egg-info/entry_points.txt
+[1.088s] writing requirements to ../../build/control_pkg/control_pkg.egg-info/requires.txt
+[1.089s] writing top-level names to ../../build/control_pkg/control_pkg.egg-info/top_level.txt
+[1.093s] reading manifest file '../../build/control_pkg/control_pkg.egg-info/SOURCES.txt'
+[1.094s] writing manifest file '../../build/control_pkg/control_pkg.egg-info/SOURCES.txt'
+[1.094s] running build
+[1.094s] running build_py
+[1.094s] creating /home/saab/Desktop/microROS_AUV/build/control_pkg/build
+[1.094s] creating /home/saab/Desktop/microROS_AUV/build/control_pkg/build/lib
+[1.095s] creating /home/saab/Desktop/microROS_AUV/build/control_pkg/build/lib/control_pkg
+[1.095s] copying control_pkg/position_holder.py -> /home/saab/Desktop/microROS_AUV/build/control_pkg/build/lib/control_pkg
+[1.095s] copying control_pkg/planar_stabilizer.py -> /home/saab/Desktop/microROS_AUV/build/control_pkg/build/lib/control_pkg
+[1.095s] copying control_pkg/main_thruster_controller.py -> /home/saab/Desktop/microROS_AUV/build/control_pkg/build/lib/control_pkg
+[1.095s] copying control_pkg/old_controller.py -> /home/saab/Desktop/microROS_AUV/build/control_pkg/build/lib/control_pkg
+[1.096s] copying control_pkg/joy_controller.py -> /home/saab/Desktop/microROS_AUV/build/control_pkg/build/lib/control_pkg
+[1.096s] copying control_pkg/sync_io.py -> /home/saab/Desktop/microROS_AUV/build/control_pkg/build/lib/control_pkg
+[1.096s] copying control_pkg/python_template.py -> /home/saab/Desktop/microROS_AUV/build/control_pkg/build/lib/control_pkg
+[1.097s] copying control_pkg/__init__.py -> /home/saab/Desktop/microROS_AUV/build/control_pkg/build/lib/control_pkg
+[1.097s] copying control_pkg/heading_stabilizer.py -> /home/saab/Desktop/microROS_AUV/build/control_pkg/build/lib/control_pkg
+[1.097s] copying control_pkg/depth_holder.py -> /home/saab/Desktop/microROS_AUV/build/control_pkg/build/lib/control_pkg
+[1.097s] running install
+[1.098s] running install_lib
+[1.098s] creating /home/saab/Desktop/microROS_AUV/install/control_pkg/lib/python3.10/site-packages/control_pkg
+[1.098s] copying /home/saab/Desktop/microROS_AUV/build/control_pkg/build/lib/control_pkg/position_holder.py -> /home/saab/Desktop/microROS_AUV/install/control_pkg/lib/python3.10/site-packages/control_pkg
+[1.098s] copying /home/saab/Desktop/microROS_AUV/build/control_pkg/build/lib/control_pkg/planar_stabilizer.py -> /home/saab/Desktop/microROS_AUV/install/control_pkg/lib/python3.10/site-packages/control_pkg
+[1.098s] copying /home/saab/Desktop/microROS_AUV/build/control_pkg/build/lib/control_pkg/main_thruster_controller.py -> /home/saab/Desktop/microROS_AUV/install/control_pkg/lib/python3.10/site-packages/control_pkg
+[1.098s] copying /home/saab/Desktop/microROS_AUV/build/control_pkg/build/lib/control_pkg/old_controller.py -> /home/saab/Desktop/microROS_AUV/install/control_pkg/lib/python3.10/site-packages/control_pkg
+[1.098s] copying /home/saab/Desktop/microROS_AUV/build/control_pkg/build/lib/control_pkg/joy_controller.py -> /home/saab/Desktop/microROS_AUV/install/control_pkg/lib/python3.10/site-packages/control_pkg
+[1.099s] copying /home/saab/Desktop/microROS_AUV/build/control_pkg/build/lib/control_pkg/sync_io.py -> /home/saab/Desktop/microROS_AUV/install/control_pkg/lib/python3.10/site-packages/control_pkg
+[1.099s] copying /home/saab/Desktop/microROS_AUV/build/control_pkg/build/lib/control_pkg/python_template.py -> /home/saab/Desktop/microROS_AUV/install/control_pkg/lib/python3.10/site-packages/control_pkg
+[1.099s] copying /home/saab/Desktop/microROS_AUV/build/control_pkg/build/lib/control_pkg/__init__.py -> /home/saab/Desktop/microROS_AUV/install/control_pkg/lib/python3.10/site-packages/control_pkg
+[1.099s] copying /home/saab/Desktop/microROS_AUV/build/control_pkg/build/lib/control_pkg/heading_stabilizer.py -> /home/saab/Desktop/microROS_AUV/install/control_pkg/lib/python3.10/site-packages/control_pkg
+[1.099s] copying /home/saab/Desktop/microROS_AUV/build/control_pkg/build/lib/control_pkg/depth_holder.py -> /home/saab/Desktop/microROS_AUV/install/control_pkg/lib/python3.10/site-packages/control_pkg
+[1.099s] byte-compiling /home/saab/Desktop/microROS_AUV/install/control_pkg/lib/python3.10/site-packages/control_pkg/position_holder.py to position_holder.cpython-310.pyc
+[1.100s] byte-compiling /home/saab/Desktop/microROS_AUV/install/control_pkg/lib/python3.10/site-packages/control_pkg/planar_stabilizer.py to planar_stabilizer.cpython-310.pyc
+[1.100s] byte-compiling /home/saab/Desktop/microROS_AUV/install/control_pkg/lib/python3.10/site-packages/control_pkg/main_thruster_controller.py to main_thruster_controller.cpython-310.pyc
+[1.101s] byte-compiling /home/saab/Desktop/microROS_AUV/install/control_pkg/lib/python3.10/site-packages/control_pkg/old_controller.py to old_controller.cpython-310.pyc
+[1.101s] byte-compiling /home/saab/Desktop/microROS_AUV/install/control_pkg/lib/python3.10/site-packages/control_pkg/joy_controller.py to joy_controller.cpython-310.pyc
+[1.101s] byte-compiling /home/saab/Desktop/microROS_AUV/install/control_pkg/lib/python3.10/site-packages/control_pkg/sync_io.py to sync_io.cpython-310.pyc
+[1.102s] byte-compiling /home/saab/Desktop/microROS_AUV/install/control_pkg/lib/python3.10/site-packages/control_pkg/python_template.py to python_template.cpython-310.pyc
+[1.102s] byte-compiling /home/saab/Desktop/microROS_AUV/install/control_pkg/lib/python3.10/site-packages/control_pkg/__init__.py to __init__.cpython-310.pyc
+[1.102s] byte-compiling /home/saab/Desktop/microROS_AUV/install/control_pkg/lib/python3.10/site-packages/control_pkg/heading_stabilizer.py to heading_stabilizer.cpython-310.pyc
+[1.102s] byte-compiling /home/saab/Desktop/microROS_AUV/install/control_pkg/lib/python3.10/site-packages/control_pkg/depth_holder.py to depth_holder.cpython-310.pyc
+[1.103s] running install_data
+[1.103s] copying resource/control_pkg -> /home/saab/Desktop/microROS_AUV/install/control_pkg/share/ament_index/resource_index/packages
+[1.104s] copying package.xml -> /home/saab/Desktop/microROS_AUV/install/control_pkg/share/control_pkg
+[1.104s] running install_egg_info
+[1.106s] Copying ../../build/control_pkg/control_pkg.egg-info to /home/saab/Desktop/microROS_AUV/install/control_pkg/lib/python3.10/site-packages/control_pkg-0.0.0-py3.10.egg-info
+[1.107s] running install_scripts
+[1.120s] Installing depth_holder script to /home/saab/Desktop/microROS_AUV/install/control_pkg/lib/control_pkg
+[1.120s] Installing heading_stabilizer script to /home/saab/Desktop/microROS_AUV/install/control_pkg/lib/control_pkg
+[1.120s] Installing joy_controller script to /home/saab/Desktop/microROS_AUV/install/control_pkg/lib/control_pkg
+[1.120s] Installing main_thruster_controller script to /home/saab/Desktop/microROS_AUV/install/control_pkg/lib/control_pkg
+[1.120s] Installing planar_stabilizer script to /home/saab/Desktop/microROS_AUV/install/control_pkg/lib/control_pkg
+[1.120s] Installing position_holder script to /home/saab/Desktop/microROS_AUV/install/control_pkg/lib/control_pkg
+[1.120s] Installing sync_io script to /home/saab/Desktop/microROS_AUV/install/control_pkg/lib/control_pkg
+[1.121s] writing list of installed files to '/home/saab/Desktop/microROS_AUV/build/control_pkg/install.log'
+[1.136s] Invoked command in '/home/saab/Desktop/microROS_AUV/src/control_pkg' returned '0': PYTHONPATH=/home/saab/Desktop/microROS_AUV/build/control_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saab/Desktop/microROS_AUV/install/control_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/control_pkg build --build-base /home/saab/Desktop/microROS_AUV/build/control_pkg/build install --record /home/saab/Desktop/microROS_AUV/build/control_pkg/install.log --single-version-externally-managed install_data --force

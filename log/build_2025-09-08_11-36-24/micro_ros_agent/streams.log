@@ -1,0 +1,34 @@
+[0.008s] Invoking command in '/home/saab/Desktop/microROS_AUV/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/saab/Desktop/microROS_AUV/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saab/Desktop/microROS_AUV/install/micro_ros_msgs:/home/saab/Desktop/microROS_AUV/install/custom_interfaces:/home/saab/microROS_main/install/micro_ros_setup:/home/saab/Desktop/2024_UWR/install/xsens_mti_ros2_driver:/home/saab/Desktop/2024_UWR/install/kalman_filter:/home/saab/Desktop/2024_UWR/install/sonar_msgs:/home/saab/Desktop/2024_UWR/install/ntrip:/home/saab/Desktop/2024_UWR/install/adnav-driver:/home/saab/Desktop/microROS_AUV/install/control_pkg:/home/saab/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble LD_LIBRARY_PATH=/home/saab/Desktop/microROS_AUV/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/saab/Desktop/microROS_AUV/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/saab/Desktop/microROS_AUV/build/micro_ros_agent -- -j24 -l24
+[0.043s] [35m[1mConsolidate compiler generated dependencies of target micro_ros_agent[0m
+[0.052s] [ 16%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/Agent.cpp.o[0m
+[0.052s] [ 33%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_typesupport.cpp.o[0m
+[0.052s] [ 50%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/main.cpp.o[0m
+[0.052s] [ 66%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_manager.cpp.o[0m
+[0.069s] In file included from /home/saab/Desktop/microROS_AUV/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:18:
+[0.069s] [1m/home/saab/Desktop/microROS_AUV/src/uros/micro-ROS-Agent/micro_ros_agent/include/agent/Agent.hpp:18:10: [0m[0;1;31mfatal error: [0m[1m'uxr/agent/AgentInstance.hpp' file not found[0m
+[0.069s] #include <uxr/agent/AgentInstance.hpp>
+[0.069s] [0;1;32m         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0.069s] [0mIn file included from /home/saab/Desktop/microROS_AUV/src/uros/micro-ROS-Agent/micro_ros_agent/src/main.cpp:15:
+[0.070s] [1m/home/saab/Desktop/microROS_AUV/src/uros/micro-ROS-Agent/micro_ros_agent/include/agent/Agent.hpp:18:10: [0m[0;1;31mfatal error: [0m[1m'uxr/agent/AgentInstance.hpp' file not found[0m
+[0.070s] #include <uxr/agent/AgentInstance.hpp>
+[0.070s] [0;1;32m         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0.513s] [0m1 error generated.
+[0.516s] 1 error generated.
+[0.518s] gmake[2]: *** [CMakeFiles/micro_ros_agent.dir/build.make:76: CMakeFiles/micro_ros_agent.dir/src/main.cpp.o] Error 1
+[0.518s] gmake[2]: *** Waiting for unfinished jobs....
+[0.520s] gmake[2]: *** [CMakeFiles/micro_ros_agent.dir/build.make:90: CMakeFiles/micro_ros_agent.dir/src/agent/Agent.cpp.o] Error 1
+[0.647s] In file included from /home/saab/Desktop/microROS_AUV/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/graph_manager/graph_typesupport.cpp:18:
+[0.647s] [1m/home/saab/Desktop/microROS_AUV/src/uros/micro-ROS-Agent/micro_ros_agent/include/agent/graph_manager/graph_typesupport.hpp:28:10: [0m[0;1;31mfatal error: [0m[1m'fastdds/dds/domain/DomainParticipant.hpp' file not found[0m
+[0.647s] #include <fastdds/dds/domain/DomainParticipant.hpp>
+[0.647s] [0;1;32m         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0.647s] [0mIn file included from /home/saab/Desktop/microROS_AUV/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/graph_manager/graph_manager.cpp:18:
+[0.647s] [1m/home/saab/Desktop/microROS_AUV/src/uros/micro-ROS-Agent/micro_ros_agent/include/agent/graph_manager/graph_manager.hpp:28:10: [0m[0;1;31mfatal error: [0m[1m'fastdds/dds/domain/DomainParticipant.hpp' file not found[0m
+[0.647s] #include <fastdds/dds/domain/DomainParticipant.hpp>
+[0.647s] [0;1;32m         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0.704s] [0m1 error generated.
+[0.710s] gmake[2]: *** [CMakeFiles/micro_ros_agent.dir/build.make:118: CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_typesupport.cpp.o] Error 1
+[0.725s] 1 error generated.
+[0.733s] gmake[2]: *** [CMakeFiles/micro_ros_agent.dir/build.make:104: CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_manager.cpp.o] Error 1
+[0.733s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/micro_ros_agent.dir/all] Error 2
+[0.733s] gmake: *** [Makefile:146: all] Error 2
+[0.735s] Invoked command in '/home/saab/Desktop/microROS_AUV/build/micro_ros_agent' returned '2': AMENT_PREFIX_PATH=/home/saab/Desktop/microROS_AUV/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saab/Desktop/microROS_AUV/install/micro_ros_msgs:/home/saab/Desktop/microROS_AUV/install/custom_interfaces:/home/saab/microROS_main/install/micro_ros_setup:/home/saab/Desktop/2024_UWR/install/xsens_mti_ros2_driver:/home/saab/Desktop/2024_UWR/install/kalman_filter:/home/saab/Desktop/2024_UWR/install/sonar_msgs:/home/saab/Desktop/2024_UWR/install/ntrip:/home/saab/Desktop/2024_UWR/install/adnav-driver:/home/saab/Desktop/microROS_AUV/install/control_pkg:/home/saab/Desktop/2024_UWR/install/sonar_subs:/opt/ros/humble LD_LIBRARY_PATH=/home/saab/Desktop/microROS_AUV/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/saab/Desktop/microROS_AUV/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/saab/Desktop/microROS_AUV/build/micro_ros_agent -- -j24 -l24
