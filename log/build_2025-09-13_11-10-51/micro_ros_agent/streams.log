@@ -1,0 +1,321 @@
+[0.178s] Invoking command in '/home/abubakr/microROS_AUV/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/abubakr/microROS_AUV/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abubakr/microROS_AUV/install/micro_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/abubakr/microROS_AUV/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/abubakr/microROS_AUV/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/abubakr/microROS_AUV/src/uros/micro-ROS-Agent/micro_ros_agent -DCMAKE_INSTALL_PREFIX=/home/abubakr/microROS_AUV/install/micro_ros_agent
+[0.427s] -- The C compiler identification is GNU 11.4.0
+[1.111s] -- Detecting C compiler ABI info
+[1.350s] -- Detecting C compiler ABI info - done
+[1.361s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.361s] -- Detecting C compile features
+[1.362s] -- Detecting C compile features - done
+[1.589s] -- The CXX compiler identification is GNU 11.4.0
+[2.282s] -- Detecting CXX compiler ABI info
+[2.552s] -- Detecting CXX compiler ABI info - done
+[2.561s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.562s] -- Detecting CXX compile features
+[2.563s] -- Detecting CXX compile features - done
+[4.950s] -- Configuring done
+[4.955s] -- Generating done
+[4.958s] -- Build files have been written to: /home/abubakr/microROS_AUV/build/micro_ros_agent
+[4.965s] Invoked command in '/home/abubakr/microROS_AUV/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/abubakr/microROS_AUV/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abubakr/microROS_AUV/install/micro_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/abubakr/microROS_AUV/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/abubakr/microROS_AUV/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/abubakr/microROS_AUV/src/uros/micro-ROS-Agent/micro_ros_agent -DCMAKE_INSTALL_PREFIX=/home/abubakr/microROS_AUV/install/micro_ros_agent
+[4.969s] Invoking command in '/home/abubakr/microROS_AUV/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/abubakr/microROS_AUV/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abubakr/microROS_AUV/install/micro_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/abubakr/microROS_AUV/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/abubakr/microROS_AUV/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/abubakr/microROS_AUV/build/micro_ros_agent -- -j16 -l16
+[5.041s] [  6%] [34m[1mCreating directories for 'xrceagent'[0m
+[5.151s] [ 12%] [34m[1mPerforming download step (git clone) for 'xrceagent'[0m
+[5.182s] Cloning into 'xrceagent'...
+[6.960s] HEAD is now at 57d0862 Release v2.4.2
+[7.070s] [ 18%] [34m[1mPerforming update step for 'xrceagent'[0m
+[7.116s] [ 25%] [34m[1mNo patch step for 'xrceagent'[0m
+[7.159s] [ 31%] [34m[1mPerforming configure step for 'xrceagent'[0m
+[7.174s] loading initial cache file /home/abubakr/microROS_AUV/build/micro_ros_agent/agent/tmp/xrceagent-cache-.cmake
+[7.462s] -- The C compiler identification is GNU 11.4.0
+[8.246s] -- Detecting C compiler ABI info
+[8.537s] -- Detecting C compiler ABI info - done
+[8.547s] -- Check for working C compiler: /usr/bin/cc - skipped
+[8.548s] -- Detecting C compile features
+[8.549s] -- Detecting C compile features - done
+[8.818s] -- The CXX compiler identification is GNU 11.4.0
+[9.603s] -- Detecting CXX compiler ABI info
+[9.918s] -- Detecting CXX compiler ABI info - done
+[9.928s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[9.929s] -- Detecting CXX compile features
+[9.929s] -- Detecting CXX compile features - done
+[9.942s] -- Looking for pthread.h
+[10.212s] -- Looking for pthread.h - found
+[10.213s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.487s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[10.488s] -- Found Threads: TRUE  
+[10.509s] -- Configuring done
+[10.512s] -- Generating done
+[10.513s] -- Build files have been written to: /home/abubakr/microROS_AUV/build/micro_ros_agent/agent/src/xrceagent-build
+[10.545s] [ 37%] [34m[1mPerforming build step for 'xrceagent'[0m
+[10.603s] [ 12%] [34m[1mCreating directories for 'uagent'[0m
+[10.698s] [ 25%] [34m[1mNo download step for 'uagent'[0m
+[10.732s] [ 37%] [34m[1mNo update step for 'uagent'[0m
+[10.765s] [ 50%] [34m[1mNo patch step for 'uagent'[0m
+[10.797s] [ 62%] [34m[1mPerforming configure step for 'uagent'[0m
+[10.809s] loading initial cache file /home/abubakr/microROS_AUV/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/tmp/uagent-cache-.cmake
+[10.818s] -- Setting build type to 'Release' as none was specified.
+[14.113s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[14.113s]   The package name passed to `find_package_handle_standard_args` (tinyxml2)
+[14.113s]   does not match the name of the calling package (TinyXML2).  This can lead
+[14.113s]   to problems in calling code that expects `find_package` result variables
+[14.113s]   (e.g., `_FOUND`) to follow a certain pattern.
+[14.113s] Call Stack (most recent call first):
+[14.113s]   cmake/modules/FindTinyXML2.cmake:40 (find_package_handle_standard_args)
+[14.113s]   /opt/ros/humble/share/fastrtps/cmake/fastrtps-config.cmake:51 (find_package)
+[14.113s]   CMakeLists.txt:153 (find_package)
+[14.113s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[14.113s] [0m
+[14.113s] -- Found tinyxml2: /usr/lib/x86_64-linux-gnu/libtinyxml2.so  
+[15.194s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[15.213s] -- Configuring done
+[15.239s] -- Generating done
+[15.241s] -- Build files have been written to: /home/abubakr/microROS_AUV/build/micro_ros_agent/agent/src/xrceagent-build
+[15.268s] [ 75%] [34m[1mPerforming build step for 'uagent'[0m
+[15.341s] [  2%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/AgentInstance.cpp.o[0m
+[15.341s] [  4%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/processor/Processor.cpp.o[0m
+[15.348s] [  7%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/client/ProxyClient.cpp.o[0m
+[15.348s] [  9%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/participant/Participant.cpp.o[0m
+[15.348s] [ 11%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Agent.cpp.o[0m
+[15.348s] [ 14%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Root.cpp.o[0m
+[15.351s] [ 16%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/subscriber/Subscriber.cpp.o[0m
+[15.356s] [ 19%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/topic/Topic.cpp.o[0m
+[15.357s] [ 21%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/object/XRCEObject.cpp.o[0m
+[15.362s] [ 23%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/publisher/Publisher.cpp.o[0m
+[15.370s] [ 26%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datawriter/DataWriter.cpp.o[0m
+[15.374s] [ 28%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/XRCETypes.cpp.o[0m
+[15.375s] [ 30%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/requester/Requester.cpp.o[0m
+[15.387s] [ 33%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/MessageHeader.cpp.o[0m
+[15.389s] [ 35%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/replier/Replier.cpp.o[0m
+[15.394s] [ 38%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datareader/DataReader.cpp.o[0m
+[17.237s] [ 40%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/SubMessageHeader.cpp.o[0m
+[17.459s] [ 42%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/InputMessage.cpp.o[0m
+[18.724s] [ 45%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/OutputMessage.cpp.o[0m
+[18.843s] [ 47%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/utils/ArgumentParser.cpp.o[0m
+[18.935s] [ 50%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/stream_framing/StreamFramingProtocol.cpp.o[0m
+[18.938s] [ 52%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/Server.cpp.o[0m
+[19.456s] [ 54%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/custom/CustomAgent.cpp.o[0m
+[19.580s] [ 57%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv4AgentLinux.cpp.o[0m
+[23.712s] [ 59%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv6AgentLinux.cpp.o[0m
+[25.754s] [ 61%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv4AgentLinux.cpp.o[0m
+[25.781s] [ 64%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv6AgentLinux.cpp.o[0m
+[25.826s] [ 66%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/SerialAgentLinux.cpp.o[0m
+[26.711s] [ 69%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/TermiosAgentLinux.cpp.o[0m
+[27.444s] [ 71%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiSerialAgentLinux.cpp.o[0m
+[27.570s] [ 73%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiTermiosAgentLinux.cpp.o[0m
+[28.672s] [ 76%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/PseudoTerminalAgentLinux.cpp.o[0m
+[30.266s] [ 78%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/can/CanAgentLinux.cpp.o[0m
+[30.409s] [ 80%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServerLinux.cpp.o[0m
+[32.172s] [ 83%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServer.cpp.o[0m
+[34.388s] [ 85%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/TopicPubSubType.cpp.o[0m
+[34.476s] [ 88%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/xmlobjects/xmlobjects.cpp.o[0m
+[34.690s] [ 90%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastEntities.cpp.o[0m
+[35.305s] [ 92%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastMiddleware.cpp.o[0m
+[35.836s] [ 95%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSEntities.cpp.o[0m
+[37.490s] [ 97%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSMiddleware.cpp.o[0m
+[50.871s] [100%] [32m[1mLinking CXX shared library libmicroxrcedds_agent.so[0m
+[51.458s] [100%] Built target microxrcedds_agent
+[51.498s] [34m[1mNo install step for 'uagent'[0m
+[51.538s] [34m[1mCompleted 'uagent'[0m
+[51.592s] Built target uagent
+[51.634s] [ 43%] [34m[1mPerforming install step for 'xrceagent'[0m
+[51.705s] [35m[1mConsolidate compiler generated dependencies of target microxrcedds_agent[0m
+[51.769s] [100%] Built target microxrcedds_agent
+[51.801s] [36mInstall the project...[0m
+[51.815s] -- Install configuration: "Release"
+[51.816s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.2
+[51.822s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4
+[51.822s] -- Set runtime path of "/home/abubakr/microROS_AUV/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.2" to ""
+[51.823s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/lib/libmicroxrcedds_agent.so
+[51.824s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent
+[51.825s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/replier
+[51.826s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/replier/Replier.hpp
+[51.826s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/subscriber
+[51.827s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/subscriber/Subscriber.hpp
+[51.827s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/datareader
+[51.827s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/datareader/DataReader.hpp
+[51.828s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/visibility.hpp
+[51.828s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/p2p
+[51.829s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/p2p/InternalClient.hpp
+[51.829s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/p2p/InternalClientManager.hpp
+[51.830s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/types
+[51.830s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/types/SubMessageHeader.hpp
+[51.831s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/types/MessageHeader.hpp
+[51.831s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/types/Optional.hpp
+[51.831s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/types/TopicPubSubType.hpp
+[51.832s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/types/XRCETypes.hpp
+[51.833s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/transport
+[51.833s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/transport/stream_framing
+[51.833s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/transport/stream_framing/StreamFramingProtocol.hpp
+[51.833s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/transport/p2p
+[51.834s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscoverer.hpp
+[51.834s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscovererLinux.hpp
+[51.835s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/transport/can
+[51.835s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/transport/can/CanAgentLinux.hpp
+[51.835s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/transport/custom
+[51.835s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/transport/custom/CustomAgent.hpp
+[51.836s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/transport/SessionManager.hpp
+[51.836s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/transport/endpoint
+[51.837s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CanEndPoint.hpp
+[51.837s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv6EndPoint.hpp
+[51.837s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CustomEndPoint.hpp
+[51.838s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/transport/endpoint/SerialEndPoint.hpp
+[51.838s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv4EndPoint.hpp
+[51.838s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/transport/endpoint/MultiSerialEndPoint.hpp
+[51.839s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/transport/discovery
+[51.839s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerLinux.hpp
+[51.840s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServer.hpp
+[51.841s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerWindows.hpp
+[51.841s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/transport/Server.hpp
+[51.841s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/transport/TransportRc.hpp
+[51.842s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/transport/udp
+[51.842s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentWindows.hpp
+[51.843s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentWindows.hpp
+[51.843s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentLinux.hpp
+[51.844s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentLinux.hpp
+[51.844s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/transport/serial
+[51.844s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/transport/serial/baud_rate_table_linux.h
+[51.844s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/transport/serial/TermiosAgentLinux.hpp
+[51.844s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/transport/serial/SerialAgentLinux.hpp
+[51.845s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiSerialAgentLinux.hpp
+[51.845s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiTermiosAgentLinux.hpp
+[51.846s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/transport/serial/PseudoTerminalAgentLinux.hpp
+[51.846s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/transport/util
+[51.846s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceLinux.hpp
+[51.847s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceWindows.hpp
+[51.847s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/transport/tcp
+[51.847s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentLinux.hpp
+[51.848s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentLinux.hpp
+[51.848s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentWindows.hpp
+[51.849s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentWindows.hpp
+[51.849s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPServerBase.hpp
+[51.850s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPConnection.hpp
+[51.850s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/message
+[51.850s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/message/OutputMessage.hpp
+[51.851s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/message/InputMessage.hpp
+[51.851s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/message/Packet.hpp
+[51.851s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/Root.hpp
+[51.852s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/client
+[51.852s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/client/ProxyClient.hpp
+[51.852s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/client/session
+[51.853s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/client/session/SessionInfo.hpp
+[51.853s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/client/session/stream
+[51.854s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/client/session/stream/InputStream.hpp
+[51.854s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/client/session/stream/OutputStream.hpp
+[51.855s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/client/session/Session.hpp
+[51.856s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/requester
+[51.856s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/requester/Requester.hpp
+[51.856s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/reader
+[51.857s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/reader/Reader.hpp
+[51.857s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/scheduler
+[51.857s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/scheduler/PacketScheduler.hpp
+[51.858s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/scheduler/Scheduler.hpp
+[51.858s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/object
+[51.858s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/object/XRCEObject.hpp
+[51.859s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/publisher
+[51.859s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/publisher/Publisher.hpp
+[51.859s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/topic
+[51.860s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/topic/Topic.hpp
+[51.861s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/participant
+[51.861s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/participant/Participant.hpp
+[51.861s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/processor
+[51.861s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/processor/Processor.hpp
+[51.862s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/datawriter
+[51.862s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/datawriter/DataWriter.hpp
+[51.863s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/logger
+[51.863s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/logger/Logger.hpp
+[51.863s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/utils
+[51.864s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/utils/Color.hpp
+[51.864s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/utils/Conversion.hpp
+[51.865s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/utils/SeqNum.hpp
+[51.865s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/utils/ArgumentParser.hpp
+[51.865s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/utils/SharedMutex.hpp
+[51.866s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/utils/Time.hpp
+[51.866s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/utils/Functions.hpp
+[51.867s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/utils/SharedMutexPriority.hpp
+[51.867s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/utils/TokenBucket.hpp
+[51.868s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/AgentInstance.hpp
+[51.868s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/Agent.hpp
+[51.868s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/middleware
+[51.868s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/middleware/fastdds
+[51.869s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp
+[51.869s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp
+[51.869s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/middleware/ced
+[51.870s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedEntities.hpp
+[51.870s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedMiddleware.hpp
+[51.870s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/middleware/utils
+[51.871s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/middleware/utils/Callbacks.hpp
+[51.872s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/middleware/Middleware.hpp
+[51.872s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/middleware/fast
+[51.872s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastEntities.hpp
+[51.872s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastMiddleware.hpp
+[51.873s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets.cmake
+[51.874s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets-release.cmake
+[51.874s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/include/uxr/agent/config.hpp
+[51.874s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/share/microxrcedds_agent/LICENSE
+[51.875s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfig.cmake
+[51.875s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfigVersion.cmake
+[51.904s] [ 50%] [34m[1mCompleted 'xrceagent'[0m
+[51.948s] [ 50%] Built target xrceagent
+[51.977s] [ 56%] [34m[1mCreating directories for 'micro_ros_agent'[0m
+[52.077s] [ 62%] [34m[1mNo download step for 'micro_ros_agent'[0m
+[52.114s] [ 68%] [34m[1mNo update step for 'micro_ros_agent'[0m
+[52.149s] [ 75%] [34m[1mNo patch step for 'micro_ros_agent'[0m
+[52.183s] [ 81%] [34m[1mPerforming configure step for 'micro_ros_agent'[0m
+[52.198s] loading initial cache file /home/abubakr/microROS_AUV/build/micro_ros_agent/micro_ros_agent-prefix/tmp/micro_ros_agent-cache-.cmake
+[52.207s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[52.456s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[57.798s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[57.806s] -- Looking for C++ include pthread.h
+[58.101s] -- Looking for C++ include pthread.h - found
+[58.101s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[58.398s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[58.401s] -- Found Threads: TRUE  
+[58.407s] -- Found rosidl_cmake: 3.1.7 (/opt/ros/humble/share/rosidl_cmake/cmake)
+[58.409s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[60.857s] -- Found fastrtps_cmake_module: 2.2.2 (/opt/ros/humble/share/fastrtps_cmake_module/cmake)
+[60.862s] -- Found rmw_dds_common: 1.6.0 (/opt/ros/humble/share/rmw_dds_common/cmake)
+[61.117s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[61.133s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[61.151s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[61.170s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[61.219s] -- Found rmw_fastrtps_shared_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_shared_cpp/cmake)
+[66.646s] -- Found FastRTPS: /opt/ros/humble/include  
+[66.649s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[66.654s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[66.655s] -- Found micro_ros_msgs: 3.0.1 (/home/abubakr/microROS_AUV/install/micro_ros_msgs/share/micro_ros_msgs/cmake)
+[66.784s] -- Configuring done
+[66.801s] -- Generating done
+[66.807s] -- Build files have been written to: /home/abubakr/microROS_AUV/build/micro_ros_agent
+[66.842s] [ 87%] [34m[1mPerforming build step for 'micro_ros_agent'[0m
+[66.908s] [ 50%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_manager.cpp.o[0m
+[66.909s] [ 50%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_typesupport.cpp.o[0m
+[66.909s] [ 50%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/Agent.cpp.o[0m
+[66.909s] [ 66%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/main.cpp.o[0m
+[66.910s] [ 83%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/utils/demangle.cpp.o[0m
+[74.209s] [100%] [32m[1mLinking CXX executable micro_ros_agent[0m
+[74.903s] [100%] Built target micro_ros_agent
+[74.942s] [34m[1mNo install step for 'micro_ros_agent'[0m
+[74.978s] [34m[1mCompleted 'micro_ros_agent'[0m
+[75.025s] Built target micro_ros_agent
+[75.045s] Invoked command in '/home/abubakr/microROS_AUV/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/abubakr/microROS_AUV/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abubakr/microROS_AUV/install/micro_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/abubakr/microROS_AUV/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/abubakr/microROS_AUV/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/abubakr/microROS_AUV/build/micro_ros_agent -- -j16 -l16
+[75.052s] Invoking command in '/home/abubakr/microROS_AUV/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/abubakr/microROS_AUV/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abubakr/microROS_AUV/install/micro_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/abubakr/microROS_AUV/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/abubakr/microROS_AUV/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/abubakr/microROS_AUV/build/micro_ros_agent
+[75.064s] -- Install configuration: ""
+[75.065s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent
+[75.066s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent
+[75.068s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh
+[75.068s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv
+[75.069s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh
+[75.069s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv
+[75.070s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash
+[75.071s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh
+[75.071s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh
+[75.072s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv
+[75.072s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/share/micro_ros_agent/package.dsv
+[75.073s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent
+[75.074s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake
+[75.074s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake
+[75.075s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake
+[75.075s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/share/micro_ros_agent/package.xml
+[75.076s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent
+[75.092s] -- Set runtime path of "/home/abubakr/microROS_AUV/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent" to ""
+[75.093s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/share/micro_ros_agent/launch
+[75.093s] -- Installing: /home/abubakr/microROS_AUV/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py
+[75.094s] Invoked command in '/home/abubakr/microROS_AUV/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/abubakr/microROS_AUV/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abubakr/microROS_AUV/install/micro_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/abubakr/microROS_AUV/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/abubakr/microROS_AUV/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/abubakr/microROS_AUV/build/micro_ros_agent
