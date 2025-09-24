@@ -17,7 +17,7 @@ The following steps, if ran before the workshop can greatly reduce setup time. A
 - git clone -b $ROS_DISTRO https://github.com/micro-ROS/micro-ROS-Agent.git  src/uros/micro-ROS-Agent
 - git clone -b $ROS_DISTRO https://github.com/micro-ROS/micro_ros_msgs.git src/uros/micro_ros_msgs
 3.	Navigate to the workspace directory and build your workspace using “colcon build”
-![Colcon build](colcon build.png)
+![Colcon build example](colcon_build.png)
 
 4.	Once the build is complete, make sure to source the workspace using "source install/setup.bash"
  
@@ -32,7 +32,7 @@ ros2 run micro_ros_agent micro_ros_agent udp4 --port 8888
 - https://www.arduino.cc/en/software/ (would need Windows Subsystem for Linux)
 - https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.6_Linux_64bit.AppImage
 2.	Run the Arduino IDE appimage/exe, then import the “mr_modified_1.zip” as a library in the IDE
-![Adding library to IDE](IDE_img.png)
+![Adding library to IDE](ide_img.png)
  
 **Common Issues (will keep adding on)**:
 Libpython3.9.so not found …..  You might have multiple versions of python installed (virtual environments, anaconda)
