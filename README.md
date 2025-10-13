@@ -1,9 +1,9 @@
-> **ROS 2 & micro-ROS Dive In: Low-Cost Underwater Robotics**
+**ROS 2 & micro-ROS Dive In: Low-Cost Underwater Robotics**
 ROSCON 2025 Workshop 
 
 _To view the OneDrive version of this document, use https://1drv.ms/w/c/554bc654aaf8931b/EbRougLh_UdBto1Ze_8JsnYBRroAzx8Nokx_JJB3tcR61g?e=L535DV_
 
-**Software pre-requisites:**
+> **Software pre-requisites:**
 1)	A laptop with Ubuntu installed (preferred to be fully installed, not Windows Subsystem for Linux, and version 22.04)
 2)	At least ROS2 humble installed (all scripts are tested with ROS2 humble)
 3)	At least one working USB-A / USB-C port on your laptop
@@ -12,7 +12,7 @@ _To view the OneDrive version of this document, use https://1drv.ms/w/c/554bc654
 
 In case some other configurations are used, you can email at abubakr002@e.ntu.edu.sg, so that I can assist as much as possible before the workshop to install the pre-requisites.
 
-**Building from source:**
+> **Building from source:**
 The following steps, if ran before the workshop can greatly reduce setup time. Assuming that you have ROS 2 installed, please clone the following repository:
 1. In your favourite workspace, clone the workshop’s repo: git clone https://github.com/abubakrazam/microROS_AUV.git
 2. Navigate inside ("cd microROS_AUV") and clone the required repos for micro-ros:
@@ -23,23 +23,20 @@ The following steps, if ran before the workshop can greatly reduce setup time. A
 
 4.	Once the build is complete, make sure to source the workspace using "source install/setup.bash"
  
-**Testing:**
+> **Testing:**
 After sourcing (source install/setup.bash), run the following command to verify if micro_ros agent is working:
-ros2 run micro_ros_agent micro_ros_agent udp4 --port 8888
-
-![Micro ROS agent working example](uros_agent.png)
+ros2 run micro_ros_agent micro_ros_agent udp4 --port 8888 ![Micro ROS agent working example](uros_agent.png)
  
-**Arduino IDE setup**
+> **Arduino IDE setup**
 1. To assist with coding and building firmware, the Arduino IDE will be used. Depending on your operating system (Linux/Windows/Mac), download the app from this platform:
 - https://www.arduino.cc/en/software/ (would need Windows Subsystem for Linux)
 - https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.6_Linux_64bit.AppImage
-2.	Run the Arduino IDE appimage/exe, then import the “mr_modified_1.zip” as a library in the IDE
-![Adding library to IDE](ide_img.png)
+2.	Run the Arduino IDE appimage/exe, then import the “mr_modified_1.zip” as a library in the IDE ![Adding library to IDE](ide_img.png)
  
-**Common Issues (will keep adding on)**:
+> > **Common Issues (will keep adding on)**:
 Libpython3.9.so not found …..  You might have multiple versions of python installed (virtual environments, anaconda)
 
-**Underwater Robotics – A Brief Introduction**
+> **Underwater Robotics – A Brief Introduction**
 
 Autonomy has become a familiar word in our time. Cars navigate highways, drones map forests, and robots assemble products with precision. Each of these systems depends on a shared foundation: perception, decision, and action. Sensors feed data, algorithms interpret it, and actuators carry out commands.
 
@@ -53,7 +50,7 @@ In this workshop, we approach these questions through analogy and stand‑ins. U
 
 The point is not to simulate the ocean perfectly, but to capture its essence: uncertainty, constraint, and the need for robust design. By the end, you will have touched the same principles that govern real AUVs, and you will see how low‑cost, modular tools can open the door to one of the most challenging domains of robotics.
 
-**Micro ROS Subscriber: Ultrasonic as SONAR Stand In**
+> **Micro ROS Subscriber: Ultrasonic as SONAR Stand In**
 
 The first step in our journey is to bring sensing into the ROS 2 ecosystem. For this, we deploy a micro ROS subscriber node on the ESP32 that interfaces with the HC SR04 ultrasonic sensor.
 The ultrasonic sensor works by sending out a short burst of sound waves and measuring the time it takes for the echo to return. From this, we calculate distance. While this may seem simple, it is conceptually powerful: it is the same principle that underlies acoustic ranging in the ocean. In fact, the HC SR04 is our stand in for a single beam SONAR.
@@ -64,7 +61,7 @@ In real AUVs, single beam sonars provide range information that can be fused wit
 
 Key takeaway: Participants learn how embedded devices can act as ROS native sensors. The ESP32, running micro ROS, doesn’t just collect data — it publishes it into the ROS 2 graph, where it can be logged, visualized, or fused with other streams. This is the first step toward autonomy: perception.
 
-**Micro ROS Publisher: Servo as Thruster Stand In**
+> **Micro ROS Publisher: Servo as Thruster Stand In**
 
 Once we can sense, we need to act. The second exercise introduces a micro ROS publisher node that drives a servo motor.
 
@@ -76,7 +73,7 @@ _**To look for script 2**_
 
 Teaching takeaway: Autonomy is not just about sensing; it is about acting on the world. The servo exercise shows how ROS 2 provides a common language for commanding actuators, whether they are servos in a classroom kit or thrusters in a deep sea vehicle.
 
-**Combined Deployment: Embedded Autonomy on ESP32**
+> **Combined Deployment: Embedded Autonomy on ESP32**
 
 Now we bring sensing and actuation together into a single script. This is where autonomy begins to emerge.
 
@@ -89,7 +86,7 @@ _**To look for script 3**_
 
 Key takeaway: Participants experience a closed loop system where sensing, decision, and actuation are tightly coupled. They see how autonomy can be distributed: some logic runs centrally in ROS 2, while other logic runs locally on embedded devices. This is the essence of resilient design.
 
-**Best Practices for Robustness**
+> **Best Practices for Robustness**
 
 _**Demos during workshop**_
 
@@ -105,7 +102,7 @@ Finally, we step back and look at how to make these deployments robust and repro
   
 Key takeaway: These best practices show participants that robotics is not just about making things work once; it is about making them work reliably, reproducibly, and recoverably.
 
-**ROS2, Micro-ROS + AUVs**
+> **ROS2, Micro-ROS + AUVs**
 
 Now that you’ve seen how we can use low cost stand ins to explore the principles of underwater autonomy, let me share a glimpse of what we work on in practice.
 In our research, we move from ultrasonic sensors and servos to the real building blocks of autonomous underwater vehicles. For localization, we fuse data from inertial measurement units (IMUs) with single beam sonars, using Kalman filters to smooth out the noise and drift that each sensor carries on its own.
