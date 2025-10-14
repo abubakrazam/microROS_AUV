@@ -3,6 +3,8 @@ ROSCON 2025 Workshop
 
 _To view the OneDrive version of this document, use https://1drv.ms/w/c/554bc654aaf8931b/EbRougLh_UdBto1Ze_8JsnYBRroAzx8Nokx_JJB3tcR61g?e=L535DV_
 
+**Figures in the last section will be shown during the workshop via PowerPoint since it contains unpublished material**
+
 > **Software pre-requisites:**
 1)	A laptop with Ubuntu installed (preferred to be fully installed, not Windows Subsystem for Linux, and version 22.04)
 2)	At least ROS2 humble installed (all scripts are tested with ROS2 humble)
