@@ -18,8 +18,8 @@ In case some other configurations are used, you can email at abubakr002@e.ntu.ed
 The following steps, if ran before the workshop can greatly reduce setup time. Assuming that you have ROS 2 installed, please clone the following repository:
 1. In your favourite workspace, clone the workshop’s repo: git clone https://github.com/abubakrazam/microROS_AUV.git
 2. Navigate inside ("cd microROS_AUV") and clone the required repos for micro-ros:
-- git clone -b $ROS_DISTRO https://github.com/micro-ROS/micro-ROS-Agent.git  src/uros/micro-ROS-Agent
-- git clone -b $ROS_DISTRO https://github.com/micro-ROS/micro_ros_msgs.git src/uros/micro_ros_msgs
+- git submodule add -b $ROS_DISTRO https://github.com/micro-ROS/micro-ROS-Agent.git  src/uros/micro-ROS-Agent
+- git submodule add -b $ROS_DISTRO https://github.com/micro-ROS/micro_ros_msgs.git src/uros/micro_ros_msgs
 3.	Navigate to the workspace directory and build your workspace using “colcon build”
 ![Colcon build example](colcon_build.png)
 
