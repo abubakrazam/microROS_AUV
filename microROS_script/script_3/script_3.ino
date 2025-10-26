@@ -181,7 +181,7 @@ void setup() {
     &subscriber,
     &node,
     ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, Float32),
-    "servo_trigger"));          // Topic name for subscribing
+    "ultrasonic_distance"));          // Topic name for subscribing
 
   // ---------------------------------------------------------------
   // 5. Create a Timer (1-second interval)
