@@ -1,0 +1,523 @@
+[0.465s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.465s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7264e4645db0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7264e474ed40>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7264e474ed40>>, mixin_verb=('build',))
+[0.612s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.612s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.612s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.612s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.612s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.612s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.612s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/abubakr/microROS_AUV'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script) by extensions ['ignore', 'ignore_ament_install']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script) by extension 'ignore'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script) by extension 'ignore_ament_install'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script) by extensions ['colcon_pkg']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script) by extension 'colcon_pkg'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script) by extensions ['colcon_meta']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script) by extension 'colcon_meta'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script) by extensions ['ros']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script) by extension 'ros'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script) by extensions ['cmake', 'python']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script) by extension 'cmake'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script) by extension 'python'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script) by extensions ['python_setup_py']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script) by extension 'python_setup_py'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/Other scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/Other scripts) by extension 'ignore'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/Other scripts) by extension 'ignore_ament_install'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/Other scripts) by extensions ['colcon_pkg']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/Other scripts) by extension 'colcon_pkg'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/Other scripts) by extensions ['colcon_meta']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/Other scripts) by extension 'colcon_meta'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/Other scripts) by extensions ['ros']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/Other scripts) by extension 'ros'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/Other scripts) by extensions ['cmake', 'python']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/Other scripts) by extension 'cmake'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/Other scripts) by extension 'python'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/Other scripts) by extensions ['python_setup_py']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/Other scripts) by extension 'python_setup_py'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/Other scripts/Thruster_controller_2) by extensions ['ignore', 'ignore_ament_install']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/Other scripts/Thruster_controller_2) by extension 'ignore'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/Other scripts/Thruster_controller_2) by extension 'ignore_ament_install'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/Other scripts/Thruster_controller_2) by extensions ['colcon_pkg']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/Other scripts/Thruster_controller_2) by extension 'colcon_pkg'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/Other scripts/Thruster_controller_2) by extensions ['colcon_meta']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/Other scripts/Thruster_controller_2) by extension 'colcon_meta'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/Other scripts/Thruster_controller_2) by extensions ['ros']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/Other scripts/Thruster_controller_2) by extension 'ros'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/Other scripts/Thruster_controller_2) by extensions ['cmake', 'python']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/Other scripts/Thruster_controller_2) by extension 'cmake'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/Other scripts/Thruster_controller_2) by extension 'python'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/Other scripts/Thruster_controller_2) by extensions ['python_setup_py']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/Other scripts/Thruster_controller_2) by extension 'python_setup_py'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/script_1) by extensions ['ignore', 'ignore_ament_install']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/script_1) by extension 'ignore'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/script_1) by extension 'ignore_ament_install'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/script_1) by extensions ['colcon_pkg']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/script_1) by extension 'colcon_pkg'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/script_1) by extensions ['colcon_meta']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/script_1) by extension 'colcon_meta'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/script_1) by extensions ['ros']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/script_1) by extension 'ros'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/script_1) by extensions ['cmake', 'python']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/script_1) by extension 'cmake'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/script_1) by extension 'python'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/script_1) by extensions ['python_setup_py']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/script_1) by extension 'python_setup_py'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/script_2) by extensions ['ignore', 'ignore_ament_install']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/script_2) by extension 'ignore'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/script_2) by extension 'ignore_ament_install'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/script_2) by extensions ['colcon_pkg']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/script_2) by extension 'colcon_pkg'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/script_2) by extensions ['colcon_meta']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/script_2) by extension 'colcon_meta'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/script_2) by extensions ['ros']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/script_2) by extension 'ros'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/script_2) by extensions ['cmake', 'python']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/script_2) by extension 'cmake'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/script_2) by extension 'python'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/script_2) by extensions ['python_setup_py']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/script_2) by extension 'python_setup_py'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/script_3) by extensions ['ignore', 'ignore_ament_install']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/script_3) by extension 'ignore'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/script_3) by extension 'ignore_ament_install'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/script_3) by extensions ['colcon_pkg']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/script_3) by extension 'colcon_pkg'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/script_3) by extensions ['colcon_meta']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/script_3) by extension 'colcon_meta'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/script_3) by extensions ['ros']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/script_3) by extension 'ros'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/script_3) by extensions ['cmake', 'python']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/script_3) by extension 'cmake'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/script_3) by extension 'python'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/script_3) by extensions ['python_setup_py']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(microROS_script/script_3) by extension 'python_setup_py'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_pkg) by extension 'ignore'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_pkg) by extension 'ignore_ament_install'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_pkg) by extensions ['colcon_pkg']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_pkg) by extension 'colcon_pkg'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_pkg) by extensions ['colcon_meta']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_pkg) by extension 'colcon_meta'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_pkg) by extensions ['ros']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_pkg) by extension 'ros'
+[0.635s] DEBUG:colcon.colcon_core.package_identification:Package 'src/control_pkg' with type 'ros.ament_python' and name 'control_pkg'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ignore'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ignore_ament_install'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['colcon_pkg']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'colcon_pkg'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['colcon_meta']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'colcon_meta'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['ros']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ros'
+[0.636s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_interfaces' with type 'ros.ament_cmake' and name 'custom_interfaces'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extensions ['ignore', 'ignore_ament_install']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extension 'ignore'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extension 'ignore_ament_install'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extensions ['colcon_pkg']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extension 'colcon_pkg'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extensions ['colcon_meta']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extension 'colcon_meta'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extensions ['ros']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extension 'ros'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extensions ['cmake', 'python']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extension 'cmake'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extension 'python'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extensions ['python_setup_py']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extension 'python_setup_py'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros) by extensions ['ignore', 'ignore_ament_install']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros) by extension 'ignore'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros) by extension 'ignore_ament_install'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros) by extensions ['colcon_pkg']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros) by extension 'colcon_pkg'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros) by extensions ['colcon_meta']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros) by extension 'colcon_meta'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros) by extensions ['ros']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros) by extension 'ros'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros) by extensions ['cmake', 'python']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros) by extension 'cmake'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros) by extension 'python'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros) by extensions ['python_setup_py']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros) by extension 'python_setup_py'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent) by extensions ['ignore', 'ignore_ament_install']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent) by extension 'ignore'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent) by extension 'ignore_ament_install'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent) by extensions ['colcon_pkg']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent) by extension 'colcon_pkg'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent) by extensions ['colcon_meta']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent) by extension 'colcon_meta'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent) by extensions ['ros']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent) by extension 'ros'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent) by extensions ['cmake', 'python']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent) by extension 'cmake'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent) by extension 'python'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent) by extensions ['python_setup_py']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent) by extension 'python_setup_py'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ignore', 'ignore_ament_install']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore_ament_install'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_pkg']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_pkg'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_meta']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_meta'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ros']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ros'
+[0.639s] DEBUG:colcon.colcon_core.package_identification:Package 'src/src/uros/micro-ROS-Agent/micro_ros_agent' with type 'ros.ament_cmake' and name 'micro_ros_agent'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/snap) by extensions ['ignore', 'ignore_ament_install']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/snap) by extension 'ignore'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/snap) by extension 'ignore_ament_install'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/snap) by extensions ['colcon_pkg']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/snap) by extension 'colcon_pkg'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/snap) by extensions ['colcon_meta']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/snap) by extension 'colcon_meta'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/snap) by extensions ['ros']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/snap) by extension 'ros'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/snap) by extensions ['cmake', 'python']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/snap) by extension 'cmake'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/snap) by extension 'python'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/snap) by extensions ['python_setup_py']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/snap) by extension 'python_setup_py'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ignore', 'ignore_ament_install']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore_ament_install'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_pkg']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_pkg'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_meta']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_meta'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ros']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/snap/hooks) by extension 'ros'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/snap/hooks) by extensions ['cmake', 'python']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/snap/hooks) by extension 'cmake'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/snap/hooks) by extension 'python'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/snap/hooks) by extensions ['python_setup_py']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/snap/hooks) by extension 'python_setup_py'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/snap/local) by extensions ['ignore', 'ignore_ament_install']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/snap/local) by extension 'ignore'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/snap/local) by extension 'ignore_ament_install'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_pkg']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_pkg'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_meta']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_meta'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/snap/local) by extensions ['ros']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/snap/local) by extension 'ros'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/snap/local) by extensions ['cmake', 'python']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/snap/local) by extension 'cmake'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/snap/local) by extension 'python'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/snap/local) by extensions ['python_setup_py']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro-ROS-Agent/snap/local) by extension 'python_setup_py'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro_ros_msgs) by extension 'ignore'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro_ros_msgs) by extension 'ignore_ament_install'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro_ros_msgs) by extensions ['colcon_pkg']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro_ros_msgs) by extension 'colcon_pkg'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro_ros_msgs) by extensions ['colcon_meta']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro_ros_msgs) by extension 'colcon_meta'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro_ros_msgs) by extensions ['ros']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/uros/micro_ros_msgs) by extension 'ros'
+[0.640s] DEBUG:colcon.colcon_core.package_identification:Package 'src/src/uros/micro_ros_msgs' with type 'ros.ament_cmake' and name 'micro_ros_msgs'
+[0.640s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.640s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.641s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.641s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.641s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.698s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.699s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.702s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/abubakr/microROS_AUV/install/micro_ros_agent' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.702s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/abubakr/microROS_AUV/install/custom_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.702s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/abubakr/microROS_AUV/install/micro_ros_agent' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.702s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/abubakr/microROS_AUV/install/custom_interfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.703s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/abubakr/microROS_AUV/install
+[0.704s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 272 installed packages in /opt/ros/humble
+[0.706s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.754s] Level 5:colcon.colcon_core.verb:set package 'control_pkg' build argument 'cmake_args' from command line to 'None'
+[0.754s] Level 5:colcon.colcon_core.verb:set package 'control_pkg' build argument 'cmake_target' from command line to 'None'
+[0.754s] Level 5:colcon.colcon_core.verb:set package 'control_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.754s] Level 5:colcon.colcon_core.verb:set package 'control_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.754s] Level 5:colcon.colcon_core.verb:set package 'control_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.754s] Level 5:colcon.colcon_core.verb:set package 'control_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.754s] Level 5:colcon.colcon_core.verb:set package 'control_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.754s] Level 5:colcon.colcon_core.verb:set package 'control_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.754s] Level 5:colcon.colcon_core.verb:set package 'control_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.754s] DEBUG:colcon.colcon_core.verb:Building package 'control_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/abubakr/microROS_AUV/build/control_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/abubakr/microROS_AUV/install/control_pkg', 'merge_install': False, 'path': '/home/abubakr/microROS_AUV/src/control_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.755s] DEBUG:colcon.colcon_core.verb:Building package 'custom_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/abubakr/microROS_AUV/build/custom_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/abubakr/microROS_AUV/install/custom_interfaces', 'merge_install': False, 'path': '/home/abubakr/microROS_AUV/src/custom_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_args' from command line to 'None'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_target' from command line to 'None'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.755s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/abubakr/microROS_AUV/build/micro_ros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/abubakr/microROS_AUV/install/micro_ros_msgs', 'merge_install': False, 'path': '/home/abubakr/microROS_AUV/src/src/uros/micro_ros_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_args' from command line to 'None'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target' from command line to 'None'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_cache' from command line to 'False'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_first' from command line to 'False'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_force_configure' from command line to 'False'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'ament_cmake_args' from command line to 'None'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_cmake_args' from command line to 'None'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.755s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_agent' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/abubakr/microROS_AUV/build/micro_ros_agent', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/abubakr/microROS_AUV/install/micro_ros_agent', 'merge_install': False, 'path': '/home/abubakr/microROS_AUV/src/src/uros/micro-ROS-Agent/micro_ros_agent', 'symlink_install': False, 'test_result_base': None}
+[0.755s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.756s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.757s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/abubakr/microROS_AUV/src/src/uros/micro_ros_msgs' with build type 'ament_cmake'
+[0.757s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/abubakr/microROS_AUV/src/src/uros/micro_ros_msgs'
+[0.759s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.759s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.759s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.767s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/abubakr/microROS_AUV/src/control_pkg' with build type 'ament_python'
+[0.767s] Level 1:colcon.colcon_core.shell:create_environment_hook('control_pkg', 'ament_prefix_path')
+[0.767s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abubakr/microROS_AUV/install/control_pkg/share/control_pkg/hook/ament_prefix_path.ps1'
+[0.770s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abubakr/microROS_AUV/install/control_pkg/share/control_pkg/hook/ament_prefix_path.dsv'
+[0.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abubakr/microROS_AUV/install/control_pkg/share/control_pkg/hook/ament_prefix_path.sh'
+[0.772s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.772s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.774s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/abubakr/microROS_AUV/src/custom_interfaces' with build type 'ament_cmake'
+[0.774s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/abubakr/microROS_AUV/src/custom_interfaces'
+[0.775s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.775s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.783s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abubakr/microROS_AUV/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abubakr/microROS_AUV/install/control_pkg:/opt/ros/humble /usr/bin/cmake /home/abubakr/microROS_AUV/src/src/uros/micro_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/abubakr/microROS_AUV/install/micro_ros_msgs
+[1.127s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/abubakr/microROS_AUV/src/control_pkg'
+[1.128s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.128s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abubakr/microROS_AUV/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abubakr/microROS_AUV/install/control_pkg:/opt/ros/humble /usr/bin/cmake /home/abubakr/microROS_AUV/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/abubakr/microROS_AUV/install/custom_interfaces
+[1.898s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abubakr/microROS_AUV/src/control_pkg': PYTHONPATH=/home/abubakr/microROS_AUV/build/control_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abubakr/microROS_AUV/install/control_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/control_pkg build --build-base /home/abubakr/microROS_AUV/build/control_pkg/build install --record /home/abubakr/microROS_AUV/build/control_pkg/install.log --single-version-externally-managed install_data
+[2.249s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abubakr/microROS_AUV/src/control_pkg' returned '0': PYTHONPATH=/home/abubakr/microROS_AUV/build/control_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abubakr/microROS_AUV/install/control_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/control_pkg build --build-base /home/abubakr/microROS_AUV/build/control_pkg/build install --record /home/abubakr/microROS_AUV/build/control_pkg/install.log --single-version-externally-managed install_data
+[2.250s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/control_pkg' for CMake module files
+[2.251s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/control_pkg' for CMake config files
+[2.251s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/control_pkg/lib'
+[2.251s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/control_pkg/bin'
+[2.251s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/control_pkg/lib/pkgconfig/control_pkg.pc'
+[2.252s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/control_pkg/lib/python3.10/site-packages'
+[2.252s] Level 1:colcon.colcon_core.shell:create_environment_hook('control_pkg', 'pythonpath')
+[2.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abubakr/microROS_AUV/install/control_pkg/share/control_pkg/hook/pythonpath.ps1'
+[2.252s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abubakr/microROS_AUV/install/control_pkg/share/control_pkg/hook/pythonpath.dsv'
+[2.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abubakr/microROS_AUV/install/control_pkg/share/control_pkg/hook/pythonpath.sh'
+[2.253s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/control_pkg/bin'
+[2.253s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(control_pkg)
+[2.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/abubakr/microROS_AUV/install/control_pkg/share/control_pkg/package.ps1'
+[2.253s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abubakr/microROS_AUV/install/control_pkg/share/control_pkg/package.dsv'
+[2.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/abubakr/microROS_AUV/install/control_pkg/share/control_pkg/package.sh'
+[2.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/abubakr/microROS_AUV/install/control_pkg/share/control_pkg/package.bash'
+[2.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/abubakr/microROS_AUV/install/control_pkg/share/control_pkg/package.zsh'
+[2.255s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abubakr/microROS_AUV/install/control_pkg/share/colcon-core/packages/control_pkg)
+[5.817s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abubakr/microROS_AUV/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abubakr/microROS_AUV/install/control_pkg:/opt/ros/humble /usr/bin/cmake /home/abubakr/microROS_AUV/src/src/uros/micro_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/abubakr/microROS_AUV/install/micro_ros_msgs
+[5.819s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abubakr/microROS_AUV/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abubakr/microROS_AUV/install/control_pkg:/opt/ros/humble /usr/bin/cmake --build /home/abubakr/microROS_AUV/build/micro_ros_msgs -- -j16 -l16
+[5.821s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abubakr/microROS_AUV/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abubakr/microROS_AUV/install/control_pkg:/opt/ros/humble /usr/bin/cmake /home/abubakr/microROS_AUV/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/abubakr/microROS_AUV/install/custom_interfaces
+[5.822s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abubakr/microROS_AUV/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abubakr/microROS_AUV/install/control_pkg:/opt/ros/humble /usr/bin/cmake --build /home/abubakr/microROS_AUV/build/custom_interfaces -- -j16 -l16
+[8.115s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abubakr/microROS_AUV/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abubakr/microROS_AUV/install/control_pkg:/opt/ros/humble /usr/bin/cmake --build /home/abubakr/microROS_AUV/build/custom_interfaces -- -j16 -l16
+[8.122s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abubakr/microROS_AUV/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abubakr/microROS_AUV/install/control_pkg:/opt/ros/humble /usr/bin/cmake --install /home/abubakr/microROS_AUV/build/custom_interfaces
+[8.177s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interfaces)
+[8.177s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/custom_interfaces' for CMake module files
+[8.178s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abubakr/microROS_AUV/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abubakr/microROS_AUV/install/control_pkg:/opt/ros/humble /usr/bin/cmake --install /home/abubakr/microROS_AUV/build/custom_interfaces
+[8.178s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/custom_interfaces' for CMake config files
+[8.178s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'cmake_prefix_path')
+[8.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.ps1'
+[8.179s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.dsv'
+[8.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.sh'
+[8.180s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/custom_interfaces/lib'
+[8.180s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'ld_library_path_lib')
+[8.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.ps1'
+[8.180s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.dsv'
+[8.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.sh'
+[8.180s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/custom_interfaces/bin'
+[8.180s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/custom_interfaces/lib/pkgconfig/custom_interfaces.pc'
+[8.180s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/custom_interfaces/lib/python3.10/site-packages'
+[8.180s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/custom_interfaces/bin'
+[8.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/package.ps1'
+[8.181s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/package.dsv'
+[8.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/package.sh'
+[8.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/package.bash'
+[8.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/package.zsh'
+[8.181s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abubakr/microROS_AUV/install/custom_interfaces/share/colcon-core/packages/custom_interfaces)
+[8.182s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interfaces)
+[8.182s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/custom_interfaces' for CMake module files
+[8.182s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/custom_interfaces' for CMake config files
+[8.182s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'cmake_prefix_path')
+[8.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.ps1'
+[8.183s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.dsv'
+[8.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.sh'
+[8.183s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/custom_interfaces/lib'
+[8.183s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'ld_library_path_lib')
+[8.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.ps1'
+[8.184s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.dsv'
+[8.184s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.sh'
+[8.184s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/custom_interfaces/bin'
+[8.184s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/custom_interfaces/lib/pkgconfig/custom_interfaces.pc'
+[8.184s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/custom_interfaces/lib/python3.10/site-packages'
+[8.184s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/custom_interfaces/bin'
+[8.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/package.ps1'
+[8.184s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/package.dsv'
+[8.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/package.sh'
+[8.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/package.bash'
+[8.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/package.zsh'
+[8.185s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abubakr/microROS_AUV/install/custom_interfaces/share/colcon-core/packages/custom_interfaces)
+[8.205s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abubakr/microROS_AUV/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abubakr/microROS_AUV/install/control_pkg:/opt/ros/humble /usr/bin/cmake --build /home/abubakr/microROS_AUV/build/micro_ros_msgs -- -j16 -l16
+[8.206s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abubakr/microROS_AUV/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abubakr/microROS_AUV/install/control_pkg:/opt/ros/humble /usr/bin/cmake --install /home/abubakr/microROS_AUV/build/micro_ros_msgs
+[8.263s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_msgs)
+[8.263s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/micro_ros_msgs' for CMake module files
+[8.263s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abubakr/microROS_AUV/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abubakr/microROS_AUV/install/control_pkg:/opt/ros/humble /usr/bin/cmake --install /home/abubakr/microROS_AUV/build/micro_ros_msgs
+[8.264s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/micro_ros_msgs' for CMake config files
+[8.264s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[8.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abubakr/microROS_AUV/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[8.264s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abubakr/microROS_AUV/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[8.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abubakr/microROS_AUV/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[8.265s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/micro_ros_msgs/lib'
+[8.265s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[8.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abubakr/microROS_AUV/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[8.265s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abubakr/microROS_AUV/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[8.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abubakr/microROS_AUV/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[8.265s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/micro_ros_msgs/bin'
+[8.265s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[8.265s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/micro_ros_msgs/lib/python3.10/site-packages'
+[8.266s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/micro_ros_msgs/bin'
+[8.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/abubakr/microROS_AUV/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[8.266s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abubakr/microROS_AUV/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[8.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/abubakr/microROS_AUV/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[8.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/abubakr/microROS_AUV/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[8.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/abubakr/microROS_AUV/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[8.267s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abubakr/microROS_AUV/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[8.267s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_msgs)
+[8.267s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/micro_ros_msgs' for CMake module files
+[8.267s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/micro_ros_msgs' for CMake config files
+[8.267s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[8.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abubakr/microROS_AUV/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[8.268s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abubakr/microROS_AUV/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[8.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abubakr/microROS_AUV/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[8.268s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/micro_ros_msgs/lib'
+[8.268s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[8.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abubakr/microROS_AUV/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[8.268s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abubakr/microROS_AUV/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[8.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abubakr/microROS_AUV/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[8.269s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/micro_ros_msgs/bin'
+[8.269s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[8.269s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/micro_ros_msgs/lib/python3.10/site-packages'
+[8.269s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/micro_ros_msgs/bin'
+[8.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/abubakr/microROS_AUV/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[8.269s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abubakr/microROS_AUV/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[8.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/abubakr/microROS_AUV/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[8.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/abubakr/microROS_AUV/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[8.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/abubakr/microROS_AUV/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[8.270s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abubakr/microROS_AUV/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[8.270s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/abubakr/microROS_AUV/src/src/uros/micro-ROS-Agent/micro_ros_agent' with build type 'ament_cmake'
+[8.270s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/abubakr/microROS_AUV/src/src/uros/micro-ROS-Agent/micro_ros_agent'
+[8.271s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.271s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.331s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abubakr/microROS_AUV/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/abubakr/microROS_AUV/install/micro_ros_msgs:/home/abubakr/microROS_AUV/install/micro_ros_agent:/home/abubakr/microROS_AUV/install/custom_interfaces:/home/abubakr/microROS_AUV/install/control_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/abubakr/microROS_AUV/install/micro_ros_msgs/lib:/home/abubakr/microROS_AUV/install/micro_ros_agent/lib:/home/abubakr/microROS_AUV/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/abubakr/microROS_AUV/src/src/uros/micro-ROS-Agent/micro_ros_agent -DCMAKE_INSTALL_PREFIX=/home/abubakr/microROS_AUV/install/micro_ros_agent
+[9.938s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abubakr/microROS_AUV/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/abubakr/microROS_AUV/install/micro_ros_msgs:/home/abubakr/microROS_AUV/install/micro_ros_agent:/home/abubakr/microROS_AUV/install/custom_interfaces:/home/abubakr/microROS_AUV/install/control_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/abubakr/microROS_AUV/install/micro_ros_msgs/lib:/home/abubakr/microROS_AUV/install/micro_ros_agent/lib:/home/abubakr/microROS_AUV/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/abubakr/microROS_AUV/src/src/uros/micro-ROS-Agent/micro_ros_agent -DCMAKE_INSTALL_PREFIX=/home/abubakr/microROS_AUV/install/micro_ros_agent
+[9.939s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abubakr/microROS_AUV/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/abubakr/microROS_AUV/install/micro_ros_msgs:/home/abubakr/microROS_AUV/install/micro_ros_agent:/home/abubakr/microROS_AUV/install/custom_interfaces:/home/abubakr/microROS_AUV/install/control_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/abubakr/microROS_AUV/install/micro_ros_msgs/lib:/home/abubakr/microROS_AUV/install/micro_ros_agent/lib:/home/abubakr/microROS_AUV/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/abubakr/microROS_AUV/build/micro_ros_agent -- -j16 -l16
+[51.930s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abubakr/microROS_AUV/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/abubakr/microROS_AUV/install/micro_ros_msgs:/home/abubakr/microROS_AUV/install/micro_ros_agent:/home/abubakr/microROS_AUV/install/custom_interfaces:/home/abubakr/microROS_AUV/install/control_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/abubakr/microROS_AUV/install/micro_ros_msgs/lib:/home/abubakr/microROS_AUV/install/micro_ros_agent/lib:/home/abubakr/microROS_AUV/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/abubakr/microROS_AUV/build/micro_ros_agent -- -j16 -l16
+[51.941s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abubakr/microROS_AUV/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/abubakr/microROS_AUV/install/micro_ros_msgs:/home/abubakr/microROS_AUV/install/micro_ros_agent:/home/abubakr/microROS_AUV/install/custom_interfaces:/home/abubakr/microROS_AUV/install/control_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/abubakr/microROS_AUV/install/micro_ros_msgs/lib:/home/abubakr/microROS_AUV/install/micro_ros_agent/lib:/home/abubakr/microROS_AUV/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/abubakr/microROS_AUV/build/micro_ros_agent
+[51.967s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[51.968s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/micro_ros_agent' for CMake module files
+[51.968s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abubakr/microROS_AUV/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/abubakr/microROS_AUV/install/micro_ros_msgs:/home/abubakr/microROS_AUV/install/micro_ros_agent:/home/abubakr/microROS_AUV/install/custom_interfaces:/home/abubakr/microROS_AUV/install/control_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/abubakr/microROS_AUV/install/micro_ros_msgs/lib:/home/abubakr/microROS_AUV/install/micro_ros_agent/lib:/home/abubakr/microROS_AUV/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/abubakr/microROS_AUV/build/micro_ros_agent
+[51.969s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/micro_ros_agent' for CMake config files
+[51.970s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[51.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abubakr/microROS_AUV/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[51.973s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abubakr/microROS_AUV/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[51.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abubakr/microROS_AUV/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[51.976s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/micro_ros_agent/lib'
+[51.976s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[51.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abubakr/microROS_AUV/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[51.980s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abubakr/microROS_AUV/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[51.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abubakr/microROS_AUV/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[51.980s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/micro_ros_agent/bin'
+[51.980s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[51.983s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/micro_ros_agent/lib/python3.10/site-packages'
+[51.983s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/micro_ros_agent/bin'
+[51.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/abubakr/microROS_AUV/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[51.987s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abubakr/microROS_AUV/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[51.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/abubakr/microROS_AUV/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[51.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/abubakr/microROS_AUV/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[51.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/abubakr/microROS_AUV/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[51.991s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abubakr/microROS_AUV/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[51.992s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[51.992s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/micro_ros_agent' for CMake module files
+[51.992s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/micro_ros_agent' for CMake config files
+[51.992s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[51.992s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abubakr/microROS_AUV/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[51.993s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abubakr/microROS_AUV/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[51.993s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abubakr/microROS_AUV/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[51.993s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/micro_ros_agent/lib'
+[51.993s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[51.994s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abubakr/microROS_AUV/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[51.994s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abubakr/microROS_AUV/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[51.994s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abubakr/microROS_AUV/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[51.994s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/micro_ros_agent/bin'
+[51.994s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[51.994s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/micro_ros_agent/lib/python3.10/site-packages'
+[51.995s] Level 1:colcon.colcon_core.environment:checking '/home/abubakr/microROS_AUV/install/micro_ros_agent/bin'
+[51.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/abubakr/microROS_AUV/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[51.995s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abubakr/microROS_AUV/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[51.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/abubakr/microROS_AUV/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[51.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/abubakr/microROS_AUV/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[51.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/abubakr/microROS_AUV/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[51.998s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abubakr/microROS_AUV/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[52.001s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[52.001s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[52.001s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[52.003s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[52.103s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[52.104s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[52.104s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[52.106s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[52.107s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[52.107s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[52.107s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abubakr/microROS_AUV/install/local_setup.ps1'
+[52.108s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/abubakr/microROS_AUV/install/_local_setup_util_ps1.py'
+[52.110s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abubakr/microROS_AUV/install/setup.ps1'
+[52.111s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abubakr/microROS_AUV/install/local_setup.sh'
+[52.113s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/abubakr/microROS_AUV/install/_local_setup_util_sh.py'
+[52.115s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abubakr/microROS_AUV/install/setup.sh'
+[52.116s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abubakr/microROS_AUV/install/local_setup.bash'
+[52.117s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abubakr/microROS_AUV/install/setup.bash'
+[52.117s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abubakr/microROS_AUV/install/local_setup.zsh'
+[52.118s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abubakr/microROS_AUV/install/setup.zsh'

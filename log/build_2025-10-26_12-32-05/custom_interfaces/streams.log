@@ -1,0 +1,275 @@
+[0.375s] Invoking command in '/home/abubakr/microROS_AUV/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abubakr/microROS_AUV/install/control_pkg:/opt/ros/humble /usr/bin/cmake /home/abubakr/microROS_AUV/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/abubakr/microROS_AUV/install/custom_interfaces
+[0.744s] -- The C compiler identification is GNU 11.4.0
+[2.121s] -- The CXX compiler identification is GNU 11.4.0
+[3.201s] -- Detecting C compiler ABI info
+[3.610s] -- Detecting C compiler ABI info - done
+[3.616s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.617s] -- Detecting C compile features
+[3.618s] -- Detecting C compile features - done
+[3.622s] -- Detecting CXX compiler ABI info
+[4.031s] -- Detecting CXX compiler ABI info - done
+[4.036s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.036s] -- Detecting CXX compile features
+[4.037s] -- Detecting CXX compile features - done
+[4.041s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.140s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.219s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[4.224s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.229s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.321s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.354s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.532s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.644s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.781s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.848s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.848s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.948s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.948s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.948s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.948s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.960s] -- Found PythonExtra: .so  
+[5.002s] -- Added test 'lint_cmake' to check CMake code style
+[5.003s] -- Added test 'xmllint' to check XML markup files
+[5.011s] -- Configuring done
+[5.032s] -- Generating done
+[5.037s] -- Build files have been written to: /home/abubakr/microROS_AUV/build/custom_interfaces
+[5.045s] Invoked command in '/home/abubakr/microROS_AUV/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abubakr/microROS_AUV/install/control_pkg:/opt/ros/humble /usr/bin/cmake /home/abubakr/microROS_AUV/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/abubakr/microROS_AUV/install/custom_interfaces
+[5.046s] Invoking command in '/home/abubakr/microROS_AUV/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abubakr/microROS_AUV/install/control_pkg:/opt/ros/humble /usr/bin/cmake --build /home/abubakr/microROS_AUV/build/custom_interfaces -- -j16 -l16
+[5.067s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.073s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.079s] [  5%] Built target ament_cmake_python_copy_custom_interfaces
+[5.231s] running egg_info
+[5.231s] creating custom_interfaces.egg-info
+[5.232s] writing custom_interfaces.egg-info/PKG-INFO
+[5.232s] writing dependency_links to custom_interfaces.egg-info/dependency_links.txt
+[5.232s] writing top-level names to custom_interfaces.egg-info/top_level.txt
+[5.232s] writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[5.233s] reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[5.234s] writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[5.261s] [  5%] Built target ament_cmake_python_build_custom_interfaces_egg
+[5.287s] [ 10%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/thrusters_states__functions.c.o[0m
+[5.288s] [ 10%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/variable_activate__functions.c.o[0m
+[5.320s] [ 10%] Built target custom_interfaces__cpp
+[5.327s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.329s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.330s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.368s] [ 20%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_generator_c.so[0m
+[5.484s] [ 20%] Built target custom_interfaces__rosidl_generator_c
+[5.494s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.494s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.494s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.553s] [ 30%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/thrusters_states__type_support.cpp.o[0m
+[5.554s] [ 33%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/srv/variable_activate__type_support.cpp.o[0m
+[5.574s] [ 35%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/thrusters_states__type_support.cpp.o[0m
+[5.574s] [ 38%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/srv/detail/variable_activate__type_support.cpp.o[0m
+[5.624s] [ 41%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/srv/detail/dds_fastrtps/variable_activate__type_support.cpp.o[0m
+[5.635s] [ 43%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/thrusters_states__type_support.cpp.o[0m
+[5.927s] [ 46%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/thrusters_states__type_support.cpp.o[0m
+[5.950s] [ 48%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/srv/variable_activate__type_support.cpp.o[0m
+[6.044s] [ 51%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/thrusters_states__type_support_c.cpp.o[0m
+[6.069s] [ 53%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/srv/detail/variable_activate__type_support_c.cpp.o[0m
+[6.084s] [ 56%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_c.so[0m
+[6.136s] [ 58%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/variable_activate__type_support.c.o[0m
+[6.168s] [ 61%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/thrusters_states__type_support.c.o[0m
+[6.225s] [ 64%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_cpp.so[0m
+[6.266s] [ 66%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_typesupport_introspection_c.so[0m
+[6.422s] [ 69%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[6.484s] [ 69%] Built target custom_interfaces__rosidl_typesupport_c
+[6.500s] [ 69%] Built target custom_interfaces__rosidl_typesupport_cpp
+[6.516s] [ 69%] Built target custom_interfaces__rosidl_typesupport_introspection_c
+[6.549s] [ 71%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.623s] [ 74%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[6.629s] [ 74%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp
+[6.706s] [ 74%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[6.717s] [ 74%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c
+[6.731s] [ 74%] Built target custom_interfaces
+[6.746s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.986s] [ 76%] Built target custom_interfaces__py
+[7.000s] [ 82%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/srv/_variable_activate_s.c.o[0m
+[7.000s] [ 82%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/msg/_thrusters_states_s.c.o[0m
+[7.112s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so[0m
+[7.203s] [ 84%] Built target custom_interfaces__rosidl_generator_py
+[7.216s] [ 92%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[7.216s] [ 92%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.216s] [ 92%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.271s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.272s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.273s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.330s] [100%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[7.331s] [100%] Built target custom_interfaces__rosidl_typesupport_c__pyext
+[7.331s] [100%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[7.339s] Invoked command in '/home/abubakr/microROS_AUV/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abubakr/microROS_AUV/install/control_pkg:/opt/ros/humble /usr/bin/cmake --build /home/abubakr/microROS_AUV/build/custom_interfaces -- -j16 -l16
+[7.346s] Invoking command in '/home/abubakr/microROS_AUV/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abubakr/microROS_AUV/install/control_pkg:/opt/ros/humble /usr/bin/cmake --install /home/abubakr/microROS_AUV/build/custom_interfaces
+[7.350s] -- Install configuration: ""
+[7.351s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces
+[7.351s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[7.351s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[7.351s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/variable_activate.h
+[7.352s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[7.352s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/variable_activate__type_support.h
+[7.352s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/variable_activate__functions.h
+[7.352s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/variable_activate__struct.h
+[7.352s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/variable_activate__functions.c
+[7.352s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[7.353s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[7.353s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[7.353s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/thrusters_states__type_support.h
+[7.353s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/thrusters_states__struct.h
+[7.353s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/thrusters_states__functions.h
+[7.353s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/thrusters_states__functions.c
+[7.354s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/thrusters_states.h
+[7.354s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh
+[7.354s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv
+[7.354s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so
+[7.354s] -- Set runtime path of "/home/abubakr/microROS_AUV/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so" to ""
+[7.355s] -- Up-to-date: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[7.355s] -- Up-to-date: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[7.355s] -- Up-to-date: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[7.355s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/variable_activate__rosidl_typesupport_fastrtps_c.h
+[7.355s] -- Up-to-date: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[7.355s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.355s] -- Up-to-date: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[7.356s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/thrusters_states__rosidl_typesupport_fastrtps_c.h
+[7.356s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so
+[7.356s] -- Set runtime path of "/home/abubakr/microROS_AUV/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[7.356s] -- Up-to-date: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[7.356s] -- Up-to-date: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[7.356s] -- Up-to-date: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[7.356s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/variable_activate__type_support.c
+[7.357s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/variable_activate__rosidl_typesupport_introspection_c.h
+[7.357s] -- Up-to-date: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[7.357s] -- Up-to-date: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[7.357s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/thrusters_states__rosidl_typesupport_introspection_c.h
+[7.357s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/thrusters_states__type_support.c
+[7.357s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.357s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so
+[7.358s] -- Set runtime path of "/home/abubakr/microROS_AUV/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[7.358s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so
+[7.358s] -- Set runtime path of "/home/abubakr/microROS_AUV/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so" to ""
+[7.358s] -- Up-to-date: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[7.358s] -- Up-to-date: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[7.358s] -- Up-to-date: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[7.358s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/variable_activate__builder.hpp
+[7.358s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/variable_activate__type_support.hpp
+[7.359s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/variable_activate__traits.hpp
+[7.359s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/variable_activate__struct.hpp
+[7.359s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/variable_activate.hpp
+[7.359s] -- Up-to-date: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[7.359s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/thrusters_states.hpp
+[7.359s] -- Up-to-date: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[7.360s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/thrusters_states__struct.hpp
+[7.360s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/thrusters_states__traits.hpp
+[7.360s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/thrusters_states__builder.hpp
+[7.360s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/thrusters_states__type_support.hpp
+[7.360s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.360s] -- Up-to-date: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[7.360s] -- Up-to-date: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[7.360s] -- Up-to-date: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[7.360s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/dds_fastrtps
+[7.360s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/variable_activate__rosidl_typesupport_fastrtps_cpp.hpp
+[7.361s] -- Up-to-date: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[7.361s] -- Up-to-date: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[7.361s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/thrusters_states__rosidl_typesupport_fastrtps_cpp.hpp
+[7.361s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/dds_fastrtps
+[7.361s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.361s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[7.361s] -- Set runtime path of "/home/abubakr/microROS_AUV/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.361s] -- Up-to-date: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[7.361s] -- Up-to-date: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[7.361s] -- Up-to-date: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[7.362s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/variable_activate__rosidl_typesupport_introspection_cpp.hpp
+[7.362s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/variable_activate__type_support.cpp
+[7.362s] -- Up-to-date: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[7.362s] -- Up-to-date: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[7.362s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/thrusters_states__rosidl_typesupport_introspection_cpp.hpp
+[7.362s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/thrusters_states__type_support.cpp
+[7.362s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so
+[7.363s] -- Set runtime path of "/home/abubakr/microROS_AUV/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[7.363s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so
+[7.363s] -- Set runtime path of "/home/abubakr/microROS_AUV/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so" to ""
+[7.363s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh
+[7.363s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv
+[7.363s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info
+[7.363s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[7.363s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[7.363s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[7.363s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[7.363s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces
+[7.363s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.363s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv
+[7.363s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py
+[7.364s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_variable_activate.py
+[7.364s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_variable_activate_s.c
+[7.364s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg
+[7.364s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_thrusters_states_s.c
+[7.364s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/__init__.py
+[7.364s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_thrusters_states.py
+[7.364s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.364s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.364s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so
+[7.364s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py
+[7.364s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[7.364s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c
+[7.364s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.387s] Listing '/home/abubakr/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces'...
+[7.387s] Compiling '/home/abubakr/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py'...
+[7.387s] Listing '/home/abubakr/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg'...
+[7.387s] Compiling '/home/abubakr/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/__init__.py'...
+[7.387s] Compiling '/home/abubakr/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_thrusters_states.py'...
+[7.387s] Listing '/home/abubakr/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv'...
+[7.387s] Compiling '/home/abubakr/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py'...
+[7.387s] Compiling '/home/abubakr/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_variable_activate.py'...
+[7.391s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.391s] -- Set runtime path of "/home/abubakr/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.391s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.392s] -- Set runtime path of "/home/abubakr/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.392s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.392s] -- Set runtime path of "/home/abubakr/microROS_AUV/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.392s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so
+[7.392s] -- Set runtime path of "/home/abubakr/microROS_AUV/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so" to ""
+[7.392s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/msg/ThrustersStates.idl
+[7.393s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/srv/VariableActivate.idl
+[7.393s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/msg/ThrustersStates.msg
+[7.393s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/srv/VariableActivate.srv
+[7.393s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/srv/VariableActivate_Request.msg
+[7.393s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/srv/VariableActivate_Response.msg
+[7.394s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces
+[7.394s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces
+[7.394s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh
+[7.394s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv
+[7.394s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/environment/path.sh
+[7.394s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/environment/path.dsv
+[7.395s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/local_setup.bash
+[7.395s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/local_setup.sh
+[7.395s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/local_setup.zsh
+[7.395s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/local_setup.dsv
+[7.395s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/package.dsv
+[7.395s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces
+[7.396s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport.cmake
+[7.396s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport-noconfig.cmake
+[7.396s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[7.396s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.396s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[7.396s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.397s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake
+[7.397s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[7.397s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cppExport.cmake
+[7.397s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.397s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.397s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[7.397s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.398s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake
+[7.398s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[7.398s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport.cmake
+[7.398s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[7.398s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake
+[7.398s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.399s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[7.399s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[7.399s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.399s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.399s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.399s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake
+[7.399s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake
+[7.399s] -- Installing: /home/abubakr/microROS_AUV/install/custom_interfaces/share/custom_interfaces/package.xml
+[7.402s] Invoked command in '/home/abubakr/microROS_AUV/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abubakr/microROS_AUV/install/control_pkg:/opt/ros/humble /usr/bin/cmake --install /home/abubakr/microROS_AUV/build/custom_interfaces

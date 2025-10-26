@@ -1,0 +1,33 @@
+[35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_generator_c[0m
+[  2%] Built target custom_interfaces__cpp
+[35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_cpp[0m
+[  2%] Built target ament_cmake_python_copy_custom_interfaces
+[35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_introspection_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[ 12%] Built target custom_interfaces__rosidl_generator_c
+[35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_c[0m
+[35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_c[0m
+[35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_introspection_c[0m
+[ 38%] Built target custom_interfaces__rosidl_typesupport_c
+[ 41%] Built target custom_interfaces__rosidl_typesupport_cpp
+[ 43%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp
+[ 53%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 64%] Built target custom_interfaces__rosidl_typesupport_introspection_c
+[ 74%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c
+[ 74%] Built target custom_interfaces
+[ 76%] Built target custom_interfaces__py
+[35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_generator_py[0m
+[ 84%] Built target custom_interfaces__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[100%] Built target custom_interfaces__rosidl_typesupport_c__pyext
+[100%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing custom_interfaces.egg-info/PKG-INFO
+writing dependency_links to custom_interfaces.egg-info/dependency_links.txt
+writing top-level names to custom_interfaces.egg-info/top_level.txt
+reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_custom_interfaces_egg

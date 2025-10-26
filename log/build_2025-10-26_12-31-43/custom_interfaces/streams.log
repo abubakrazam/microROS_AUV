@@ -1,0 +1,34 @@
+[0.154s] Invoking command in '/home/abubakr/microROS_AUV/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abubakr/microROS_AUV/install/control_pkg:/opt/ros/humble /usr/bin/cmake --build /home/abubakr/microROS_AUV/build/custom_interfaces -- -j16 -l16
+[0.235s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_generator_c[0m
+[0.238s] [  2%] Built target custom_interfaces__cpp
+[0.251s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_cpp[0m
+[0.251s] [  2%] Built target ament_cmake_python_copy_custom_interfaces
+[0.251s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_introspection_cpp[0m
+[0.252s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[0.253s] [ 12%] Built target custom_interfaces__rosidl_generator_c
+[0.265s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_c[0m
+[0.267s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_c[0m
+[0.267s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_introspection_c[0m
+[0.273s] [ 38%] Built target custom_interfaces__rosidl_typesupport_c
+[0.273s] [ 41%] Built target custom_interfaces__rosidl_typesupport_cpp
+[0.273s] [ 43%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp
+[0.275s] [ 53%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.275s] [ 64%] Built target custom_interfaces__rosidl_typesupport_introspection_c
+[0.276s] [ 74%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c
+[0.290s] [ 74%] Built target custom_interfaces
+[0.308s] [ 76%] Built target custom_interfaces__py
+[0.319s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_generator_py[0m
+[0.332s] [ 84%] Built target custom_interfaces__rosidl_generator_py
+[0.343s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_c__pyext[0m
+[0.343s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.344s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[0.351s] [100%] Built target custom_interfaces__rosidl_typesupport_c__pyext
+[0.351s] [100%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.351s] [100%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.384s] running egg_info
+[0.384s] writing custom_interfaces.egg-info/PKG-INFO
+[0.385s] writing dependency_links to custom_interfaces.egg-info/dependency_links.txt
+[0.385s] writing top-level names to custom_interfaces.egg-info/top_level.txt
+[0.387s] reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[0.388s] writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[0.408s] [100%] Built target ament_cmake_python_build_custom_interfaces_egg

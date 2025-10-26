@@ -1,0 +1,1 @@
+Invoking command in '/home/abubakr/microROS_AUV/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abubakr/microROS_AUV/install/control_pkg:/opt/ros/humble /usr/bin/cmake --build /home/abubakr/microROS_AUV/build/custom_interfaces -- -j16 -l16
