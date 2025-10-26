@@ -34,6 +34,9 @@ ros2 run micro_ros_agent micro_ros_agent udp4 --port 8888 ![Micro ROS agent work
 - https://www.arduino.cc/en/software/ (would need Windows Subsystem for Linux)
 - https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.6_Linux_64bit.AppImage
 2.	Run the Arduino IDE appimage/exe, then import the “mr_modified_1.zip” as a library in the IDE ![Adding library to IDE](ide_img.png)
+3. Select (and install if needed) the ESP32 related files from the board manager (2nd icon on left). Even select “ESP32 Dev module” at the device drop down menu. ![Selecting ESP32 in boards manager](esp32_boards.png) 
+![Selecting ESP32 as the connected board](esp32_board_2.png)
+4. 4)	To control the servo motor, install the ESP32servo library in the library manager (3rd icon on the left). ![Installing the ESP32Servo library](esp32_servo.png)
  
 > > **Common Issues (will keep adding on)**:
 Libpython3.9.so not found …..  You might have multiple versions of python installed (virtual environments, anaconda)
